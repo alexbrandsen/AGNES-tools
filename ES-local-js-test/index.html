@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Test</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		
+	</head>
+	<body>
+		<h1>Test</h1>
+		<label>Query:</label>
+		<input type="text" name="query" id="query" />
+		<button id="search-btn">Search</button>
+	</body>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script>
+		// function that does a query
+		function do_query(){
+			
+			// get query string from input
+			query = $( "#query" ).val();
+			
+			console.log('query is: '+query); // log query to console
+			
+			// this is where you build your query
+			var data = {
+			  "query": {
+				"match": {
+				  "text": query
+				}
+			  }
+			}
+			
+			// send off the query to ES
+			$.ajax({
+			  method: "GET",
+			  url: "http://localhost:9200/test-index/_search?pretty=true", // change 'test-index' to the right index, change 9200 to the right port
+			  crossDomain: true,  
+			  async: false,
+			  data: JSON.stringify(data),
+			  dataType : 'json',
+			  contentType: 'application/json',
+			})
+			.done(function( data ) {
+			  console.log(data);
+			})
+			.fail(function( data ) {
+			  console.log(data);
+			});
+		};
+		
+		
+		// detect click on 'search' button, run query function
+		$( "#search-btn" ).click(function() {
+			console.log('search clicked'); // log the click to the console
+			do_query(); // run the query function
+		});
+		
+	</script>
+	
+</html>
+
+
+
