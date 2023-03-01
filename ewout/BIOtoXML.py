@@ -1,4 +1,7 @@
-with open ("test.bio", "r", encoding="utf-8") as f:
+inputfile = "D:\phd-data\NER-annotation-data\German\annotated-data-set\bio\5-folds\fold1.bio"
+outputfile = "D:\phd-data\NER-annotation-data\German\annotated-data-set\xml\5-folds\fold1.xml"
+
+with open (inputfile, "r", encoding="utf-8") as f:
     data = f.readlines()
     output = ""
     for line in data:
@@ -23,23 +26,8 @@ with open ("test.bio", "r", encoding="utf-8") as f:
         except:
             break
 
-with open("test.xml", "w", encoding="utf-8") as p:
+with open(outputfile, "w", encoding="utf-8") as p:
     p.write(output.replace(" .", ".").replace("B-", "").replace("I-", ""))
 
 
 
-"""
-Alex Brandsen, [2/22/2023 10:25 AM]
-output = ""
-for line in document:
-split line
-get token, get label
-if label[:2] == "B-":
-output += "<" + label[2:] + ">" + token + " "
-
-current_entity = label[2:]
-elif current_entity and  label[:2] != "I-":
-output += token + " </" + label[2:] + ">" + " " 
-else:
-output += token + " "
-"""
