@@ -98821,7 +98821,9 @@ ausgebaut VERB O
 worden AUX O
 , PUNCT O
 was PRON O
-der DET ODas DET O
+der DET O
+
+Das DET O
 Gräberfeld NOUN B-CON
 der DET O
 römischen ADJ B-PER
@@ -108241,7 +108243,6 @@ der DET O
 Grabinventare NOUN O
 abwich ADJ O
 . PUNCT O
-
 
 Stadt NOUN O
 zwar ADV O
@@ -205800,4 +205801,3 @@ a ADJ O
 , PUNCT O
 316 NUM O
 . PUNCT O
-
