@@ -4648,7 +4648,6 @@ betekenis N(soort,ev,basis,zijd,stan) [betekenis] O
 krijgen WW(inf,vrij,zonder) [krijg][en] O
 . LET() [.] O
 
-
 Het LID(bep,stan,evon) [het] O
 argument N(soort,ev,basis,onz,stan) [argument] O
 dat VNW(betr,pron,stan,vol,3,ev) [dat] O
@@ -5729,7 +5728,6 @@ Spiennes SPEC(deeleigen) [Spiennes] B-LOC
 is WW(pv,tgw,ev) [zijn] O
 gewonnen WW(vd,vrij,zonder) [ge][win][en] O
 .20 SPEC(symb) [.20] O
-
 
 Onderzoek SPEC(deeleigen) [Onderzoek] O
 1923 TW(hoofd,vrij) [1923] B-PER
@@ -7865,7 +7863,6 @@ en VG(neven) [en] O
 botmateriaal N(soort,ev,basis,onz,stan) [bot][materie][aal] B-ART
 . LET() [.] O
 
-
 In VZ(init) [in] O
 dit VNW(aanw,det,stan,prenom,zonder,evon) [dit] O
 onderzoek N(soort,ev,basis,onz,stan) [onder][zoek] O
@@ -9672,7 +9669,6 @@ van VZ(init) [van] O
 het LID(bep,stan,evon) [het] O
 reliëf N(soort,ev,basis,onz,stan) [relieëf] O
 . LET() [.] O
-
 
 Op VZ(init) [op] O
 hellingen N(soort,mv,basis) [hel][ing][en] O
@@ -12775,7 +12771,6 @@ met VZ(init) [met] O
 landbouwwerktuigen N(soort,mv,basis) [land][bouw][werk][tuig][en] O
 . LET() [.] O
 
-
 De LID(bep,stan,rest) [de] O
 beschadigingen N(soort,mv,basis) [beschadig][ing][en] O
 op VZ(init) [op] O
@@ -13136,7 +13131,6 @@ de LID(bep,stan,rest) [de] O
 akker N(soort,ev,basis,zijd,stan) [akker] O
 terecht ADJ(vrij,basis,zonder) [terecht] O
 . LET() [.] O
-
 
 Artefacten N(soort,mv,basis) [artefact][en] O
 kunnen WW(pv,tgw,mv) [kan][en] O
@@ -18570,7 +18564,6 @@ van VZ(init) [van] O
 de LID(bep,stan,rest) [de] O
 Maas SPEC(deeleigen) [Maas] O
 . LET() [.] O
-
 
 Uit VZ(init) [uit] O
 de LID(bep,stan,rest) [de] O
@@ -36650,7 +36643,6 @@ zijn WW(pv,tgw,mv) [zijn] O
 verzameld WW(vd,vrij,zonder) [ver][zamel][d] O
 . LET() [.] O
 
-
 De LID(bep,stan,rest) [de] O
 veldverkenningen N(soort,mv,basis) [veld][verken][ing][en] O
 die VNW(betr,pron,stan,vol,persoon,getal) [die] O
@@ -36722,7 +36714,6 @@ gemaakt WW(vd,vrij,zonder) [ge][maak][t] O
 van VZ(init) [van] O
 Rijckholt-vuursteen SPEC(deeleigen) [Rijckholt-vuursteen] B-MAT
 . LET() [.] O
-
 
 Waar VNW(vb,adv-pron,obl,vol,3o,getal) [waar] O
 cortex N(soort,ev,basis,zijd,stan) [cortex] O
@@ -50115,7 +50106,6 @@ tabel N(soort,ev,basis,zijd,stan) [tabel] O
 ) LET() [)] O
 . LET() [.] O
 
-
 Bijna BW() [bijna] O
 een LID(onbep,stan,agr) [een] O
 kwart N(soort,ev,basis,onz,stan) [kwart] O
@@ -56308,7 +56298,6 @@ afgeknotte ADJ(prenom,basis,met-e,stan) [af][ge][knot][t][e] B-ART
 artefacten N(soort,mv,basis) [artefact][en] I-ART
 . LET() [.] O
 
-
 De LID(bep,stan,rest) [de] O
 afgeknotte ADJ(prenom,basis,met-e,stan) [af][ge][knot][t][e] B-ART
 artefacten N(soort,mv,basis) [artefact][en] I-ART
@@ -56383,7 +56372,6 @@ nog BW() [nog] O
 stekers N(soort,mv,basis) [steek][er][s] B-ART
 gevonden WW(vd,vrij,zonder) [ge][vind][en] O
 . LET() [.] O
-
 
 Het VNW(pers,pron,stan,red,3,ev,onz) [het] O
 gaat WW(pv,tgw,met-t) [ga][t] O
@@ -58296,7 +58284,6 @@ afb. N(soort,ev,basis,onz,stan) [afb.] O
 138 TW(hoofd,vrij) [138] O
 ) LET() [)] O
 . LET() [.] O
-
 
 Een LID(onbep,stan,agr) [een] O
 vergelijkbaar ADJ(prenom,basis,zonder) [ver][gelijk][baar] O
@@ -65632,7 +65619,6 @@ bijlage N(soort,ev,basis,zijd,stan) [bijlage] O
 1 TW(hoofd,vrij) [1] O
 ) LET() [)] O
 . LET() [.] O
-
 
 9.3 SPEC(symb) [9.3] O
 Ouderdom N(soort,ev,basis,zijd,stan) [ouder][dom] O
@@ -77559,7 +77545,6 @@ is WW(pv,tgw,ev) [zijn] O
 begonnen WW(vd,vrij,zonder) [beginnen] O
 . LET() [.] O
 
-
 Het LID(bep,stan,evon) [het] O
 houweel N(soort,ev,basis,zijd,stan) [houweel] B-CON
 is WW(pv,tgw,ev) [zijn] O
@@ -78216,7 +78201,6 @@ grote ADJ(prenom,basis,met-e,stan) [groot][e] O
 standaarddeviaties N(soort,mv,basis) [standaard][devieer][atie][s] O
 bekend ADJ(vrij,basis,zonder) [bekend] O
 . LET() [.] O
-
 
 Ze VNW(pers,pron,stan,red,3,mv) [ze] O
 lagen WW(pv,verl,mv) [lig][en] O
@@ -83268,7 +83252,6 @@ een LID(onbep,stan,agr) [een] O
 zuigerboor N(soort,ev,basis,onz,stan) [zuiger][boor] O
 plaatsvinden WW(inf,vrij,zonder) [plaats][vind][en] O
 . LET() [.] O
-
 
 Er VNW(aanw,adv-pron,stan,red,3,getal) [er] O
 dienen WW(pv,tgw,mv) [dien][en] O

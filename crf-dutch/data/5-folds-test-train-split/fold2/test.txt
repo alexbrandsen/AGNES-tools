@@ -198,7 +198,6 @@ de LID(bep,stan,rest) [de] O
 uitgevers N(soort,mv,basis) [uit][geef][er][s] O
 . LET() [.] O
 
-
 ADC SPEC(deeleigen) [ADC] O
 ArcheoProjecten SPEC(deeleigen) [ArcheoProjecten] O
 aanvaardt WW(pv,tgw,met-t) [aanvaard][t] O
@@ -4761,7 +4760,6 @@ palynologische ADJ(prenom,basis,met-e,stan) [palynologisch][e] I-ART
 monsters N(soort,mv,basis) [monster][s] I-ART
 . LET() [.] O
 
-
 Hun VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr) [hun] O
 bevindingen N(soort,mv,basis) [be][vind][ing][en] O
 zijn WW(pv,tgw,mv) [zijn] O
@@ -4937,7 +4935,6 @@ noordelijk ADJ(prenom,basis,zonder) [noordelijk] O
 deel N(soort,ev,basis,onz,stan) [deel] O
 ) LET() [)] O
 . LET() [.] O
-
 
 De LID(bep,stan,rest) [de] O
 vindplaatsen N(soort,mv,basis) [vind][plaats][en] O
@@ -5218,7 +5215,6 @@ deel N(soort,ev,basis,onz,stan) [deel] O
 ) LET() [)] O
 . LET() [.] O
 
-
 Enkele VNW(onbep,det,stan,prenom,met-e,rest) [enkele] O
 belangrijke ADJ(prenom,basis,met-e,stan) [belang][rijk][e] O
 waarnemingen N(soort,mv,basis) [waarneem][ing][en] O
@@ -5299,7 +5295,6 @@ plangebied N(soort,ev,basis,onz,stan) [plan][gebied] O
 een LID(onbep,stan,agr) [een] O
 crematiegraf N(soort,ev,basis,zijd,stan) [crematie][graf] B-CON
 . LET() [.] O
-
 
 Een LID(onbep,stan,agr) [een] O
 nederzetting N(soort,ev,basis,zijd,stan) [neder][zet][ing] O
@@ -17237,7 +17232,6 @@ door VZ(init) [door] O
 rivierklei N(soort,ev,basis,zijd,stan) [rivier][klei] O
 . LET() [.] O
 
-
 Het LID(bep,stan,evon) [het] O
 nieuwe ADJ(prenom,basis,met-e,stan) [nieuw][e] O
 pollendiagram N(soort,ev,basis,onz,stan) [pol][en][diagram] O
@@ -19330,7 +19324,6 @@ het LID(bep,stan,evon) [het] O
 Maasgebied N(soort,ev,basis,onz,stan) [maas][gebied] O
 . LET() [.] O
 
-
 Daarbij BW() [daar][bij] O
 worden WW(pv,tgw,mv) [word][en] O
 iets VNW(onbep,pron,stan,vol,3o,ev) [iets] O
@@ -19730,7 +19723,6 @@ de LID(bep,stan,rest) [de] O
 Late ADJ(prenom,basis,met-e,stan) [laat][e] B-PER
 Bronstijd N(soort,ev,basis,zijd,stan) [brons][tijd] I-PER
 . LET() [.] O
-
 
 De LID(bep,stan,rest) [de] O
 top N(soort,ev,basis,zijd,stan) [top] O
@@ -22337,7 +22329,6 @@ iep N(soort,ev,basis,zijd,stan) [iep] B-SPE
 of VG(neven) [of] O
 linde N(soort,ev,basis,zijd,stan) [linde] B-SPE
 . LET() [.] O
-
 
 Beuk N(soort,ev,basis,zijd,stan) [beuk] B-SPE
 blijft WW(pv,tgw,met-t) [blijf][t] O
@@ -25821,7 +25812,6 @@ NOA SPEC(deeleigen) [NOA] O
 ) LET() [)] O
 . LET() [.] O
 
-
 De LID(bep,stan,rest) [de] O
 gekleurde WW(vd,prenom,met-e) [gekleurde] O
 blokken N(soort,mv,basis) [blok][en] O
@@ -27734,7 +27724,6 @@ in VZ(init) [in] O
 het LID(bep,stan,evon) [het] O
 Maasgebied N(soort,ev,basis,onz,stan) [maas][gebied] O
 . LET() [.] O
-
 
 In VZ(init) [in] O
 de LID(bep,stan,rest) [de] O
@@ -29974,7 +29963,6 @@ betreding N(soort,ev,basis,zijd,stan) [be][treed][ing] O
 ) LET() [)] O
 voorkwamen WW(pv,verl,mv) [voor][kom][en] O
 . LET() [.] O
-
 
 Hier VNW(aanw,adv-pron,obl,vol,3o,getal) [hier] O
 werd WW(pv,verl,ev) [word] O
@@ -35326,7 +35314,6 @@ soms BW() [soms] O
 versplinterd WW(vd,vrij,zonder) [ver][splinter][d] O
 . LET() [.] O
 
-
 Dit VNW(aanw,pron,stan,vol,3o,ev) [dit] O
 komt WW(pv,tgw,met-t) [kom][t] O
 overeen BW() [overeen] O
@@ -38461,7 +38448,6 @@ of VG(neven) [of] I-PER
 MiddenIJzertijd N(soort,ev,basis,zijd,stan) [midd][e][n][ijzer][tijd] I-PER
 . LET() [.] O
 
-
 Van VZ(init) [van] O
 deze VNW(aanw,det,stan,prenom,met-e,rest) [deze] O
 scherven N(soort,mv,basis) [scherf][en] B-ART
@@ -41468,7 +41454,6 @@ vorm N(soort,ev,basis,zijd,stan) [vorm] O
 te VZ(init) [te] O
 verkrijgen WW(inf,vrij,zonder) [ver][krijg][en] O
 . LET() [.] O
-
 
 Dit VNW(aanw,pron,stan,vol,3o,ev) [dit] O
 betekende WW(pv,verl,ev) [be][teken][d][e] O
@@ -52277,7 +52262,6 @@ holle ADJ(prenom,basis,met-e,stan) [hol][e] O
 onderzijde N(soort,ev,basis,zijd,stan) [onder][zijde] O
 . LET() [.] O
 
-
 Ondanks VZ(init) [ondanks] O
 dat VG(onder) [dat] O
 de LID(bep,stan,rest) [de] O
@@ -55017,7 +55001,6 @@ besmeten ADJ(prenom,basis,zonder) [be][smijt][en] O
 onderzijde N(soort,ev,basis,zijd,stan) [onder][zijde] O
 . LET() [.] O
 
-
 De LID(bep,stan,rest) [de] O
 pot N(soort,ev,basis,zijd,stan) [pot] B-ART
 vertegenwoordigt WW(pv,tgw,met-t) [vertegenwoordig][t] O
@@ -55521,7 +55504,6 @@ meest VNW(onbep,grad,stan,vrij,zonder,sup) [meest] O
 voorkomende WW(od,prenom,met-e) [voorkom][end][e] O
 dikte N(soort,ev,basis,zijd,stan) [dik][te] O
 . LET() [.] O
-
 
 Afb N(soort,ev,basis,zijd,stan) [afb] O
 . LET() [.] O
@@ -56530,7 +56512,6 @@ van VZ(init) [van] O
 deze VNW(aanw,det,stan,prenom,met-e,rest) [deze] O
 kuil N(soort,ev,basis,zijd,stan) [kuil] B-CON
 . LET() [.] O
-
 
 De LID(bep,stan,rest) [de] O
 wanddikte N(soort,ev,basis,zijd,stan) [wand][dik][te] O
@@ -59323,7 +59304,6 @@ aandeel N(soort,ev,basis,onz,stan) [aan][deel] O
 van VZ(init) [van] O
 houtskool N(soort,ev,basis,zijd,stan) [hout][s][kool] B-MAT
 . LET() [.] O
-
 
 Afb N(soort,ev,basis,zijd,stan) [afb] O
 . LET() [.] O
@@ -63710,7 +63690,6 @@ vormen WW(pv,tgw,mv) [vorm][en] O
 aanwezig ADJ(vrij,basis,zonder) [aanwezig] O
 . LET() [.] O
 
-
 De LID(bep,stan,rest) [de] O
 overige ADJ(prenom,basis,met-e,stan) [over][ig][e] O
 crematies N(soort,mv,basis) [cremeer][atie][s] B-CON
@@ -66855,7 +66834,6 @@ II SPEC(deeleigen) [II] O
 en VG(neven) [en] O
 III SPEC(deeleigen) [III] O
 . LET() [.] O
-
 
 Een LID(onbep,stan,agr) [een] O
 ander ADJ(prenom,basis,zonder) [ander] O
@@ -74008,7 +73986,6 @@ slijpsteen N(soort,ev,basis,zijd,stan) [slijp][steen] B-ART
 wijst WW(pv,tgw,met-t) [wijs][t] O
 . LET() [.] O
 
-
 De LID(bep,stan,rest) [de] O
 artefacten N(soort,mv,basis) [artefact][en] O
 worden WW(pv,tgw,mv) [word][en] O
@@ -74599,7 +74576,6 @@ meer VNW(onbep,grad,stan,vrij,zonder,comp) [meer] O
 aanwezig ADJ(vrij,basis,zonder) [aanwezig] O
 zijn WW(pv,tgw,mv) [zijn] O
 . LET() [.] O
-
 
 Maalstenen N(soort,mv,basis) [maal][steen][en] B-ART
 van VZ(init) [van] O
@@ -77639,7 +77615,6 @@ zandstenen ADJ(vrij,basis,zonder) [zandstenen] B-SPE
 is WW(pv,tgw,ev) [zijn] O
 gebarsten WW(vd,vrij,zonder) [ge][barst][en] O
 . LET() [.] O
-
 
 9.2.4 SPEC(symb) [9.2.4] O
 IJzertijd N(soort,ev,basis,zijd,stan) [ijzer][tijd] B-PER

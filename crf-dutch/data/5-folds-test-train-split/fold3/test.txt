@@ -1939,7 +1939,6 @@ genoemde WW(vd,prenom,met-e) [genoemde] O
 gastransportleidingen N(soort,mv,basis) [gas][transport][leid][ing][en] O
 . LET() [.] O
 
-
 Door VZ(init) [door] O
 de LID(bep,stan,rest) [de] O
 aanwezigheid N(soort,ev,basis,zijd,stan) [aanwezig][heid] O
@@ -25099,7 +25098,6 @@ crematiegraf N(soort,ev,basis,zijd,stan) [crematie][graf] B-CON
 onderzocht WW(vd,vrij,zonder) [onder][zoek][t] O
 . LET() [.] O
 
-
 Op VZ(init) [op] O
 Elst-De SPEC(deeleigen) [Elst-De] B-LOC
 Merm SPEC(deeleigen) [Merm] I-LOC
@@ -26887,7 +26885,6 @@ de LID(bep,stan,rest) [de] O
 eeuw N(soort,ev,basis,zijd,stan) [eeuw] I-PER
 . LET() [.] O
 
-
 56 SPEC(symb) [56] O
 Haalebos SPEC(deeleigen) [Haalebos] O
 1 TW(hoofd,vrij) [1] B-PER
@@ -27591,7 +27588,6 @@ slechts BW() [slechts] O
 weinig VNW(onbep,grad,stan,prenom,zonder,agr,basis) [weinig] O
 houvast N(soort,ev,basis,onz,stan) [houvast] O
 . LET() [.] O
-
 
 Merovingisch ADJ(prenom,basis,zonder) [me][roof][ingisch] B-PER
 aardewerk N(soort,ev,basis,onz,stan) [aarde][werk] B-ART
@@ -35415,7 +35411,6 @@ te VZ(init) [te] O
 plaatsen WW(inf,vrij,zonder) [plaatsen] O
 is WW(pv,tgw,ev) [zijn] O
 . LET() [.] O
-
 
 1 TW(hoofd,vrij) [1] O
 00 SPEC(symb) [00] O
@@ -51042,7 +51037,6 @@ Chenopodium N(soort,ev,basis,onz,stan) [chenopodium] B-SPE
 album N(soort,ev,basis,onz,stan) [album] I-SPE
 ) LET() [)] O
 . LET() [.] O
-
 
 Graan N(soort,ev,basis,onz,stan) [graan] B-SPE
 , LET() [,] O
@@ -67414,7 +67408,6 @@ geschikt ADJ(vrij,basis,zonder) [ge][schik][t] O
 te VZ(init) [te] O
 maken WW(inf,vrij,zonder) [maak][en] O
 . LET() [.] O
-
 
 Wel BW() [wel] O
 werd WW(pv,verl,ev) [word] O

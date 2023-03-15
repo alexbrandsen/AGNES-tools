@@ -7658,7 +7658,6 @@ het LID(bep,stan,evon) [het] O
 oppervlak N(soort,ev,basis,onz,stan) [opper][vlak] O
 . LET() [.] O
 
-
 Het LID(bep,stan,evon) [het] O
 hoogteverschil N(soort,ev,basis,onz,stan) [hoog][te][verschil] O
 binnen VZ(init) [binnen] O
@@ -9866,7 +9865,6 @@ landwegen N(soort,mv,basis) [land][weg][en] O
 elkaar VNW(recip,pron,obl,vol,persoon,mv) [elkaar] O
 kruisten WW(pv,verl,mv) [kruis][ten] O
 . LET() [.] O
-
 
 In VZ(init) [in] O
 1978 TW(hoofd,vrij) [1978] B-PER
@@ -17472,7 +17470,6 @@ worden WW(inf,vrij,zonder) [word][en] O
 uitgesloten WW(vd,vrij,zonder) [uit][ge][sluit][en] O
 . LET() [.] O
 
-
 6.4.2 SPEC(symb) [6.4.2] O
 Mogelijke ADJ(prenom,basis,met-e,stan) [mogelijk][e] O
 huisplattegronden N(soort,mv,basis) [huis][plattegrond][en] O
@@ -17604,7 +17601,6 @@ huizen N(soort,mv,basis) [huis][en] O
 en VG(neven) [en] O
 2 TW(hoofd,vrij) [2] O
 . LET() [.] O
-
 
 Op VZ(init) [op] O
 basis N(soort,ev,basis,zijd,stan) [basis] O
@@ -27778,7 +27774,6 @@ Silkens SPEC(deeleigen) [Silkens] O
 ) LET() [)] O
 . LET() [.] O
 
-
 94 TW(hoofd,prenom,stan) [94] O
 95 TW(hoofd,prenom,stan) [95] O
 96 SPEC(symb) [96] O
@@ -29972,7 +29967,6 @@ IJzertijd N(soort,ev,basis,zijd,stan) [ijzer][tijd] I-PER
 % LET() [%] O
 ) LET() [)] O
 . LET() [.] O
-
 
 In VZ(init) [in] O
 de LID(bep,stan,rest) [de] O
@@ -32291,7 +32285,6 @@ bodemfragment N(soort,ev,basis,onz,stan) [bodemfragment] B-ART
 met VZ(init) [met] O
 standring N(soort,ev,basis,zijd,stan) [standring] O
 . LET() [.] O
-
 
 Dankzij VZ(init) [dankzij] O
 de LID(bep,stan,rest) [de] O
@@ -43958,7 +43951,6 @@ als VG(onder) [als] I-PER
 Late SPEC(vreemd) [Late] I-PER
 IJzertijd N(soort,ev,basis,zijd,stan) [ijzer][tijd] I-PER
 . LET() [.] O
-
 
 Deze VNW(aanw,det,stan,prenom,met-e,rest) [deze] O
 perioden N(soort,mv,basis) [periode][n] O
@@ -61190,7 +61182,6 @@ zand N(soort,ev,basis,onz,stan) [zand] O
 met VZ(init) [met] O
 grind N(soort,ev,basis,onz,stan) [grind] O
 . LET() [.] O
-
 
 De LID(bep,stan,rest) [de] O
 bovenste ADJ(prenom,sup,met-e,stan) [bovenst][e] O

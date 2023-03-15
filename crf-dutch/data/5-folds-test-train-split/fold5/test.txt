@@ -9103,7 +9103,6 @@ georiënteerde WW(vd,prenom,met-e) [ge][Oriënt][eer][de] O
 sloot N(soort,ev,basis,zijd,stan) [sloot] B-CON
 . LET() [.] O
 
-
 De LID(bep,stan,rest) [de] O
 duikermond N(soort,ev,basis,zijd,stan) [duiker][mond] B-CON
 lag WW(pv,verl,ev) [lig] O
@@ -14175,7 +14174,6 @@ lei N(soort,ev,basis,zijd,stan) [lei] B-ART
 uit VZ(init) [uit] O
 Fumay SPEC(deeleigen) [Fumay] B-LOC
 . LET() [.] O
-
 
 Dit VNW(aanw,pron,stan,vol,3o,ev) [dit] O
 wordt WW(pv,tgw,met-t) [word][t] O
@@ -33989,7 +33987,6 @@ eventueel ADJ(prenom,basis,zonder) [eventueel] O
 vervolgonderzoek N(soort,ev,basis,onz,stan) [vervolgonderzoek] O
 . LET() [.] O
 
-
 Het LID(bep,stan,evon) [het] O
 tweede TW(rang,prenom,stan) [twee][de] O
 doel N(soort,ev,basis,onz,stan) [doel] O
@@ -51392,7 +51389,6 @@ zijn WW(pv,tgw,mv) [zijn] O
 geraakt WW(vd,vrij,zonder) [ge][raken][t] O
 . LET() [.] O
 
-
 Het LID(bep,stan,evon) [het] O
 materiaal N(soort,ev,basis,onz,stan) [materie][aal] O
 heeft WW(pv,tgw,met-t) [heb][t] O
@@ -52927,7 +52923,6 @@ cluster N(soort,ev,basis,onz,stan) [cluster] O
 van VZ(init) [van] O
 bebouwing N(soort,ev,basis,zijd,stan) [be][bouw][ing] O
 . LET() [.] O
-
 
 De LID(bep,stan,rest) [de] O
 bebouwing N(soort,ev,basis,zijd,stan) [be][bouw][ing] O
@@ -54923,7 +54918,6 @@ perceel N(soort,ev,basis,onz,stan) [perceel] O
 A299 SPEC(symb) [A299] O
 woont WW(pv,tgw,met-t) [woon][t] O
 . LET() [.] O
-
 
 Vanaf VZ(init) [vanaf] O
 ca. SPEC(afk) [ca.] O
@@ -69294,7 +69288,6 @@ de LID(bep,stan,rest) [de] O
 Maashandel SPEC(deeleigen) [Maashandel] O
 . LET() [.] O
 
-
 Tabel N(soort,ev,basis,zijd,stan) [tabel] O
 7.8 SPEC(symb) [7.8] O
 
@@ -70733,7 +70726,6 @@ zijn WW(pv,tgw,mv) [zijn] O
 gebruikt WW(vd,vrij,zonder) [gebruik][t] O
 . LET() [.] O
 
-
 Voor VZ(init) [voor] O
 dit VNW(aanw,det,stan,prenom,zonder,evon) [dit] O
 secundair ADJ(prenom,basis,zonder) [secundair] O
@@ -70825,7 +70817,6 @@ waterkannen N(soort,mv,basis) [water][kan][en] B-ART
 zijn WW(pv,tgw,mv) [zijn] O
 aangetroffen WW(vd,vrij,zonder) [aan][ge][tref][en] O
 . LET() [.] O
-
 
 Waterkannen ADJ(prenom,basis,zonder) [waterkannen] B-ART
 vormen WW(pv,tgw,mv) [vorm][en] O
@@ -72291,7 +72282,6 @@ om VZ(init) [om] O
 een LID(onbep,stan,agr) [een] O
 parfumbrander N(soort,ev,basis,zijd,stan) [parfumbrand][er] O
 . LET() [.] O
-
 
 Een LID(onbep,stan,agr) [een] O
 derde TW(rang,prenom,stan) [drie] O
@@ -78289,7 +78279,6 @@ niet BW() [niet] O
 gecoupeerd WW(vd,vrij,zonder) [ge][coup][eer][d] O
 . LET() [.] O
 
-
 Wel BW() [wel] O
 is WW(pv,tgw,ev) [zijn] O
 met VZ(init) [met] O
@@ -78529,7 +78518,6 @@ onverkoolde ADJ(prenom,basis,met-e,stan) [on][ver][kool][d][e] B-ART
 zaden N(soort,mv,basis) [zaad][en] I-ART
 aangetroffen WW(vd,vrij,zonder) [aan][ge][tref][en] O
 . LET() [.] O
-
 
 De LID(bep,stan,rest) [de] O
 grondsporen N(soort,mv,basis) [grond][spoor][en] O
@@ -79210,7 +79198,6 @@ onverkoolde ADJ(prenom,basis,met-e,stan) [on][ver][kool][d][e] B-ART
 zaden N(soort,mv,basis) [zaad][en] I-ART
 aangetroffen WW(vd,vrij,zonder) [aan][ge][tref][en] O
 . LET() [.] O
-
 
 Op VZ(init) [op] O
 grond N(soort,ev,basis,zijd,stan) [grond] O
