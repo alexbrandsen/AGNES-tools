@@ -3,9 +3,9 @@ Figure  O  O
 18  O  O
 .  O  O
 
-Medieval  B-PER  O
+Medieval  B-PER  B-PER
 and  O  O
-post-medieval  B-PER  O
+post-medieval  B-PER  B-PER
 activity  O  O
 .  O  O
 
@@ -14,9 +14,9 @@ Figure  O  O
 .  O  O
 
 The  O  O
-Roman  B-PER  O
+Roman  B-PER  B-PER
 and  O  O
-medieval  B-PER  O
+medieval  B-PER  B-PER
 deposits  O  O
 of  O  O
 Trench  O  O
@@ -25,9 +25,9 @@ Figure  O  O
 20  O  O
 .  O  O
 
-Blue  B-LOC  O
-Boar  I-LOC  O
-Lane  I-LOC  O
+Blue  B-LOC  B-LOC
+Boar  I-LOC  I-LOC
+Lane  I-LOC  I-LOC
 and  O  O
 associated  O  O
 deposits  O  O
@@ -78,7 +78,7 @@ Site  O  O
 Area  O  O
 with  O  O
 adjacent  O  O
-Roman  B-PER  O
+Roman  B-PER  B-PER
 sites  O  O
 and  O  O
 road  O  O
@@ -139,16 +139,16 @@ out  O  O
 at  O  O
 land  O  O
 between  O  O
-Highcross  B-LOC  O
-Street  I-LOC  O
+Highcross  B-LOC  B-LOC
+Street  I-LOC  I-LOC
 and  O  O
-Vaughan  B-LOC  O
-Way  I-LOC  O
+Vaughan  B-LOC  B-LOC
+Way  I-LOC  I-LOC
+,  O  I-LOC
+Abbey  B-LOC  I-LOC
+Ward  I-LOC  I-LOC
 ,  O  O
-Abbey  B-LOC  O
-Ward  I-LOC  O
-,  O  O
-Leicester  B-LOC  O
+Leicester  B-LOC  B-LOC
 (  O  O
 SK  O  O
 5831  O  O
@@ -158,7 +158,7 @@ by  O  O
 the  O  O
 University  O  O
 of  O  O
-Leicester  B-LOC  O
+Leicester  B-LOC  B-LOC
 Archaeological  O  O
 Services  O  O
 (  O  O
@@ -191,8 +191,8 @@ in  O  O
 phases  O  O
 and  O  O
 revealed  O  O
-early  O  O
-Roman  B-PER  O
+early  O  B-PER
+Roman  B-PER  I-PER
 deposits  O  O
 comprising  O  O
 dump  O  O
@@ -200,9 +200,9 @@ layers  O  O
 relating  O  O
 to  O  O
 the  O  O
-1st-2nd  B-PER  O
-century  I-PER  O
-Roman  I-PER  O
+1st-2nd  B-PER  B-PER
+century  I-PER  I-PER
+Roman  I-PER  I-PER
 townhouse  O  O
 ,  O  O
 which  O  O
@@ -213,7 +213,7 @@ on  O  O
 the  O  O
 site  O  O
 in  O  O
-1958  B-PER  O
+1958  B-PER  B-PER
 .  O  O
 
 These  O  O
@@ -222,13 +222,13 @@ provided  O  O
 levelling  O  O
 for  O  O
 the  O  O
-3rd  B-PER  O
-century  I-PER  O
+3rd  B-PER  B-PER
+century  I-PER  I-PER
 Macellum  O  O
 ,  O  O
 or  O  O
-Market  O  O
-Hall  O  O
+Market  O  B-LOC
+Hall  O  I-LOC
 complex  O  O
 .  O  O
 
@@ -237,9 +237,9 @@ Macellum  O  O
 remains  O  O
 consisted  O  O
 of  O  O
-walls  O  O
+walls  O  B-CON
 and  O  O
-floor  O  O
+floor  O  B-CON
 deposits  O  O
 ,  O  O
 confirming  O  O
@@ -268,13 +268,13 @@ with  O  O
 a  O  O
 series  O  O
 of  O  O
-wall  O  O
+wall  O  B-CON
 and  O  O
 robber  O  O
 deposits  O  O
 indicating  O  O
 further  O  O
-rooms  O  O
+rooms  O  B-CON
 existing  O  O
 at  O  O
 right  O  O
@@ -298,7 +298,7 @@ aisle  O  O
 ,  O  O
 flanked  O  O
 by  O  O
-rooms  O  O
+rooms  O  B-CON
 on  O  O
 either  O  O
 side  O  O
@@ -309,8 +309,8 @@ central  O  O
 aisle  O  O
 contained  O  O
 a  O  O
-stone  O  O
-structure  O  O
+stone  O  B-MAT
+structure  O  B-CON
 at  O  O
 the  O  O
 southern  O  O
@@ -351,13 +351,13 @@ to  O  O
 contain  O  O
 2nd  B-PER  O
 and  I-PER  O
-3rd  I-PER  O
-century  I-PER  O
-pottery  B-ART  O
-sherds  I-ART  O
+3rd  I-PER  B-PER
+century  I-PER  I-PER
+pottery  B-ART  B-ART
+sherds  I-ART  I-ART
 .  O  O
 
-Medieval  O  O
+Medieval  O  B-PER
 backyard  O  O
 activity  O  O
 was  O  O
@@ -376,16 +376,16 @@ remains  O  O
 ,  O  O
 pitting  O  O
 and  O  O
-boundary  O  O
-walls  O  O
+boundary  O  B-CON
+walls  O  I-CON
 ,  O  O
 running  O  O
 at  O  O
 right  O  O
 angles  O  O
 to  O  O
-Highcross  B-LOC  O
-Street  I-LOC  O
+Highcross  B-LOC  B-LOC
+Street  I-LOC  I-LOC
 .  O  O
 
 There  O  O
@@ -394,16 +394,16 @@ evidence  O  O
 to  O  O
 suggest  O  O
 that  O  O
-Roman  B-PER  O
-walls  O  O
+Roman  B-PER  B-PER
+walls  O  B-CON
 may  O  O
 have  O  O
 been  O  O
 standing  O  O
 together  O  O
 with  O  O
-medieval  B-PER  O
-buildings  O  O
+medieval  B-PER  B-PER
+buildings  O  B-CON
 during  O  O
 the  O  O
 12th-13th  B-PER  O
@@ -413,10 +413,10 @@ centuries  I-PER  O
 Remains  O  O
 of  O  O
 the  O  O
-medieval  B-PER  O
-Blue  B-LOC  O
-Boar  I-LOC  O
-Lane  I-LOC  O
+medieval  B-PER  B-PER
+Blue  B-LOC  B-LOC
+Boar  I-LOC  I-LOC
+Lane  I-LOC  I-LOC
 were  O  O
 located  O  O
 ,  O  O
@@ -457,13 +457,13 @@ depicting  O  O
 Britannia  O  O
 carrying  O  O
 a  O  O
-shield  O  O
+shield  O  B-ART
 ,  O  O
 which  O  O
 was  O  O
 found  O  O
 in  O  O
-Roman  B-PER  O
+Roman  B-PER  B-PER
 dump  O  O
 deposit  O  O
 (  O  O
@@ -478,7 +478,7 @@ will  O  O
 be  O  O
 deposited  O  O
 with  O  O
-Leicester  B-LOC  O
+Leicester  B-LOC  B-LOC
 City  O  O
 Museums  O  O
 Service  O  O
@@ -497,7 +497,7 @@ permission  O  O
 was  O  O
 sought  O  O
 from  O  O
-Leicester  B-LOC  O
+Leicester  B-LOC  B-LOC
 City  O  O
 Council  O  O
 to  O  O
@@ -510,16 +510,16 @@ development  O  O
 on  O  O
 land  O  O
 at  O  O
-Highcross  B-LOC  O
-Street  I-LOC  O
+Highcross  B-LOC  B-LOC
+Street  I-LOC  I-LOC
 and  I-LOC  O
-Vaughan  I-LOC  O
-Way  I-LOC  O
+Vaughan  I-LOC  B-LOC
+Way  I-LOC  I-LOC
+,  I-LOC  I-LOC
+Abbey  I-LOC  I-LOC
+Ward  I-LOC  I-LOC
 ,  I-LOC  O
-Abbey  I-LOC  O
-Ward  I-LOC  O
-,  I-LOC  O
-Leicester  I-LOC  O
+Leicester  I-LOC  B-LOC
 (  O  O
 SK  O  O
 5831  O  O
@@ -544,7 +544,7 @@ Senior  O  O
 Planning  O  O
 Archaeologist  O  O
 at  O  O
-Leicester  B-LOC  O
+Leicester  B-LOC  B-LOC
 City  O  O
 Council  O  O
 ,  O  O
@@ -559,7 +559,7 @@ Archaeological  O  O
 Consultants  O  O
 in  O  O
 November  O  O
-2001  B-PER  O
+2001  B-PER  B-PER
 .  O  O
 
 (  O  O
@@ -578,15 +578,15 @@ site  O  O
 is  O  O
 located  O  O
 between  O  O
-Vaughan  B-LOC  O
-Way  I-LOC  O
+Vaughan  B-LOC  B-LOC
+Way  I-LOC  I-LOC
 (  O  O
 Southgates  B-LOC  O
 Underpass  I-LOC  O
 )  O  O
 and  O  O
-Highcross  B-LOC  O
-Street  I-LOC  O
+Highcross  B-LOC  B-LOC
+Street  I-LOC  I-LOC
 ,  O  O
 approximately  O  O
 100m  O  O
@@ -594,9 +594,9 @@ to  O  O
 the  O  O
 north  O  O
 of  O  O
-St  B-LOC  O
-Nicholas  I-LOC  O
-Place  I-LOC  O
+St  B-LOC  B-LOC
+Nicholas  I-LOC  I-LOC
+Place  I-LOC  I-LOC
 (  O  O
 figures  O  O
 1  O  O
@@ -690,8 +690,8 @@ and  O  O
 Historical  O  O
 Background  O  O
 The  O  O
-Roman  B-PER  O
-Period  O  O
+Roman  B-PER  B-PER
+Period  O  I-PER
 (  O  O
 figure  O  O
 3  O  O
@@ -700,21 +700,21 @@ Initial  O  O
 urban  O  O
 occupation  O  O
 in  O  O
-Leicester  B-LOC  O
+Leicester  B-LOC  B-LOC
 can  O  O
 be  O  O
 dated  O  O
 to  O  O
 the  O  O
-late  B-PER  O
-first  I-PER  O
-century  I-PER  O
-BC  I-PER  O
+late  B-PER  B-PER
+first  I-PER  I-PER
+century  I-PER  I-PER
+BC  I-PER  I-PER
 ,  O  O
 consisting  O  O
 of  O  O
-Iron  B-PER  O
-Age  I-PER  O
+Iron  B-PER  B-PER
+Age  I-PER  I-PER
 settlement  O  O
 occupying  O  O
 an  O  O
@@ -760,13 +760,13 @@ river  O  O
 near  O  O
 the  O  O
 present  O  O
-West  B-LOC  O
-Bridge  I-LOC  O
+West  B-LOC  B-LOC
+Bridge  I-LOC  I-LOC
 (  O  O
 Clay  O  O
 and  O  O
 Pollard  O  O
-1994  B-PER  O
+1994  B-PER  B-PER
 ,  O  O
 46  O  O
 )  O  O
@@ -803,7 +803,7 @@ more  O  O
 in  O  O
 common  O  O
 with  O  O
-buildings  O  O
+buildings  O  B-CON
 within  O  O
 a  O  O
 fort  O  O
@@ -821,8 +821,8 @@ buildings  O  O
 later  O  O
 in  O  O
 the  O  O
-first  B-PER  O
-century  I-PER  O
+first  B-PER  B-PER
+century  I-PER  I-PER
 are  O  O
 on  O  O
 a  O  O
@@ -836,7 +836,7 @@ to  O  O
 represent  O  O
 the  O  O
 first  O  O
-Roman  B-PER  O
+Roman  B-PER  B-PER
 town  O  O
 ,  O  O
 expanding  O  O
@@ -851,25 +851,25 @@ with  O  O
 the  O  O
 presence  O  O
 of  O  O
-wall  B-ART  O
-plaster  I-ART  O
+wall  B-ART  B-CON
+plaster  I-ART  I-CON
 and  O  O
-opus  B-ART  O
-signinum  I-ART  O
+opus  B-ART  B-ART
+signinum  I-ART  I-ART
 suggesting  O  O
 the  O  O
 gradual  O  O
 adoption  O  O
 of  O  O
-Roman  B-PER  O
+Roman  B-PER  B-PER
 tastes  O  O
 .  O  O
 
-Ditches  B-CON  O
+Ditches  B-CON  B-CON
 from  O  O
 the  O  O
-Little  B-LOC  O
-Lane  I-LOC  O
+Little  B-LOC  B-LOC
+Lane  I-LOC  I-LOC
 excavation  O  O
 (  O  O
 Lucas  O  O
@@ -890,9 +890,9 @@ area  O  O
 
 In  O  O
 the  O  O
-early  B-PER  O
-second  I-PER  O
-century  I-PER  O
+early  B-PER  B-PER
+second  I-PER  I-PER
+century  I-PER  I-PER
 ,  O  O
 the  O  O
 street  O  O
@@ -959,7 +959,7 @@ settlement  O  O
 Buckley  O  O
 and  O  O
 Lucas  O  O
-1987  B-PER  O
+1987  B-PER  B-PER
 )  O  O
 .  O  O
 
@@ -971,8 +971,8 @@ later  O  O
 years  O  O
 of  O  O
 the  O  O
-second  B-PER  O
-century  I-PER  O
+second  B-PER  B-PER
+century  I-PER  I-PER
 ,  O  O
 a  O  O
 major  O  O
@@ -1021,18 +1021,18 @@ premises  O  O
 Clay  O  O
 and  O  O
 Mellor  O  O
-1985  B-PER  O
+1985  B-PER  B-PER
 ;  O  O
 Clay  O  O
 and  O  O
 Pollard  O  O
-1994  B-PER  O
+1994  B-PER  B-PER
 )  O  O
 .  O  O
 
 On  O  O
 most  O  O
-Roman  B-PER  O
+Roman  B-PER  B-PER
 sites  O  O
 in  O  O
 the  O  O
@@ -1196,7 +1196,7 @@ stylobate  O  O
 blocks  O  O
 (  O  O
 Buckley  O  O
-2000  B-PER  O
+2000  B-PER  B-PER
 )  O  O
 .  O  O
 
@@ -1279,12 +1279,12 @@ Basilica  O  O
 
 In  O  O
 the  O  O
-late  B-PER  O
-second  I-PER  O
-or  I-PER  O
-early  I-PER  O
-third  I-PER  O
-century  I-PER  O
+late  B-PER  B-PER
+second  I-PER  I-PER
+or  I-PER  I-PER
+early  I-PER  I-PER
+third  I-PER  I-PER
+century  I-PER  I-PER
 ,  O  O
 the  O  O
 town  O  O
@@ -1294,23 +1294,23 @@ with  O  O
 a  O  O
 rampart  O  O
 and  O  O
-ditch  O  O
+ditch  O  B-CON
 ,  O  O
 a  O  O
-wall  O  O
+wall  O  B-CON
 perhaps  O  O
 being  O  O
 added  O  O
-later  O  O
-in  O  O
-the  O  O
-third  B-PER  O
-century  I-PER  O
+later  O  B-PER
+in  O  I-PER
+the  O  I-PER
+third  B-PER  I-PER
+century  I-PER  I-PER
 (  O  O
 Buckley  O  O
 and  O  O
 Lucas  O  O
-1987  B-PER  O
+1987  B-PER  B-PER
 )  O  O
 .  O  O
 
@@ -1323,7 +1323,7 @@ suburban  O  O
 occupation  O  O
 outside  O  O
 the  O  O
-walls  O  O
+walls  O  B-CON
 ,  O  O
 to  O  O
 the  O  O
@@ -1332,27 +1332,27 @@ north  O  O
 Northgates  B-LOC  O
 :  O  O
 Buckley  O  O
-1987  B-PER  O
+1987  B-PER  B-PER
 ;  O  O
 Sanvey  B-LOC  O
 Gate  I-LOC  O
 :  O  O
 Finn  O  O
-1993  B-PER  O
+1993  B-PER  B-PER
 )  O  O
 and  O  O
 south  O  O
 (  O  O
-Bonners  B-LOC  O
-Lane  I-LOC  O
+Bonners  B-LOC  B-LOC
+Lane  I-LOC  I-LOC
 :  O  O
 Finn  O  O
-1994  B-PER  O
+1994  B-PER  B-PER
 )  O  O
 ,  O  O
 comprising  O  O
 both  O  O
-timber  B-MAT  O
+timber  B-MAT  B-MAT
 and  O  O
 substantial  O  O
 masonry  B-MAT  O
@@ -1369,9 +1369,9 @@ river  O  O
 ,  O  O
 excavations  O  O
 at  O  O
-Great  B-LOC  O
-Holme  I-LOC  O
-Street  I-LOC  O
+Great  B-LOC  B-LOC
+Holme  I-LOC  I-LOC
+Street  I-LOC  I-LOC
 have  O  O
 suggested  O  O
 the  O  O
@@ -1384,7 +1384,7 @@ suburb  O  O
 with  O  O
 evidence  O  O
 of  O  O
-pottery  O  O
+pottery  O  B-ART
 kilns  O  O
 and  O  O
 an  O  O
@@ -1395,7 +1395,7 @@ forthcoming  O  O
 )  O  O
 .  O  O
 
-Cemeteries  O  O
+Cemeteries  O  B-CON
 surrounded  O  O
 the  O  O
 town  O  O
@@ -1407,18 +1407,18 @@ fieldwork  O  O
 carried  O  O
 out  O  O
 at  O  O
-Newarke  B-LOC  O
-Street  I-LOC  O
+Newarke  B-LOC  B-LOC
+Street  I-LOC  I-LOC
 (  O  O
 Cooper  O  O
-1996  B-PER  O
+1996  B-PER  B-PER
 and  O  O
 Derrick  O  O
-2003  B-PER  O
+2003  B-PER  B-PER
 )  O  O
 and  O  O
-Clarence  B-LOC  O
-Street  I-LOC  O
+Clarence  B-LOC  B-LOC
+Street  I-LOC  I-LOC
 (  O  O
 Crank  O  O
 2002  B-PER  O
@@ -1426,11 +1426,11 @@ Crank  O  O
 .  O  O
 
 The  O  O
-Roman  B-PER  O
+Roman  B-PER  B-PER
 Town  O  O
 House  O  O
 A  O  O
-Roman  B-PER  O
+Roman  B-PER  B-PER
 town  O  O
 house  O  O
 with  O  O
@@ -1440,15 +1440,15 @@ floors  O  O
 and  O  O
 very  O  O
 ornate  O  O
-painted  O  O
-plaster  O  O
-walls  O  O
+painted  O  B-MAT
+plaster  O  I-MAT
+walls  O  B-ART
 was  O  O
 excavated  O  O
 in  O  O
-Leicester  B-LOC  O
+Leicester  B-LOC  B-LOC
 in  O  O
-1958  B-PER  O
+1958  B-PER  B-PER
 (  O  O
 TLAHS  O  O
 1959  O  O
@@ -1491,7 +1491,7 @@ the  O  O
 presence  O  O
 of  O  O
 the  O  O
-Roman  B-PER  O
+Roman  B-PER  B-PER
 mosaic  O  O
 known  O  O
 as  O  O
@@ -1577,12 +1577,12 @@ it  O  O
 may  O  O
 be  O  O
 of  O  O
-fourth  B-PER  O
-century  I-PER  O
+fourth  B-PER  B-PER
+century  I-PER  I-PER
 date  O  O
 (  O  O
 Johnson  O  O
-1980  B-PER  O
+1980  B-PER  B-PER
 )  O  O
 .  O  O
 
@@ -1594,7 +1594,7 @@ at  O  O
 least  O  O
 one  O  O
 other  O  O
-Roman  B-PER  O
+Roman  B-PER  B-PER
 town  O  O
 house  O  O
 existed  O  O
@@ -1604,7 +1604,7 @@ site  O  O
 boundary  O  O
 .  O  O
 
-Mosaics  O  O
+Mosaics  O  B-ART
 ,  O  O
 tessellated  O  O
 pavements  O  O
@@ -1612,7 +1612,7 @@ and  O  O
 the  O  O
 remains  O  O
 of  O  O
-walls  O  O
+walls  O  B-CON
 have  O  O
 been  O  O
 previously  O  O
@@ -1649,12 +1649,12 @@ the  O  O
 end  O  O
 of  O  O
 the  O  O
-second  O  O
-century  O  O
+second  O  B-PER
+century  O  I-PER
 the  O  O
-Blue  B-LOC  O
-Boar  I-LOC  O
-Lane  I-LOC  O
+Blue  B-LOC  B-LOC
+Boar  I-LOC  I-LOC
+Lane  I-LOC  I-LOC
 townhouse  O  O
 had  O  O
 fallen  O  O
@@ -1683,7 +1683,7 @@ a  O  O
 number  O  O
 of  O  O
 massive  O  O
-walls  O  O
+walls  O  B-CON
 (  O  O
 TLAHS  O  O
 1959  O  O
@@ -1722,14 +1722,14 @@ growing  O  O
 prosperity  O  O
 of  O  O
 the  O  O
-Roman  B-PER  O
+Roman  B-PER  B-PER
 town  O  O
 and  O  O
 the  O  O
 need  O  O
 for  O  O
 two  O  O
-markets  O  O
+markets  O  B-ART
 .  O  O
 
 Lengths  O  O
@@ -1801,13 +1801,13 @@ been  O  O
 dug  O  O
 into  O  O
 (  O  O
-Redcross  B-LOC  O
-Street  I-LOC  O
+Redcross  B-LOC  B-LOC
+Street  I-LOC  I-LOC
 :  O  O
 Clay  O  O
 and  O  O
 Pollard  O  O
-1994  B-PER  O
+1994  B-PER  B-PER
 ,  O  O
 48  O  O
 )  O  O
@@ -1821,7 +1821,7 @@ the  O  O
 illegal  O  O
 extraction  O  O
 of  O  O
-silver  O  O
+silver  O  B-MAT
 from  O  O
 coinage  O  O
 within  O  O
@@ -1832,16 +1832,16 @@ the  O  O
 Macellum  O  O
 (  O  O
 Wacher  O  O
-1974  B-PER  O
+1974  B-PER  B-PER
 ,  O  O
 353  O  O
 )  O  O
 .  O  O
 
-Saxon  B-PER  O
+Saxon  B-PER  B-PER
 and  O  O
-Medieval  B-PER  O
-Leicester  B-LOC  O
+Medieval  B-PER  B-PER
+Leicester  B-LOC  B-LOC
 (  O  O
 figure  O  O
 4  O  O
@@ -1851,11 +1851,11 @@ scale  O  O
 of  O  O
 occupation  O  O
 of  O  O
-Leicester  B-LOC  O
+Leicester  B-LOC  B-LOC
 during  O  O
 the  O  O
-Anglo-Saxon  B-PER  O
-period  O  O
+Anglo-Saxon  B-PER  B-PER
+period  O  I-PER
 is  O  O
 unclear  O  O
 .  O  O
@@ -1895,7 +1895,7 @@ town  O  O
 adjacent  O  O
 to  O  O
 the  O  O
-Roman  B-PER  O
+Roman  B-PER  B-PER
 road  O  O
 to  O  O
 Tripontium  B-LOC  O
@@ -1923,12 +1923,12 @@ the  O  O
 centuries  I-PER  O
 (  O  O
 Finn  O  O
-1994  B-PER  O
+1994  B-PER  B-PER
 ,  O  O
 167  O  O
 ;  O  O
 Gossip  O  O
-1998  B-PER  O
+1998  B-PER  B-PER
 ,  O  O
 159-60  O  O
 )  O  O
@@ -1938,7 +1938,7 @@ These  O  O
 represent  O  O
 the  O  O
 first  O  O
-Anglo-Saxon  B-PER  O
+Anglo-Saxon  B-PER  B-PER
 structures  O  O
 to  O  O
 be  O  O
@@ -1947,7 +1947,7 @@ in  O  O
 or  O  O
 near  O  O
 the  O  O
-Roman  B-PER  O
+Roman  B-PER  B-PER
 town  O  O
 ,  O  O
 but  O  O
@@ -1989,21 +1989,21 @@ comm  O  O
 
 Within  O  O
 the  O  O
-walls  O  O
+walls  O  B-CON
 ,  O  O
-pottery  B-ART  O
-sherd  I-ART  O
+pottery  B-ART  B-ART
+sherd  I-ART  B-ART
 densities  O  O
 from  O  O
 the  O  O
-St  B-LOC  O
-.  I-LOC  O
-Peter  I-LOC  O
-'s  I-LOC  O
-Lane  I-LOC  O
+St  B-LOC  B-LOC
+.  I-LOC  I-LOC
+Peter  I-LOC  I-LOC
+'s  I-LOC  I-LOC
+Lane  I-LOC  I-LOC
 and  O  O
-Little  B-LOC  O
-Lane  I-LOC  O
+Little  B-LOC  B-LOC
+Lane  I-LOC  I-LOC
 excavations  O  O
 compare  O  O
 favourably  O  O
@@ -2012,17 +2012,17 @@ those  O  O
 from  O  O
 a  O  O
 large  O  O
-Anglo-Saxon  B-PER  O
+Anglo-Saxon  B-PER  B-PER
 settlement  O  O
 site  O  O
 of  O  O
 4.5ha  O  O
 ,  O  O
 at  O  O
-Eye  B-LOC  O
-Kettleby  I-LOC  O
-,  I-LOC  O
-Leicestershire  I-LOC  O
+Eye  B-LOC  B-LOC
+Kettleby  I-LOC  I-LOC
+,  I-LOC  I-LOC
+Leicestershire  I-LOC  I-LOC
 ,  O  O
 where  O  O
 the  O  O
@@ -2054,7 +2054,7 @@ reasonably  O  O
 high  O  O
 level  O  O
 of  O  O
-Anglo-Saxon  B-PER  O
+Anglo-Saxon  B-PER  B-PER
 activity  O  O
 in  O  O
 the  O  O
@@ -2078,21 +2078,21 @@ settlement  O  O
 but  O  O
 lying  O  O
 within  O  O
-walls  O  O
+walls  O  B-CON
 of  O  O
 the  O  O
-Roman  B-PER  O
+Roman  B-PER  B-PER
 town  O  O
 (  O  O
 Connor  O  O
 and  O  O
 Buckley  O  O
-1999  B-PER  O
+1999  B-PER  B-PER
 )  O  O
 .  O  O
 
 In  O  O
-2005  B-PER  O
+2005  B-PER  B-PER
 ,  O  O
 excavations  O  O
 on  O  O
@@ -2101,21 +2101,21 @@ site  O  O
 of  O  O
 the  O  O
 former  O  O
-St  B-LOC  O
-.  I-LOC  O
-Margaret  I-LOC  O
-'s  I-LOC  O
-Baths  I-LOC  O
+St  B-LOC  B-LOC
+.  I-LOC  I-LOC
+Margaret  I-LOC  I-LOC
+'s  I-LOC  I-LOC
+Baths  I-LOC  I-LOC
 ,  O  O
 on  O  O
 the  O  O
 corner  O  O
 of  O  O
-St  B-LOC  O
-.  I-LOC  O
-Peter  I-LOC  O
-'s  I-LOC  O
-Lane  I-LOC  O
+St  B-LOC  B-LOC
+.  I-LOC  I-LOC
+Peter  I-LOC  I-LOC
+'s  I-LOC  I-LOC
+Lane  I-LOC  I-LOC
 and  I-LOC  O
 Vaughn  I-LOC  O
 Way  I-LOC  O
@@ -2130,7 +2130,7 @@ building  O  O
 ,  O  O
 whilst  O  O
 a  O  O
-Anglo-Saxon  B-PER  O
+Anglo-Saxon  B-PER  B-PER
 small  O  O
 ,  O  O
 long-brooch  B-ART  O
@@ -2145,7 +2145,7 @@ although  O  O
 unstratified  O  O
 .  O  O
 
-Leicester  B-LOC  O
+Leicester  B-LOC  B-LOC
 became  O  O
 a  O  O
 Mercian  O  O
@@ -2182,8 +2182,8 @@ the  O  O
 time  O  O
 of  O  O
 the  O  O
-Norman  B-PER  O
-Conquest  I-PER  O
+Norman  B-PER  B-PER
+Conquest  I-PER  I-PER
 ,  O  O
 with  O  O
 322  O  O
@@ -2213,8 +2213,8 @@ far  O  O
 however  O  O
 ,  O  O
 for  O  O
-late  B-PER  O
-Saxon  I-PER  O
+late  B-PER  B-PER
+Saxon  I-PER  I-PER
 occupation  O  O
 ,  O  O
 and  O  O
@@ -2222,9 +2222,9 @@ only  O  O
 the  O  O
 church  O  O
 of  O  O
-St  B-LOC  O
-.  I-LOC  O
-Nicholas  I-LOC  O
+St  B-LOC  B-LOC
+.  I-LOC  I-LOC
+Nicholas  I-LOC  I-LOC
 has  O  O
 fabric  O  O
 of  O  O
@@ -2249,15 +2249,15 @@ urban  O  O
 character  O  O
 by  O  O
 the  O  O
-tenth  B-PER  O
-century  I-PER  O
+tenth  B-PER  B-PER
+century  I-PER  I-PER
 despite  O  O
 its  O  O
 strategic  O  O
 military  O  O
 importance  O  O
 (  O  O
-1998  B-PER  O
+1998  B-PER  B-PER
 )  O  O
 .  O  O
 
@@ -2279,11 +2279,11 @@ the  O  O
 main  O  O
 street  O  O
 of  O  O
-Leicester  B-LOC  O
+Leicester  B-LOC  B-LOC
 in  O  O
 the  O  O
-Saxo-Norman  B-PER  O
-period  O  O
+Saxo-Norman  B-PER  B-PER
+period  O  I-PER
 was  O  O
 the  O  O
 N-S  O  O
@@ -2292,10 +2292,10 @@ axial  O  O
 road  O  O
 ,  O  O
 the  O  O
-medieval  B-PER  O
+medieval  B-PER  B-PER
 `  O  O
-High  B-LOC  O
-Street  I-LOC  O
+High  B-LOC  B-LOC
+Street  I-LOC  I-LOC
 '  O  O
 (  O  O
 later  O  O
@@ -2303,7 +2303,7 @@ renamed  O  O
 Highcross  B-LOC  O
 and  I-LOC  O
 Southgate  I-LOC  O
-Streets  I-LOC  O
+Streets  I-LOC  B-MAT
 )  O  O
 .  O  O
 
@@ -2323,13 +2323,13 @@ and  O  O
 apparently  O  O
 respects  O  O
 the  O  O
-Roman  B-PER  O
+Roman  B-PER  B-PER
 forum  O  O
 (  O  O
 Buckley  O  O
 and  O  O
 Lucas  O  O
-1987  B-PER  O
+1987  B-PER  B-PER
 ,  O  O
 p.56  O  O
 )  O  O
@@ -2359,7 +2359,7 @@ perhaps  O  O
 the  O  O
 focus  O  O
 of  O  O
-pre-Conquest  B-PER  O
+pre-Conquest  B-PER  B-PER
 occupation  O  O
 .  O  O
 
@@ -2383,7 +2383,7 @@ southwest  O  O
 angle  O  O
 of  O  O
 the  O  O
-Roman  B-PER  O
+Roman  B-PER  B-PER
 defences  O  O
 ,  O  O
 in  O  O
@@ -2400,8 +2400,8 @@ town  O  O
 In  O  O
 the  O  O
 early  O  O
-12th  B-PER  O
-century  I-PER  O
+12th  B-PER  B-PER
+century  I-PER  I-PER
 ,  O  O
 the  O  O
 timber  O  O
@@ -2446,8 +2446,8 @@ the  O  O
 great  O  O
 abbey  O  O
 of  O  O
-St  O  O
-Mary  B-LOC  O
+St  O  B-LOC
+Mary  B-LOC  I-LOC
 de  I-LOC  O
 Pratis  I-LOC  O
 outside  O  O
@@ -2476,8 +2476,8 @@ The  O  O
 stone  O  O
 undercroft  O  O
 on  O  O
-Guildhall  B-LOC  O
-Lane  I-LOC  O
+Guildhall  B-LOC  B-LOC
+Lane  I-LOC  I-LOC
 and  O  O
 other  O  O
 associated  O  O
@@ -2507,27 +2507,27 @@ buildings  O  O
 Hagar  O  O
 and  O  O
 Buckley  O  O
-1990  B-PER  O
+1990  B-PER  B-PER
 )  O  O
 ,  O  O
 whilst  O  O
 at  O  O
-Causeway  B-LOC  O
-Lane  I-LOC  O
+Causeway  B-LOC  B-LOC
+Lane  I-LOC  I-LOC
 and  I-LOC  O
 Sanvey  I-LOC  O
 Gate  I-LOC  O
 (  O  O
 Finn  O  O
-1993  B-PER  O
+1993  B-PER  B-PER
 )  O  O
 intensive  O  O
 backyard  O  O
 activity  O  O
 in  O  O
 the  O  O
-12th  B-PER  O
-century  I-PER  O
+12th  B-PER  B-PER
+century  I-PER  I-PER
 suggests  O  O
 a  O  O
 growth  O  O
@@ -2542,8 +2542,8 @@ also  O  O
 attests  O  O
 robbing  O  O
 of  O  O
-Roman  B-LOC  O
-walls  O  O
+Roman  B-LOC  B-PER
+walls  O  B-CON
 on  O  O
 a  O  O
 large  O  O
@@ -2572,14 +2572,14 @@ structures  O  O
 
 By  O  O
 the  O  O
-13th  B-PER  O
-century  I-PER  O
+13th  B-PER  B-PER
+century  I-PER  I-PER
 ,  O  O
 the  O  O
 topography  O  O
 of  O  O
-medieval  B-PER  O
-Leicester  B-LOC  O
+medieval  B-PER  B-PER
+Leicester  B-LOC  B-LOC
 comprised  O  O
 the  O  O
 core  O  O
@@ -2588,8 +2588,8 @@ settlement  O  O
 contained  O  O
 within  O  O
 the  O  O
-Roman  B-PER  O
-walls  O  O
+Roman  B-PER  B-PER
+walls  O  B-CON
 ,  O  O
 with  O  O
 suburbs  O  O
@@ -2610,8 +2610,8 @@ the  O  O
 castle  O  O
 ,  O  O
 the  O  O
-Saturday  O  O
-Market  O  O
+Saturday  O  B-LOC
+Market  O  I-LOC
 ,  O  O
 six  O  O
 churches  O  O
@@ -2628,8 +2628,8 @@ were  O  O
 established  O  O
 in  O  O
 the  O  O
-13th  B-PER  O
-century  I-PER  O
+13th  B-PER  B-PER
+century  I-PER  I-PER
 .  O  O
 
 Another  O  O
@@ -2648,9 +2648,9 @@ west  O  O
 gate  O  O
 in  O  O
 the  O  O
-mid  B-PER  O
-13th  I-PER  O
-century  I-PER  O
+mid  B-PER  B-PER
+13th  I-PER  I-PER
+century  I-PER  I-PER
 (  O  O
 excavated  O  O
 1973-8  B-PER  O
@@ -2680,10 +2680,10 @@ relatively  O  O
 intact  O  O
 until  O  O
 the  O  O
-late  B-PER  O
-19th  I-PER  O
--20th  I-PER  O
-century  I-PER  O
+late  B-PER  B-PER
+19th  I-PER  I-PER
+-20th  I-PER  I-PER
+century  I-PER  I-PER
 .  O  O
 
 Street  O  O
@@ -2696,13 +2696,13 @@ along  O  O
 the  O  O
 frontage  O  O
 of  O  O
-Highcross  B-LOC  O
-Street  I-LOC  O
-in  I-LOC  O
-St  I-LOC  O
-.  I-LOC  O
-Nicholas  I-LOC  O
-Place  I-LOC  O
+Highcross  B-LOC  B-LOC
+Street  I-LOC  I-LOC
+in  I-LOC  I-LOC
+St  I-LOC  I-LOC
+.  I-LOC  I-LOC
+Nicholas  I-LOC  I-LOC
+Place  I-LOC  I-LOC
 has  O  O
 demonstrated  O  O
 the  O  O
@@ -2713,8 +2713,8 @@ plot  O  O
 boundaries  O  O
 from  O  O
 the  O  O
-medieval  O  O
-period  O  O
+medieval  O  B-PER
+period  O  I-PER
 through  O  O
 to  O  O
 the  O  O
@@ -2728,13 +2728,13 @@ the  O  O
 1960s  B-PER  O
 (  O  O
 Meek  O  O
-2000  B-PER  O
+2000  B-PER  B-PER
 )  O  O
 .  O  O
 
-Medieval  B-PER  O
-stone  B-MAT  O
-walls  O  O
+Medieval  B-PER  B-PER
+stone  B-MAT  B-MAT
+walls  O  B-CON
 ,  O  O
 marking  O  O
 plot  O  O
@@ -2754,7 +2754,7 @@ phases  O  O
 with  O  O
 the  O  O
 original  O  O
-wall  O  O
+wall  O  B-CON
 lines  O  O
 defining  O  O
 the  O  O
@@ -2800,7 +2800,7 @@ with  O  O
 more  O  O
 housing  O  O
 and  O  O
-walkways  O  O
+walkways  O  B-CON
 created  O  O
 to  O  O
 gain  O  O
@@ -2818,8 +2818,8 @@ more  O  O
 widespread  O  O
 in  O  O
 the  O  O
-post-medieval  B-PER  O
-period  O  O
+post-medieval  B-PER  B-PER
+period  O  I-PER
 ,  O  O
 evidence  O  O
 has  O  O
@@ -2833,30 +2833,30 @@ to  O  O
 the  O  O
 rear  O  O
 of  O  O
-Highcross  B-LOC  O
-Street  I-LOC  O
+Highcross  B-LOC  B-LOC
+Street  I-LOC  I-LOC
 in  I-LOC  O
 the  I-LOC  O
 area  I-LOC  O
 of  I-LOC  O
-St  I-LOC  O
-.  I-LOC  O
-Nicholas  I-LOC  O
-Place  I-LOC  O
+St  I-LOC  B-LOC
+.  I-LOC  I-LOC
+Nicholas  I-LOC  I-LOC
+Place  I-LOC  I-LOC
 (  O  O
 Meek  O  O
-2000  B-PER  O
+2000  B-PER  B-PER
 ;  O  O
 Buckley  O  O
-2000  B-PER  O
+2000  B-PER  B-PER
 )  O  O
 .  O  O
 
 For  O  O
 the  O  O
-earlier  B-PER  O
-medieval  I-PER  O
-period  I-PER  O
+earlier  B-PER  B-PER
+medieval  I-PER  I-PER
+period  I-PER  I-PER
 ,  O  O
 occupation  O  O
 of  O  O
@@ -2866,21 +2866,21 @@ frontages  O  O
 ,  O  O
 other  O  O
 than  O  O
-Highcross  B-LOC  O
-Street  I-LOC  O
+Highcross  B-LOC  B-LOC
+Street  I-LOC  I-LOC
 ,  O  O
 has  O  O
 been  O  O
 recorded  O  O
 on  O  O
-Mayor  B-LOC  O
-'s  I-LOC  O
-Hall  I-LOC  O
-Lane  I-LOC  O
+Mayor  B-LOC  B-LOC
+'s  I-LOC  I-LOC
+Hall  I-LOC  I-LOC
+Lane  I-LOC  I-LOC
 (  O  O
-Blue  B-LOC  O
-Boar  I-LOC  O
-Lane  I-LOC  O
+Blue  B-LOC  B-LOC
+Boar  I-LOC  I-LOC
+Lane  I-LOC  I-LOC
 )  O  O
 with  O  O
 the  O  O
@@ -2889,15 +2889,15 @@ former  O  O
 location  O  O
 of  O  O
 the  O  O
-Guild  B-LOC  O
-Merchant  I-LOC  O
-Hall  I-LOC  O
+Guild  B-LOC  B-LOC
+Merchant  I-LOC  I-LOC
+Hall  I-LOC  I-LOC
 (  O  O
 later  O  O
 the  O  O
-Mayor  B-LOC  O
-'s  I-LOC  O
-Hall  I-LOC  O
+Mayor  B-LOC  B-LOC
+'s  I-LOC  I-LOC
+Hall  I-LOC  I-LOC
 ,  O  O
 hence  O  O
 the  O  O
@@ -2907,8 +2907,8 @@ name  O  O
 )  O  O
 in  O  O
 the  O  O
-thirteenth  B-PER  O
-century  I-PER  O
+thirteenth  B-PER  B-PER
+century  I-PER  I-PER
 .  O  O
 
 The  O  O
@@ -2918,8 +2918,8 @@ Keys  I-LOC  O
 Inn  I-LOC  O
 at  O  O
 107-9  B-LOC  O
-Highcross  I-LOC  O
-Street  I-LOC  O
+Highcross  I-LOC  B-LOC
+Street  I-LOC  I-LOC
 has  O  O
 timber-framed  O  O
 elements  O  O
@@ -2942,8 +2942,8 @@ building  O  O
 originated  O  O
 in  O  O
 the  O  O
-14th  B-PER  O
-century  I-PER  O
+14th  B-PER  B-PER
+century  I-PER  I-PER
 .  O  O
 
 It  O  O
@@ -2985,8 +2985,8 @@ Saints  I-LOC  O
 Churchyard  I-LOC  O
 ,  O  O
 fronting  O  O
-Highcross  B-LOC  O
-Street  I-LOC  O
+Highcross  B-LOC  B-LOC
+Street  I-LOC  I-LOC
 ,  O  O
 the  O  O
 former  O  O
@@ -3005,7 +3005,7 @@ original  O  O
 date  O  O
 of  O  O
 this  O  O
-building  O  O
+building  O  B-CON
 ,  O  O
 although  O  O
 photographs  O  O
@@ -3017,8 +3017,8 @@ the  O  O
 turn  O  O
 of  O  O
 the  O  O
-nineteenth  B-PER  O
-century  I-PER  O
+nineteenth  B-PER  B-PER
+century  I-PER  I-PER
 )  O  O
 show  O  O
 a  O  O
@@ -3033,8 +3033,8 @@ street  O  O
 which  O  O
 sat  O  O
 upon  O  O
-stone  O  O
-walls  O  O
+stone  O  B-MAT
+walls  O  B-ART
 and  O  O
 a  O  O
 cellar  O  O
@@ -3045,7 +3045,7 @@ suggest  O  O
 it  O  O
 had  O  O
 earlier  B-PER  O
-medieval  I-PER  O
+medieval  I-PER  B-PER
 origins  O  O
 .  O  O
 
@@ -3057,9 +3057,9 @@ buildings  O  O
 such  O  O
 as  O  O
 the  O  O
-Free  B-LOC  O
-Grammar  I-LOC  O
-School  I-LOC  O
+Free  B-LOC  B-LOC
+Grammar  I-LOC  I-LOC
+School  I-LOC  I-LOC
 (  O  O
 LC57  O  O
 )  O  O
@@ -3094,7 +3094,7 @@ Report  O  O
 No  O  O
 .  O  O
 
-Post-medieval  B-PER  O
+Post-medieval  B-PER  B-PER
 to  O  O
 present  O  O
 (  O  O
@@ -3118,14 +3118,14 @@ the  O  O
 street  O  O
 plan  O  O
 of  O  O
-Leicester  B-LOC  O
+Leicester  B-LOC  B-LOC
 is  O  O
 the  O  O
 John  O  O
 Speed  O  O
 map  O  O
 of  O  O
-1610  B-PER  O
+1610  B-PER  B-PER
 ,  O  O
 which  O  O
 was  O  O
@@ -3165,15 +3165,15 @@ Friars  B-LOC  O
 Causeway  I-LOC  O
 .  O  O
 
-Blue  B-LOC  O
-Boar  I-LOC  O
-Lane  I-LOC  O
+Blue  B-LOC  B-LOC
+Boar  I-LOC  I-LOC
+Lane  I-LOC  I-LOC
 and  O  O
-Charlotte  B-LOC  O
-Street  I-LOC  O
-/  I-LOC  O
-Back  I-LOC  O
-Lane  I-LOC  O
+Charlotte  B-LOC  B-LOC
+Street  I-LOC  I-LOC
+/  I-LOC  I-LOC
+Back  I-LOC  I-LOC
+Lane  I-LOC  I-LOC
 are  O  O
 included  O  O
 as  O  O
@@ -3182,7 +3182,7 @@ single  O  O
 block  O  O
 .  O  O
 
-Buildings  O  O
+Buildings  O  B-CON
 are  O  O
 shown  O  O
 along  O  O
@@ -3190,16 +3190,16 @@ the  O  O
 entire  O  O
 frontage  O  O
 of  O  O
-Highcross  B-LOC  O
-Street  I-LOC  O
+Highcross  B-LOC  B-LOC
+Street  I-LOC  I-LOC
 and  O  O
 along  O  O
 both  O  O
 sides  O  O
 of  O  O
-Blue  B-LOC  O
-Boar  I-LOC  O
-Lane  I-LOC  O
+Blue  B-LOC  B-LOC
+Boar  I-LOC  I-LOC
+Lane  I-LOC  I-LOC
 .  O  O
 
 Although  O  O
@@ -3228,12 +3228,12 @@ Stukeley  O  O
 's  O  O
 map  O  O
 of  O  O
-1722  B-PER  O
+1722  B-PER  B-PER
 Stukeley  O  O
 's  O  O
 map  O  O
 of  O  O
-1722  B-PER  O
+1722  B-PER  B-PER
 (  O  O
 figure  O  O
 6  O  O
@@ -3243,16 +3243,16 @@ indicates  O  O
 buildings  O  O
 along  O  O
 the  O  O
-Highcross  B-LOC  O
-Street  I-LOC  O
+Highcross  B-LOC  B-LOC
+Street  I-LOC  I-LOC
 (  O  O
-High  B-LOC  O
-Street  I-LOC  O
+High  B-LOC  B-LOC
+Street  I-LOC  I-LOC
 )  O  O
 and  O  O
-Blue  B-LOC  O
-Boar  I-LOC  O
-Lane  I-LOC  O
+Blue  B-LOC  B-LOC
+Boar  I-LOC  I-LOC
+Lane  I-LOC  I-LOC
 frontages  O  O
 .  O  O
 
@@ -3279,8 +3279,8 @@ to  O  O
 its  O  O
 junction  O  O
 with  O  O
-Highcross  B-LOC  O
-Street  I-LOC  O
+Highcross  B-LOC  B-LOC
+Street  I-LOC  I-LOC
 ,  O  O
 are  O  O
 merely  O  O
@@ -3291,8 +3291,8 @@ a  O  O
 large  O  O
 building  O  O
 on  O  O
-Highcross  B-LOC  O
-Street  I-LOC  O
+Highcross  B-LOC  B-LOC
+Street  I-LOC  I-LOC
 .  O  O
 
 Robert  O  O
@@ -3304,7 +3304,7 @@ Roberts  O  O
 '  O  O
 map  O  O
 of  O  O
-1741  B-PER  O
+1741  B-PER  B-PER
 (  O  O
 figure  O  O
 7  O  O
@@ -3316,8 +3316,8 @@ the  O  O
 entire  O  O
 frontage  O  O
 of  O  O
-Highcross  B-LOC  O
-Street  I-LOC  O
+Highcross  B-LOC  B-LOC
+Street  I-LOC  I-LOC
 had  O  O
 been  O  O
 developed  O  O
@@ -3348,7 +3348,7 @@ different  O  O
 landowners  O  O
 gardens  O  O
 ,  O  O
-orchards  O  O
+orchards  O  B-ART
 and  O  O
 agricultural  O  O
 land  O  O
@@ -3365,9 +3365,9 @@ the  O  O
 Highcross  B-LOC  O
 and  O  O
 the  O  O
-Free  B-LOC  O
-Grammar  I-LOC  O
-School  I-LOC  O
+Free  B-LOC  B-LOC
+Grammar  I-LOC  I-LOC
+School  I-LOC  I-LOC
 .  O  O
 
 Background  O  O
@@ -3388,7 +3388,7 @@ had  O  O
 been  O  O
 granted  O  O
 by  O  O
-Leicester  B-LOC  O
+Leicester  B-LOC  B-LOC
 City  O  O
 Council  O  O
 for  O  O
@@ -3590,8 +3590,8 @@ determined  O  O
 A  O  O
 number  O  O
 of  O  O
-foundation  O  O
-options  O  O
+foundation  O  B-CON
+options  O  I-CON
 were  O  O
 explored  O  O
 by  O  O
@@ -3665,8 +3665,8 @@ the  O  O
 pile  O  O
 for  O  O
 a  O  O
-crane  O  O
-base  O  O
+crane  O  B-CON
+base  O  I-CON
 and  O  O
 from  O  O
 service  O  O
@@ -3786,7 +3786,7 @@ was  O  O
 completely  O  O
 stripped  O  O
 of  O  O
-modern  O  O
+modern  O  B-PER
 deposits  O  O
 using  O  O
 a  O  O
@@ -4146,8 +4146,8 @@ associated  O  O
 with  O  O
 in  O  O
 situ  O  O
-pottery  B-ART  O
-sherds  I-ART  O
+pottery  B-ART  B-ART
+sherds  I-ART  I-ART
 .  O  O
 
 Obvious  O  O
@@ -4171,16 +4171,16 @@ obvious  O  O
 structures  O  O
 such  O  O
 as  O  O
-Roman  B-PER  O
-walls  B-CON  O
+Roman  B-PER  B-PER
+walls  B-CON  B-CON
 ,  O  O
-medieval  B-PER  O
-pits  B-CON  O
+medieval  B-PER  B-PER
+pits  B-CON  B-CON
 and  O  O
-late  B-PER  O
+late  B-PER  B-PER
 /  I-PER  O
-postmedieval  I-PER  O
-pits  B-CON  O
+postmedieval  I-PER  B-CON
+pits  B-CON  I-CON
 were  O  O
 separated  O  O
 in  O  O
@@ -4301,13 +4301,13 @@ of  O  O
 the  O  O
 Archaeological  O  O
 Investigation  O  O
-Early  O  O
-activity-  O  O
-1st  B-PER  O
-to  I-PER  O
-2nd  I-PER  O
-century  I-PER  O
-AD  I-PER  O
+Early  O  B-PER
+activity-  O  I-PER
+1st  B-PER  I-PER
+to  I-PER  I-PER
+2nd  I-PER  I-PER
+century  I-PER  I-PER
+AD  I-PER  I-PER
 The  O  O
 deepest  O  O
 recorded  O  O
@@ -4334,7 +4334,7 @@ removed  O  O
 revealing  O  O
 a  O  O
 possible  O  O
-pit  B-CON  O
+pit  B-CON  B-CON
 cut  I-CON  O
 through  O  O
 a  O  O
@@ -4344,7 +4344,7 @@ demolition  O  O
 .  O  O
 
 The  O  O
-pit  B-CON  O
+pit  B-CON  B-CON
 was  O  O
 filled  O  O
 with  O  O
@@ -4354,8 +4354,8 @@ silty  O  O
 clay  O  O
 containing  O  O
 occasional  O  O
-charcoal  B-ART  O
-flecks  I-ART  O
+charcoal  B-ART  B-ART
+flecks  I-ART  B-ART
 (  O  O
 274  O  O
 )  O  O
@@ -4374,7 +4374,7 @@ small  I-ART  O
 rounded  I-ART  O
 pebbles  I-ART  O
 ,  O  O
-mortar  B-ART  O
+mortar  B-ART  B-ART
 flecks  I-ART  O
 and  O  O
 moderate  B-ART  O
@@ -4409,8 +4409,8 @@ and  O  O
 may  O  O
 relate  O  O
 to  O  O
-1st-2nd  B-PER  O
-century  I-PER  O
+1st-2nd  B-PER  B-PER
+century  I-PER  I-PER
 settlement  O  O
 activity  O  O
 or  O  O
@@ -4432,7 +4432,7 @@ figure  O  O
 10  O  O
 )  O  O
 a  O  O
-wall  O  O
+wall  O  B-CON
 was  O  O
 seen  O  O
 which  O  O
@@ -4452,7 +4452,7 @@ The  O  O
 base  B-CON  O
 of  I-CON  O
 the  I-CON  O
-wall  I-CON  O
+wall  I-CON  B-CON
 (  O  O
 525  O  O
 )  O  O
@@ -4468,12 +4468,12 @@ which  O  O
 would  O  O
 suggest  O  O
 a  O  O
-Roman  B-PER  O
+Roman  B-PER  B-PER
 origin  O  O
 .  O  O
 
 The  O  O
-wall  B-CON  O
+wall  B-CON  B-CON
 was  O  O
 different  O  O
 in  O  O
@@ -4494,7 +4494,7 @@ mud  B-MAT  O
 .  O  O
 
 This  O  O
-wall  B-CON  O
+wall  B-CON  B-CON
 was  O  O
 built  O  O
 on  O  O
@@ -4531,7 +4531,7 @@ by  O  O
 Wacher  O  O
 under  O  O
 the  O  O
-walls  O  O
+walls  O  B-CON
 of  O  O
 the  O  O
 Macellum  O  O
@@ -4539,7 +4539,7 @@ and  O  O
 further  O  O
 indicates  O  O
 a  O  O
-Roman  B-PER  O
+Roman  B-PER  B-PER
 origin  O  O
 .  O  O
 
@@ -4547,7 +4547,7 @@ The  O  O
 width  O  O
 of  O  O
 the  O  O
-wall  B-CON  O
+wall  B-CON  B-CON
 suggests  O  O
 that  O  O
 the  O  O
@@ -4606,7 +4606,7 @@ section  O  O
 .  O  O
 
 A  O  O
-wall  B-CON  O
+wall  B-CON  B-CON
 which  O  O
 may  O  O
 relate  O  O
@@ -4653,7 +4653,7 @@ remains  O  O
 of  O  O
 an  O  O
 associated  O  O
-floor  O  O
+floor  O  B-CON
 fragment  O  O
 (  O  O
 c  O  O
@@ -4682,8 +4682,8 @@ that  O  O
 they  O  O
 relate  O  O
 to  O  O
-earlier  O  O
-Roman  B-PER  O
+earlier  O  B-PER
+Roman  B-PER  I-PER
 building  O  O
 activity  O  O
 .  O  O
@@ -4694,10 +4694,10 @@ layers  O  O
 and  O  O
 Levelling  O  O
 -  O  O
-mid  B-PER  O
-2nd  I-PER  O
-century  I-PER  O
-AD  I-PER  O
+mid  B-PER  B-PER
+2nd  I-PER  I-PER
+century  I-PER  I-PER
+AD  I-PER  I-PER
 Section  O  O
 J2  O  O
 (  O  O
@@ -4708,7 +4708,7 @@ shows  O  O
 a  O  O
 series  O  O
 of  O  O
-pits  B-CON  O
+pits  B-CON  B-CON
 and  O  O
 dump  B-CON  O
 layers  I-CON  O
@@ -4782,7 +4782,7 @@ and  O  O
 levelling  O  O
 of  O  O
 the  O  O
-2nd-century  B-PER  O
+2nd-century  B-PER  B-PER
 townhouse  O  O
 ,  O  O
 as  O  O
@@ -4803,8 +4803,8 @@ great  O  O
 deal  O  O
 of  O  O
 earlier  O  O
-building  B-ART  O
-materials  I-ART  O
+building  B-ART  B-ART
+materials  I-ART  I-ART
 .  O  O
 
 Layer  O  O
@@ -4830,18 +4830,18 @@ It  O  O
 also  O  O
 contained  O  O
 large  B-ART  O
-stone  I-ART  O
+stone  I-ART  B-ART
 ,  I-ART  O
-slate  I-ART  O
+slate  I-ART  B-ART
 and  I-ART  O
-mortar  I-ART  O
+mortar  I-ART  B-ART
 fragments  I-ART  O
 suggesting  O  O
 earlier  O  O
 demolition  O  O
 or  O  O
-wall  O  O
--collapse  O  O
+wall  O  B-CON
+-collapse  O  I-CON
 ,  O  O
 which  O  O
 was  O  O
@@ -4883,28 +4883,28 @@ small  O  O
 rounded  O  O
 pebbles  O  O
 ,  O  O
-charcoal  O  O
-flecks  O  O
-and  O  O
-painted  O  O
-wall  O  O
-plaster  O  O
+charcoal  O  B-ART
+flecks  O  B-ART
+and  O  I-ART
+painted  O  I-ART
+wall  O  I-ART
+plaster  O  I-ART
 .  O  O
 
 A  O  O
-sherd  B-ART  O
+sherd  B-ART  B-ART
 of  I-ART  O
-pottery  I-ART  O
+pottery  I-ART  B-ART
 dating  O  O
 from  O  O
 the  O  O
-late  B-PER  O
-1st  I-PER  O
-to  I-PER  O
-the  I-PER  O
-early  I-PER  O
-2nd-century  I-PER  O
-AD  I-PER  O
+late  B-PER  B-PER
+1st  I-PER  I-PER
+to  I-PER  I-PER
+the  I-PER  I-PER
+early  I-PER  I-PER
+2nd-century  I-PER  I-PER
+AD  I-PER  I-PER
 was  O  O
 recovered  O  O
 from  O  O
@@ -4922,7 +4922,7 @@ layer  O  O
 .  O  O
 
 A  O  O
-pit  B-CON  O
+pit  B-CON  B-CON
 or  O  O
 part-  B-CON  O
 robber  I-CON  O
@@ -4953,7 +4953,7 @@ structural  O  O
 remains  O  O
 of  O  O
 the  O  O
-2nd-century  B-PER  O
+2nd-century  B-PER  B-PER
 townhouse  O  O
 in  O  O
 situ  O  O
@@ -4989,7 +4989,7 @@ chunks  B-ART  O
 sandy-lime  B-MAT  O
 mortar  B-ART  O
 ,  O  O
-tile  B-ART  O
+tile  B-ART  B-ART
 fragments  I-ART  O
 and  O  O
 small  B-ART  O
@@ -5009,8 +5009,8 @@ was  O  O
 a  O  O
 deposit  O  O
 of  O  O
-Opus  B-ART  O
-Signinum  I-ART  O
+Opus  B-ART  B-MAT
+Signinum  I-ART  I-MAT
 (  O  O
 516  O  O
 )  O  O
@@ -5044,8 +5044,8 @@ sand  O  O
 lenses  O  O
 containing  O  O
 occasional  O  O
-charcoal  B-ART  O
-flecks  I-ART  O
+charcoal  B-ART  B-ART
+flecks  I-ART  B-ART
 (  O  O
 484  O  O
 )  O  O
@@ -5090,7 +5090,7 @@ sandy-clayey  O  O
 silt  O  O
 containing  O  O
 frequent  O  O
-charcoal  B-ART  O
+charcoal  B-ART  B-ART
 flecks  I-ART  O
 ,  O  O
 moderate  O  O
@@ -5103,12 +5103,12 @@ and  O  O
 granite  B-MAT  O
 chunks  B-ART  O
 ,  O  O
-charcoal  B-ART  O
+charcoal  B-ART  B-ART
 fragments  I-ART  O
 and  O  O
-fine  B-ART  O
-coarse  I-ART  O
-pebbles  I-ART  O
+fine  B-ART  B-ART
+coarse  I-ART  I-ART
+pebbles  I-ART  I-ART
 .  O  O
 
 This  O  O
@@ -5130,13 +5130,13 @@ was  O  O
 a  O  O
 series  O  O
 of  O  O
-pits  O  O
+pits  O  B-CON
 or  O  O
 dumps  O  O
 .  O  O
 
 A  O  O
-pit  O  O
+pit  O  B-CON
 containing  O  O
 mid-greyish  O  O
 brown  O  O
@@ -5145,18 +5145,18 @@ clayey-sandy  O  O
 silt  O  O
 with  O  O
 occasional  O  O
-slate  B-ART  O
+slate  B-ART  B-ART
 fragments  I-ART  O
 ,  O  O
 moderate  O  O
-charcoal  B-ART  O
+charcoal  B-ART  B-ART
 flecks  I-ART  O
 ,  O  O
-mortar  B-ART  O
+mortar  B-ART  B-ART
 fragments  I-ART  O
 and  O  O
-burnt  B-ART  O
-clay  I-ART  O
+burnt  B-ART  B-ART
+clay  I-ART  I-ART
 (  O  O
 508  O  O
 )  O  O
@@ -5176,8 +5176,8 @@ of  O  O
 this  O  O
 was  O  O
 another  O  O
-pit  B-CON  O
-layer  I-CON  O
+pit  B-CON  B-CON
+layer  I-CON  I-CON
 (  O  O
 518  O  O
 )  O  O
@@ -5199,8 +5199,8 @@ included  O  O
 
 Between  O  O
 the  O  O
-pit  B-CON  O
-cuts  I-CON  O
+pit  B-CON  B-CON
+cuts  I-CON  I-CON
 or  O  O
 dumps  B-CON  O
 ,  O  O
@@ -5220,14 +5220,14 @@ clay  O  O
 silt  O  O
 and  O  O
 painted  B-ART  O
-wall  I-ART  O
-plaster  I-ART  O
-fragments  I-ART  O
+wall  I-ART  B-CON
+plaster  I-ART  I-CON
+fragments  I-ART  I-CON
 .  O  O
 
 A  O  O
 final  O  O
-pit  B-CON  O
+pit  B-CON  B-CON
 [  O  O
 519  O  O
 ]  O  O
@@ -5249,9 +5249,9 @@ clay  O  O
 ,  O  O
 with  O  O
 moderate  O  O
-charcoal  B-ART  O
+charcoal  B-ART  B-ART
 and  I-ART  O
-mortar  I-ART  O
+mortar  I-ART  B-ART
 flecks  I-ART  O
 ,  O  O
 small  B-ART  O
@@ -5259,7 +5259,7 @@ rounded  I-ART  O
 pebbles  I-ART  O
 and  O  O
 occasional  O  O
-tile  B-ART  O
+tile  B-ART  B-ART
 fragments  I-ART  O
 .  O  O
 
@@ -5275,18 +5275,18 @@ silt  O  O
 ,  O  O
 containing  O  O
 a  O  O
-sherd  B-ART  O
+sherd  B-ART  B-ART
 of  I-ART  O
-pottery  I-ART  O
+pottery  I-ART  B-ART
 dating  O  O
 to  O  O
 the  O  O
-late  B-PER  O
-1st  I-PER  O
-century  I-PER  O
-to  I-PER  O
-AD  I-PER  O
-110  I-PER  O
+late  B-PER  B-PER
+1st  I-PER  I-PER
+century  I-PER  I-PER
+to  I-PER  I-PER
+AD  I-PER  I-PER
+110  I-PER  I-PER
 .  O  O
 
 Below  O  O
@@ -5302,9 +5302,9 @@ clayey  O  O
 silt  O  O
 containing  O  O
 occasional  O  O
-charcoal  B-ART  O
+charcoal  B-ART  B-ART
 and  I-ART  O
-mortar  I-ART  O
+mortar  I-ART  B-ART
 flecks  I-ART  O
 (  O  O
 511  O  O
@@ -5320,7 +5320,7 @@ silt  O  O
 .  O  O
 
 This  O  O
-pit  B-CON  O
+pit  B-CON  B-CON
 was  O  O
 cut  O  O
 through  O  O
@@ -5344,12 +5344,12 @@ is  O  O
 divided  O  O
 into  O  O
 seven  O  O
-rooms  O  O
+rooms  O  B-CON
 (  O  O
 F2-8  O  O
 )  O  O
 by  O  O
-modern  O  O
+modern  O  B-PER
 partition  O  O
 walls  O  O
 forming  O  O
@@ -5364,22 +5364,22 @@ Fig  O  O
 All  O  O
 of  O  O
 the  O  O
-rooms  O  O
+rooms  O  B-CON
 are  O  O
 finished  O  O
 with  O  O
-plaster  O  O
+plaster  O  B-ART
 and  O  O
 wallpaper  O  O
 and  O  O
 have  O  O
-carpets  O  O
+carpets  O  B-ART
 or  O  O
 vinyl  O  O
 flooring  O  O
 .  O  O
 
-Room  O  O
+Room  O  B-CON
 F2  O  O
 is  O  O
 the  O  O
@@ -5389,9 +5389,9 @@ room  O  O
 and  O  O
 has  O  O
 a  O  O
-modern  O  O
-gas  O  O
-fire  O  O
+modern  O  B-PER
+gas  O  B-ART
+fire  O  I-ART
 with  O  O
 an  O  O
 antique-effect  O  O
@@ -5480,8 +5480,8 @@ a  O  O
 number  O  O
 of  O  O
 Baltic  O  O
-timber  O  O
-marks  O  O
+timber  O  B-ART
+marks  O  I-ART
 (  O  O
 Plates  O  O
 24  O  O
@@ -5505,25 +5505,25 @@ rustic  O  O
 chamfer  O  O
 .  O  O
 
-Room  O  O
+Room  O  B-CON
 F3  O  O
 is  O  O
 a  O  O
-kitchen  O  O
+kitchen  O  B-CON
 ,  O  O
 and  O  O
 the  O  O
-walls  O  O
+walls  O  B-CON
 are  O  O
 largely  O  O
 covered  O  O
 by  O  O
-modern  O  O
+modern  O  B-PER
 units  O  O
 .  O  O
 
 Like  O  O
-Room  O  O
+Room  O  B-CON
 F2  O  O
 ,  O  O
 there  O  O
@@ -5552,7 +5552,7 @@ a  O  O
 step  O  O
 up  O  O
 into  O  O
-Room  O  O
+Room  O  B-CON
 F4  O  O
 ,  O  O
 which  O  O
@@ -5586,11 +5586,11 @@ running  O  O
 from  O  O
 it  O  O
 into  O  O
-Room  O  O
+Room  O  B-CON
 F6  O  O
 .  O  O
 
-Room  O  O
+Room  O  B-CON
 F5  O  O
 is  O  O
 a  O  O
@@ -5609,12 +5609,12 @@ wallpaper  O  O
 and  O  O
 has  O  O
 numerous  O  O
-modern  O  O
+modern  O  B-PER
 fittings  O  O
 throughout  O  O
 .  O  O
 
-Room  O  O
+Room  O  B-CON
 F6  O  O
 is  O  O
 a  O  O
@@ -5630,7 +5630,7 @@ orientated  O  O
 south-east/north-west  O  O
 .  O  O
 
-Room  O  O
+Room  O  B-CON
 F7  O  O
 is  O  O
 a  O  O
@@ -5660,7 +5660,7 @@ timber  O  O
 sill  O  O
 .  O  O
 
-Room  O  O
+Room  O  B-CON
 F8  O  O
 is  O  O
 another  O  O
@@ -5699,7 +5699,7 @@ the  O  O
 south-west  O  O
 end  O  O
 of  O  O
-Building  O  O
+Building  O  B-CON
 B  O  O
 is  O  O
 divided  O  O
@@ -5711,7 +5711,7 @@ an  O  O
 inserted  O  O
 concrete  B-MAT  O
 block  O  O
-wall  O  O
+wall  O  B-CON
 and  O  O
 with  O  O
 an  O  O
@@ -5725,7 +5725,7 @@ ceiling  O  O
 below  O  O
 and  O  O
 fibre  O  O
-glass  B-MAT  O
+glass  B-MAT  B-MAT
 insulation  O  O
 .  O  O
 
@@ -5735,7 +5735,7 @@ part  O  O
 of  O  O
 the  O  O
 north-west  O  O
-wall  O  O
+wall  O  B-CON
 is  O  O
 rendered  O  O
 .  O  O
@@ -5810,11 +5810,11 @@ a  O  O
 single  O  O
 purlin  O  O
 per  O  O
-pitch  O  O
+pitch  O  B-ART
 plus  O  O
 a  O  O
-ridge  O  O
-purlin  O  O
+ridge  O  B-CON
+purlin  O  I-CON
 and  O  O
 attached  O  O
 to  O  O
@@ -5892,7 +5892,7 @@ trusses  O  O
 but  O  O
 the  O  O
 principal  O  O
-rafters  O  O
+rafters  O  B-CON
 are  O  O
 bolted  O  O
 together  O  O
@@ -5971,8 +5971,8 @@ cut  O  O
 ,  O  O
 although  O  O
 the  O  O
-ridge  O  O
-purlins  O  O
+ridge  O  B-CON
+purlins  O  I-CON
 are  O  O
 less  O  O
 well  O  O
@@ -5995,14 +5995,14 @@ whitewashed  O  O
 .  O  O
 
 4.4.3  O  O
-Building  O  O
+Building  O  B-CON
 D  O  O
 :  O  O
 this  O  O
 comprises  O  O
 a  O  O
 single  O  O
-room  O  O
+room  O  B-CON
 with  O  O
 a  O  O
 concrete  O  O
@@ -6025,7 +6025,7 @@ ventilation  O  O
 slots  O  O
 beneath  O  O
 the  O  O
-gable  O  O
+gable  O  B-CON
 and  O  O
 traces  O  O
 of  O  O
@@ -6034,7 +6034,7 @@ whitewash  O  O
 
 There  O  O
 are  O  O
-iron  O  O
+iron  O  B-MAT
 ties  O  O
 along  O  O
 the  O  O
@@ -6045,7 +6045,7 @@ which  O  O
 evidently  O  O
 held  O  O
 the  O  O
-roof  O  O
+roof  O  B-CON
 in  O  O
 place  O  O
 ,  O  O
@@ -6198,7 +6198,7 @@ to  O  O
 the  O  O
 existing  O  O
 eastern  O  O
-gable  O  O
+gable  O  B-CON
 and  O  O
 the  O  O
 presence  O  O
@@ -6210,7 +6210,7 @@ straddling  O  O
 the  O  O
 ground  B-CON  O
 floor/first  I-CON  O
-floor  I-CON  O
+floor  I-CON  B-CON
 may  O  O
 suggest  O  O
 that  O  O
@@ -6228,7 +6228,7 @@ pl  O  O
 .  O  O
 
 The  O  O
-floor  B-CON  O
+floor  B-CON  B-CON
 and  O  O
 the  O  O
 roof  B-CON  O
@@ -6247,7 +6247,7 @@ but  O  O
 the  O  O
 rafters  B-ART  O
 were  O  O
-modern  B-PER  O
+modern  B-PER  B-PER
 ,  O  O
 as  O  O
 was  O  O
@@ -6261,8 +6261,8 @@ upper  O  O
 storey  O  O
 and  O  O
 the  O  O
-guard  B-ART  O
-rails  I-ART  O
+guard  B-ART  B-ART
+rails  I-ART  I-ART
 at  O  O
 its  O  O
 eastern  O  O
@@ -6316,7 +6316,7 @@ pl  O  O
 .  O  O
 
 Few  O  O
-fittings  B-ART  O
+fittings  B-ART  B-ART
 survived  O  O
 and  O  O
 the  O  O
@@ -6349,7 +6349,7 @@ stone  B-MAT  O
 setts  B-ART  O
 within  O  O
 a  O  O
-doorway  B-CON  O
+doorway  B-CON  B-CON
 through  O  O
 the  O  O
 south-facing  O  O
@@ -6435,7 +6435,7 @@ the  O  O
 north/south  O  O
 range  O  O
 the  O  O
-walls  B-CON  O
+walls  B-CON  B-CON
 had  O  O
 been  O  O
 rendered  O  O
@@ -6568,7 +6568,7 @@ brick  B-MAT  O
 wall  B-ART  O
 which  O  O
 linked  O  O
-Structure  B-CON  O
+Structure  B-CON  B-CON
 3  O  O
 to  O  O
 Structure  B-CON  O
@@ -6579,7 +6579,7 @@ Extending  O  O
 eastwards  O  O
 from  O  O
 this  O  O
-wall  B-CON  O
+wall  B-CON  B-CON
 for  O  O
 c.  O  O
 1.85m  O  O
@@ -6620,14 +6620,14 @@ upstanding  O  O
 historic  O  O
 structures  O  O
 off  O  O
-Highweek  B-LOC  O
-Street  I-LOC  O
+Highweek  B-LOC  B-LOC
+Street  I-LOC  I-LOC
 and  O  O
-Back  B-LOC  O
-Road  I-LOC  O
-,  O  O
-Newton  B-LOC  O
-Abbot  I-LOC  O
+Back  B-LOC  B-LOC
+Road  I-LOC  I-LOC
+,  O  I-LOC
+Newton  B-LOC  I-LOC
+Abbot  I-LOC  I-LOC
 .  O  O
 
 The  O  O
@@ -6763,11 +6763,11 @@ be  O  O
 shown  O  O
 on  O  O
 the  O  O
-early  O  O
-19  B-PER  O
-`  I-PER  O
-h-  I-PER  O
-century  I-PER  O
+early  O  B-PER
+19  B-PER  I-PER
+`  I-PER  I-PER
+h-  I-PER  I-PER
+century  I-PER  I-PER
 survey  O  O
 (  O  O
 Fig  O  O
@@ -6800,10 +6800,10 @@ in  O  O
 existence  O  O
 by  O  O
 the  O  O
-14  B-PER  O
-`  I-PER  O
-``  I-PER  O
-century  I-PER  O
+14  B-PER  B-PER
+`  I-PER  I-PER
+``  I-PER  I-PER
+century  I-PER  I-PER
 (  O  O
 Weddell  O  O
 1985  B-PER  O
@@ -6819,7 +6819,7 @@ that  O  O
 Structure  B-CON  O
 1  O  O
 was  O  O
-medieval  B-PER  O
+medieval  B-PER  B-PER
 in  O  O
 date  O  O
 ,  O  O
@@ -6836,7 +6836,7 @@ least  O  O
 parts  O  O
 of  O  O
 the  O  O
-walls  O  O
+walls  O  B-CON
 which  O  O
 formed  O  O
 Structure  B-CON  O
@@ -6854,7 +6854,7 @@ took  O  O
 place  O  O
 in  O  O
 the  O  O
-buildings  B-CON  O
+buildings  B-CON  B-CON
 which  O  O
 lined  O  O
 the  O  O
@@ -6882,7 +6882,7 @@ reserved  O  O
 for  O  O
 the  O  O
 western  O  O
-wall  O  O
+wall  O  B-CON
 which  O  O
 also  O  O
 had  O  O
@@ -6904,8 +6904,8 @@ early  O  O
 20  B-PER  O
 `  I-PER  O
 x  I-PER  O
-'  I-PER  O
-century  I-PER  O
+'  I-PER  B-PER
+century  I-PER  I-PER
 ,  O  O
 although  O  O
 Ordnance  O  O
@@ -6945,7 +6945,7 @@ two  O  O
 stories  O  O
 ,  O  O
 this  O  O
-building  B-CON  O
+building  B-CON  B-CON
 may  O  O
 have  O  O
 been  O  O
@@ -7013,8 +7013,8 @@ yards  O  O
 westwards  O  O
 along  O  O
 the  O  O
-River  B-LOC  O
-Lemon  I-LOC  O
+River  B-LOC  B-LOC
+Lemon  I-LOC  I-LOC
 (  O  O
 Fig  O  O
 .  O  O
@@ -7033,8 +7033,8 @@ at  O  O
 76  O  O
 and  O  O
 68a  O  O
-Wolborough  B-LOC  O
-Street  I-LOC  O
+Wolborough  B-LOC  B-LOC
+Street  I-LOC  I-LOC
 in  O  O
 the  O  O
 late  O  O
@@ -7075,7 +7075,7 @@ of  O  O
 an  O  O
 abbatoir  O  O
 with  O  O
-cattle  B-SPE  O
+cattle  B-SPE  B-SPE
 and  O  O
 other  O  O
 stock  O  O
@@ -7189,8 +7189,8 @@ the  O  O
 ubiquity  O  O
 of  O  O
 the  O  O
-building  B-ART  O
-materials  I-ART  O
+building  B-ART  B-ART
+materials  I-ART  I-ART
 and  O  O
 the  O  O
 utilitarian  O  O
@@ -7268,11 +7268,11 @@ recognition  O  O
 largely  O  O
 through  O  O
 their  O  O
-survival  O  O
+survival  O  B-CON
 as  O  O
 many  O  O
 similar  O  O
-buildings  B-CON  O
+buildings  B-CON  B-CON
 in  O  O
 the  O  O
 surrounding  O  O
@@ -7355,14 +7355,14 @@ Devon  B-LOC  O
 Record  O  O
 Office  O  O
 ,  O  O
-Exeter  B-LOC  O
+Exeter  B-LOC  B-LOC
 and  O  O
 the  O  O
 Local  O  O
 Studies  O  O
 Section  O  O
 of  O  O
-Newton  B-LOC  O
+Newton  B-LOC  B-LOC
 Abbot  I-LOC  O
 Library  O  O
 for  O  O
@@ -7444,11 +7444,11 @@ ighweeklplansll  O  O
 OS  O  O
 1:500  O  O
 (  O  O
-Devonshire  B-LOC  O
-Sheets  O  O
-CIX.11.25  O  O
-Newton  B-LOC  O
-Abbot  I-LOC  O
+Devonshire  B-LOC  B-LOC
+Sheets  O  I-LOC
+CIX.11.25  O  I-LOC
+Newton  B-LOC  I-LOC
+Abbot  I-LOC  I-LOC
 and  O  O
 CIX.15.5  O  O
 Newton  B-LOC  O
@@ -7475,30 +7475,30 @@ OS  O  O
 1956  B-PER  O
 OS  O  O
 1:2500  O  O
-1964  B-PER  O
+1964  B-PER  B-PER
 OS  O  O
 1:2500  O  O
-1964  B-PER  O
+1964  B-PER  B-PER
 OS  O  O
 1:10560  O  O
-1969  B-PER  O
-OS  O  O
-1:10560  O  O
-1972  B-PER  O
-OS  O  O
-1:2500  O  O
-1981  B-PER  O
+1969  B-PER  B-PER
+OS  O  I-PER
+1:10560  O  I-PER
+1972  B-PER  I-PER
+OS  O  I-PER
+1:2500  O  I-PER
+1981  B-PER  I-PER
 OS  O  O
 1  O  O
 :  O  O
 2500  O  O
-1987  B-PER  O
+1987  B-PER  B-PER
 OS  O  O
 1:10000  O  O
-1993  B-PER  O
+1993  B-PER  B-PER
 OS  O  O
 1:10000  O  O
-1999  B-PER  O
+1999  B-PER  B-PER
 OS  O  O
 1:10000  O  O
 1  O  O
@@ -7535,13 +7535,13 @@ Ltd  O  O
 )  O  O
 ,  O  O
 2004a  B-PER  O
-Bradley  B-LOC  O
-Lane  I-LOC  O
-,  I-LOC  O
-Newton  I-LOC  O
-Abbot  I-LOC  O
-,  I-LOC  O
-Devon  I-LOC  O
+Bradley  B-LOC  B-LOC
+Lane  I-LOC  I-LOC
+,  I-LOC  I-LOC
+Newton  I-LOC  I-LOC
+Abbot  I-LOC  I-LOC
+,  I-LOC  I-LOC
+Devon  I-LOC  I-LOC
 .  O  O
 
 Desk  O  O
@@ -7559,14 +7559,14 @@ Ltd  O  O
 )  O  O
 ,  O  O
 2004b  B-PER  O
-Bradley  B-LOC  O
-Lane  I-LOC  O
+Bradley  B-LOC  B-LOC
+Lane  I-LOC  I-LOC
 .  O  O
 
-Newton  B-LOC  O
-Abbot  I-LOC  O
-,  I-LOC  O
-Devon  I-LOC  O
+Newton  B-LOC  B-LOC
+Abbot  I-LOC  I-LOC
+,  I-LOC  I-LOC
+Devon  I-LOC  I-LOC
 .  O  O
 
 Archaeological  O  O
@@ -7582,14 +7582,14 @@ Investigations  O  O
 Ltd  O  O
 )  O  O
 ,  O  O
-2005  B-PER  O
-Bradley  B-LOC  O
-Lane  I-LOC  O
-,  I-LOC  O
-Newton  I-LOC  O
-Abbot  I-LOC  O
-,  I-LOC  O
-Devon  I-LOC  O
+2005  B-PER  B-PER
+Bradley  B-LOC  B-LOC
+Lane  I-LOC  I-LOC
+,  I-LOC  I-LOC
+Newton  I-LOC  I-LOC
+Abbot  I-LOC  I-LOC
+,  I-LOC  I-LOC
+Devon  I-LOC  I-LOC
 .  O  O
 
 The  O  O
@@ -7657,7 +7657,7 @@ Museum  O  O
 Service  O  O
 in  O  O
 May  O  O
-1995  B-PER  O
+1995  B-PER  B-PER
 .  O  O
 
 The  O  O
@@ -7691,12 +7691,12 @@ the  O  O
 eight  O  O
 trenches  O  O
 revealed  O  O
-prehistoric  B-PER  O
+prehistoric  B-PER  B-PER
 ,  O  O
-Roman  B-PER  O
+Roman  B-PER  B-PER
 and  O  O
-medieval  B-PER  O
-linear  B-CON  O
+medieval  B-PER  B-PER
+linear  B-CON  B-CON
 features  O  O
 .  O  O
 
@@ -7710,7 +7710,7 @@ survey  O  O
 was  O  O
 undertaken  O  O
 by  O  O
-Essex  B-LOC  O
+Essex  B-LOC  B-LOC
 County  O  O
 Council  O  O
 Field  O  O
@@ -7718,7 +7718,7 @@ Archaeology  O  O
 Group  O  O
 in  O  O
 August  O  O
-1996  B-PER  O
+1996  B-PER  B-PER
 .  O  O
 
 The  O  O
@@ -7731,11 +7731,11 @@ revealed  O  O
 finds  O  O
 from  O  O
 the  O  O
-prehistoric  B-PER  O
+prehistoric  B-PER  B-PER
 ,  O  O
-Roman  B-PER  O
+Roman  B-PER  B-PER
 and  O  O
-medieval  B-PER  O
+medieval  B-PER  B-PER
 periods  O  O
 .  O  O
 
@@ -7750,8 +7750,8 @@ revealed  O  O
 evidence  O  O
 from  O  O
 the  O  O
-Bronze  B-PER  O
-Age  I-PER  O
+Bronze  B-PER  B-PER
+Age  I-PER  I-PER
 up  O  O
 to  O  O
 and  O  O
@@ -7791,15 +7791,15 @@ Archaeological  O  O
 Consultants  O  O
 in  O  O
 March  O  O
-1999  B-PER  O
+1999  B-PER  B-PER
 .  O  O
 
 Ten  O  O
 trenches  O  O
 and  O  O
 42  O  O
-test  O  O
-pits  O  O
+test  O  B-CON
+pits  O  I-CON
 were  O  O
 excavated  O  O
 across  O  O
@@ -7850,13 +7850,13 @@ of  O  O
 linear  O  O
 features  O  O
 and  O  O
-pits  B-CON  O
+pits  B-CON  B-CON
 dated  O  O
 to  O  O
 the  O  O
-Late  B-PER  O
-Iron  I-PER  O
-Age  I-PER  O
+Late  B-PER  B-PER
+Iron  I-PER  I-PER
+Age  I-PER  I-PER
 .  O  O
 
 Two  O  O
@@ -7873,10 +7873,10 @@ to  O  O
 date  O  O
 from  O  O
 the  O  O
-Late  B-PER  O
-Mesolithic  I-PER  O
-or  O  O
-Neolithic  B-PER  O
+Late  B-PER  B-PER
+Mesolithic  I-PER  I-PER
+or  O  I-PER
+Neolithic  B-PER  I-PER
 periods  O  O
 were  O  O
 recorded  O  O
@@ -7890,7 +7890,7 @@ Interim  O  O
 Report  O  O
 ,  O  O
 March  O  O
-2001  B-PER  O
+2001  B-PER  B-PER
 )  O  O
 .  O  O
 
@@ -7913,24 +7913,24 @@ of  O  O
 features  O  O
 including  O  O
 a  O  O
-Romano-British  B-PER  O
-ditch  B-CON  O
+Romano-British  B-PER  B-PER
+ditch  B-CON  B-CON
 ,  O  O
 a  O  O
-Neolithic  B-PER  O
-pit  B-CON  O
+Neolithic  B-PER  B-PER
+pit  B-CON  B-CON
 alignment  O  O
 ,  O  O
 two  O  O
-Bronze  B-PER  O
-Age  I-PER  O
+Bronze  B-PER  B-PER
+Age  I-PER  I-PER
 burnt  O  O
-flint  B-ART  O
+flint  B-ART  B-ART
 mounds  O  O
 and  O  O
 a  O  O
 single  O  O
-wooden  B-MAT  O
+wooden  B-MAT  B-MAT
 tank  B-ART  O
 which  O  O
 was  O  O
@@ -7973,9 +7973,9 @@ AOC  O  O
 A  O  O
 number  O  O
 of  O  O
-Late  B-PER  O
-Bronze  I-PER  O
-Age  I-PER  O
+Late  B-PER  B-PER
+Bronze  I-PER  I-PER
+Age  I-PER  I-PER
 features  O  O
 were  O  O
 recorded  O  O
@@ -7989,9 +7989,9 @@ undateable  B-PER  O
 features  O  O
 and  O  O
 a  O  O
-post-Medieval  B-PER  O
-boundary  B-CON  O
-ditch  I-CON  O
+post-Medieval  B-PER  B-PER
+boundary  B-CON  B-CON
+ditch  I-CON  I-CON
 .  O  O
 
 Of  O  O
@@ -7999,18 +7999,18 @@ particular  O  O
 interest  O  O
 was  O  O
 a  O  O
-Late  B-PER  O
-Bronze  I-PER  O
-Age  I-PER  O
-ring  B-CON  O
-ditch  I-CON  O
+Late  B-PER  B-PER
+Bronze  I-PER  I-PER
+Age  I-PER  I-PER
+ring  B-CON  B-CON
+ditch  I-CON  I-CON
 ,  O  O
 which  O  O
 may  O  O
 have  O  O
 been  O  O
 a  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 around  O  O
 the  O  O
 base  O  O
@@ -8048,14 +8048,14 @@ three  O  O
 small  O  O
 ,  O  O
 probably  O  O
-Bronze  B-PER  O
-Age  I-PER  O
+Bronze  B-PER  B-PER
+Age  I-PER  I-PER
 ,  O  O
 burnt  O  O
-pits  B-CON  O
+pits  B-CON  B-CON
 produced  O  O
 three  O  O
-loomweights  B-ART  O
+loomweights  B-ART  B-ART
 .  O  O
 
 The  O  O
@@ -8141,7 +8141,7 @@ Samuels  O  O
 Archaeological  O  O
 Consultants  O  O
 ,  O  O
-2003  B-PER  O
+2003  B-PER  B-PER
 )  O  O
 were  O  O
 as  O  O
@@ -8239,7 +8239,7 @@ previously  O  O
 obtained  O  O
 from  O  O
 the  O  O
-London  B-LOC  O
+London  B-LOC  B-LOC
 Archaeological  O  O
 Research  O  O
 Centre  O  O
@@ -8486,7 +8486,7 @@ fill  O  O
 numbers  O  O
 and  O  O
 each  O  O
-linear  B-CON  O
+linear  B-CON  B-CON
 feature  I-CON  O
 was  O  O
 given  O  O
@@ -8659,7 +8659,7 @@ Fieldwork  O  O
 English  O  O
 Heritage  O  O
 June  O  O
-1998  B-PER  O
+1998  B-PER  B-PER
 )  O  O
 .  O  O
 
@@ -8701,7 +8701,7 @@ Projects  O  O
 English  O  O
 Heritage  O  O
 ,  O  O
-1991  B-PER  O
+1991  B-PER  B-PER
 )  O  O
 .  O  O
 
@@ -8720,7 +8720,7 @@ of  O  O
 Field  O  O
 Archaeologists  O  O
 (  O  O
-1994  B-PER  O
+1994  B-PER  B-PER
 )  O  O
 and  O  O
 Archaeological  O  O
@@ -8741,7 +8741,7 @@ London  B-LOC  O
 Region  O  O
 ,  O  O
 June  O  O
-1998  B-PER  O
+1998  B-PER  B-PER
 )  O  O
 .  O  O
 
@@ -8856,21 +8856,21 @@ of  O  O
 the  O  O
 features  O  O
 into  O  O
-Bronze  B-PER  O
-Age  I-PER  O
+Bronze  B-PER  B-PER
+Age  I-PER  I-PER
 ,  O  O
-Iron  B-PER  O
-Age  I-PER  O
+Iron  B-PER  B-PER
+Age  I-PER  I-PER
 ,  O  O
-prehistoric  B-PER  O
+prehistoric  B-PER  B-PER
 of  O  O
 unspecific  B-PER  O
 date  I-PER  O
 ,  O  O
-Roman  B-PER  O
+Roman  B-PER  B-PER
 ,  O  O
 and  O  O
-post-Medieval  B-PER  O
+post-Medieval  B-PER  B-PER
 .  O  O
 
 The  O  O
@@ -8884,10 +8884,10 @@ could  O  O
 be  O  O
 subdivided  O  O
 into  O  O
-earlier  O  O
-and  O  O
-later  O  O
-periods  O  O
+earlier  O  B-PER
+and  O  I-PER
+later  O  I-PER
+periods  O  I-PER
 with  O  O
 some  O  O
 features  O  O
@@ -8905,8 +8905,8 @@ of  O  O
 another  O  O
 .  O  O
 
-Bronze  B-PER  O
-Age  I-PER  O
+Bronze  B-PER  B-PER
+Age  I-PER  I-PER
 The  O  O
 earliest  O  O
 features  O  O
@@ -8922,16 +8922,16 @@ been  O  O
 dated  O  O
 to  O  O
 the  O  O
-Bronze  B-PER  O
-Age  I-PER  O
+Bronze  B-PER  B-PER
+Age  I-PER  I-PER
 .  O  O
 
 The  O  O
 period  O  O
 termed  O  O
 the  O  O
-Bronze  B-PER  O
-Age  I-PER  O
+Bronze  B-PER  B-PER
+Age  I-PER  I-PER
 spanned  O  O
 an  O  O
 approximate  O  O
@@ -8980,15 +8980,15 @@ echoes  O  O
 in  O  O
 the  O  O
 subsequent  O  O
-Iron  B-PER  O
-Age  I-PER  O
+Iron  B-PER  B-PER
+Age  I-PER  I-PER
 .  O  O
 
 Some  O  O
 of  O  O
 the  O  O
-pottery  B-MAT  O
-sherds  B-ART  O
+pottery  B-MAT  B-ART
+sherds  B-ART  I-ART
 were  O  O
 of  O  O
 a  O  O
@@ -9009,38 +9009,38 @@ interpretation  O  O
 to  O  O
 a  O  O
 broad  O  O
-prehistoric  B-PER  O
+prehistoric  B-PER  B-PER
 period  I-PER  O
 from  O  O
 the  O  O
-Neolithic  B-PER  O
-to  I-PER  O
-Mid  I-PER  O
-Iron  I-PER  O
-Age  I-PER  O
+Neolithic  B-PER  B-PER
+to  I-PER  I-PER
+Mid  I-PER  I-PER
+Iron  I-PER  I-PER
+Age  I-PER  I-PER
 .  O  O
 
 Such  O  O
-pottery  B-ART  O
+pottery  B-ART  B-ART
 is  O  O
 referred  O  O
 to  O  O
 below  O  O
 as  O  O
-prehistoric  B-PER  O
+prehistoric  B-PER  B-PER
 .  O  O
 
 The  O  O
-prehistoric  B-PER  O
-pottery  B-ART  O
+prehistoric  B-PER  B-PER
+pottery  B-ART  B-ART
 was  O  O
 probably  O  O
 no  O  O
 earlier  O  O
 than  O  O
 the  O  O
-Bronze  B-PER  O
-Age  I-PER  O
+Bronze  B-PER  B-PER
+Age  I-PER  I-PER
 judging  O  O
 from  O  O
 the  O  O
@@ -9052,21 +9052,21 @@ specifically  O  O
 dating  O  O
 to  O  O
 the  O  O
-earlier  O  O
-Neolithic  B-PER  O
-period  I-PER  O
+earlier  O  B-PER
+Neolithic  B-PER  I-PER
+period  I-PER  I-PER
 .  O  O
 
 The  O  O
-Bronze  B-PER  O
-Age  I-PER  O
+Bronze  B-PER  B-PER
+Age  I-PER  I-PER
 features  O  O
 consisted  O  O
 of  O  O
-linear  B-CON  O
-ditches  I-CON  O
+linear  B-CON  B-CON
+ditches  I-CON  I-CON
 ,  O  O
-pits  B-CON  O
+pits  B-CON  B-CON
 of  O  O
 varying  O  O
 sizes  O  O
@@ -9078,8 +9078,8 @@ holes  I-CON  O
 .  O  O
 
 No  O  O
-occupation  O  O
-layers  O  O
+occupation  O  B-CON
+layers  O  I-CON
 were  O  O
 identified  O  O
 but  O  O
@@ -9122,16 +9122,16 @@ features  O  O
 in  O  O
 particular  O  O
 the  O  O
-ditches  B-CON  O
+ditches  B-CON  B-CON
 .  O  O
 
 The  O  O
 presence  O  O
 of  O  O
-postholes  B-CON  O
+postholes  B-CON  B-CON
 from  O  O
 a  O  O
-structure  O  O
+structure  O  B-CON
 indicates  O  O
 the  O  O
 truncation  O  O
@@ -9156,7 +9156,7 @@ a  O  O
 few  O  O
 of  O  O
 the  O  O
-ditches  B-CON  O
+ditches  B-CON  B-CON
 .  O  O
 
 The  O  O
@@ -9171,12 +9171,12 @@ by  O  O
 a  O  O
 concentration  O  O
 of  O  O
-prehistoric  B-PER  O
-pits  B-CON  O
+prehistoric  B-PER  B-PER
+pits  B-CON  B-CON
 .  O  O
 
 Two  O  O
-pits  B-CON  O
+pits  B-CON  B-CON
 ,  O  O
 [  O  O
 774  O  O
@@ -9203,7 +9203,7 @@ contrast  O  O
 to  O  O
 the  O  O
 other  O  O
-pits  B-CON  O
+pits  B-CON  B-CON
 in  O  O
 this  O  O
 area  O  O
@@ -9309,20 +9309,20 @@ silt  O  O
 .  O  O
 
 Both  O  O
-fills  O  O
+fills  O  B-CON
 contained  O  O
 abraded  O  O
-sherds  B-ART  O
+sherds  B-ART  B-ART
 of  O  O
-Bronze  B-PER  O
-Age  I-PER  O
-Beaker  B-ART  O
-ware  O  O
-pottery  B-ART  O
+Bronze  B-PER  B-PER
+Age  I-PER  I-PER
+Beaker  B-ART  B-ART
+ware  O  I-ART
+pottery  B-ART  I-ART
 with  O  O
 fragments  O  O
 of  O  O
-pot  B-ART  O
+pot  B-ART  B-ART
 bases  O  O
 found  O  O
 in  O  O
@@ -9348,8 +9348,8 @@ perhaps  O  O
 to  O  O
 form  O  O
 a  O  O
-solid  O  O
-base  O  O
+solid  O  B-CON
+base  O  I-CON
 or  O  O
 platform  O  O
 .  O  O
@@ -9359,7 +9359,7 @@ larger  O  O
 of  O  O
 these  O  O
 two  O  O
-pits  B-CON  O
+pits  B-CON  B-CON
 [  O  O
 774  O  O
 ]  O  O
@@ -9415,19 +9415,19 @@ thick  O  O
 layer  O  O
 contained  O  O
 ten  O  O
-sherds  O  O
+sherds  O  B-ART
 of  O  O
-Middle  B-PER  O
-Bronze  I-PER  O
-Age  I-PER  O
-pottery  B-ART  O
+Middle  B-PER  B-PER
+Bronze  I-PER  I-PER
+Age  I-PER  I-PER
+pottery  B-ART  B-ART
 ,  O  O
-flint  B-ART  O
-flakes  I-ART  O
+flint  B-ART  B-MAT
+flakes  I-ART  B-ART
 and  O  O
-fire  O  O
-cracked  O  O
-flint  B-ART  O
+fire  O  B-ART
+cracked  O  I-ART
+flint  B-ART  I-ART
 .  O  O
 
 Also  O  O
@@ -9440,7 +9440,7 @@ was  O  O
 an  O  O
 unusual  O  O
 grog-tempered  O  O
-sherd  B-ART  O
+sherd  B-ART  B-ART
 comprising  O  O
 an  O  O
 everted  O  O
@@ -9473,14 +9473,14 @@ local  O  O
 parallels  O  O
 for  O  O
 this  O  O
-sherd  B-ART  O
+sherd  B-ART  B-ART
 but  O  O
 it  O  O
 may  O  O
 be  O  O
-Early  B-PER  O
-Bronze  I-PER  O
-Age  I-PER  O
+Early  B-PER  B-PER
+Bronze  I-PER  I-PER
+Age  I-PER  I-PER
 based  O  O
 on  O  O
 similarities  O  O
@@ -9489,7 +9489,7 @@ food  O  O
 vessels  B-ART  O
 from  O  O
 northern  O  O
-England  B-LOC  O
+England  B-LOC  B-LOC
 .  O  O
 
 This  O  O
@@ -9511,7 +9511,7 @@ rammed  O  O
 back  O  O
 into  O  O
 the  O  O
-pit  B-CON  O
+pit  B-CON  B-CON
 similar  O  O
 to  O  O
 fill  O  O
@@ -9519,7 +9519,7 @@ fill  O  O
 775  O  O
 ]  O  O
 of  O  O
-pit  B-CON  O
+pit  B-CON  B-CON
 [  O  O
 777  O  O
 ]  O  O
@@ -9545,11 +9545,11 @@ clayey  O  O
 silt  O  O
 with  O  O
 occasional  O  O
-charcoal  B-ART  O
-flecks  O  O
-and  O  O
-pottery  B-MAT  O
-sherds  B-ART  O
+charcoal  B-ART  B-ART
+flecks  O  B-ART
+and  O  I-ART
+pottery  B-MAT  I-ART
+sherds  B-ART  I-ART
 marked  O  O
 with  O  O
 shallow  O  O
@@ -9557,9 +9557,9 @@ lines  O  O
 ,  O  O
 possibly  O  O
 of  O  O
-Late  B-PER  O
-Bronze  I-PER  O
-Age  I-PER  O
+Late  B-PER  B-PER
+Bronze  I-PER  I-PER
+Age  I-PER  I-PER
 date  O  O
 .  O  O
 
@@ -9588,7 +9588,7 @@ silt  O  O
 containing  O  O
 a  O  O
 black  O  O
-charcoal  O  O
+charcoal  O  B-ART
 lens  O  O
 on  O  O
 the  O  O
@@ -9612,29 +9612,29 @@ with  O  O
 the  O  O
 addition  O  O
 of  O  O
-charcoal  B-ART  O
+charcoal  B-ART  B-ART
 .  O  O
 
 Several  O  O
-Early  B-PER  O
-to  I-PER  O
-Middle  I-PER  O
-Bronze  I-PER  O
-Age  I-PER  O
-pottery  B-MAT  O
-sherds  B-ART  O
+Early  B-PER  B-PER
+to  I-PER  I-PER
+Middle  I-PER  I-PER
+Bronze  I-PER  I-PER
+Age  I-PER  I-PER
+pottery  B-MAT  B-ART
+sherds  B-ART  I-ART
 including  O  O
 a  O  O
-Beaker  B-ART  O
-ware  O  O
+Beaker  B-ART  B-ART
+ware  O  I-ART
 rim  O  O
 ,  O  O
 plus  O  O
 a  O  O
-loomweight  B-ART  O
+loomweight  B-ART  B-ART
 and  O  O
 burnt  O  O
-flints  B-ART  O
+flints  B-ART  B-ART
 were  O  O
 found  O  O
 in  O  O
@@ -9645,7 +9645,7 @@ layer  O  O
 .  O  O
 
 The  O  O
-loomweight  B-ART  O
+loomweight  B-ART  B-ART
 was  O  O
 the  O  O
 only  O  O
@@ -9667,14 +9667,14 @@ F  O  O
 .  O  O
 
 Similar  O  O
-fired  O  O
-clay  B-MAT  O
-loomweights  B-ART  O
+fired  O  B-ART
+clay  B-MAT  I-ART
+loomweights  B-ART  I-ART
 were  O  O
 discovered  O  O
 in  O  O
 a  O  O
-firepit  B-CON  O
+firepit  B-CON  B-CON
 [  O  O
 528  O  O
 ]  O  O
@@ -9704,16 +9704,16 @@ in  O  O
 .  O  O
 
 A  O  O
-Later  B-PER  O
-Bronze  I-PER  O
-Age  I-PER  O
+Later  B-PER  B-PER
+Bronze  I-PER  I-PER
+Age  I-PER  I-PER
 date  O  O
 has  O  O
 been  O  O
 suggested  O  O
 for  O  O
 the  O  O
-loomweights  B-ART  O
+loomweights  B-ART  B-ART
 (  O  O
 Appendix  O  O
 F  O  O
@@ -9736,18 +9736,18 @@ backfilling  O  O
 and  O  O
 contained  O  O
 four  O  O
-sherds  B-ART  O
+sherds  B-ART  B-ART
 of  O  O
 possibly  O  O
-Late  B-PER  O
-Bronze  I-PER  O
-Age  I-PER  O
+Late  B-PER  B-PER
+Bronze  I-PER  I-PER
+Age  I-PER  I-PER
 date  O  O
 .  O  O
 
 The  O  O
 two  O  O
-pits  B-CON  O
+pits  B-CON  B-CON
 [  O  O
 777  O  O
 ]  O  O
@@ -9791,7 +9791,7 @@ fire  O  O
 debris  O  O
 evidence  O  O
 in  O  O
-pit  B-CON  O
+pit  B-CON  B-CON
 [  O  O
 774  O  O
 ]  O  O
@@ -9820,10 +9820,10 @@ different  O  O
 The  O  O
 presence  O  O
 of  O  O
-loomweights  B-ART  O
+loomweights  B-ART  B-ART
 in  O  O
 a  O  O
-firepit  B-CON  O
+firepit  B-CON  B-CON
 further  O  O
 southwest  O  O
 [  O  O
@@ -9831,11 +9831,11 @@ southwest  O  O
 ]  O  O
 and  O  O
 the  O  O
-charcoal  B-ART  O
+charcoal  B-ART  B-ART
 rich  O  O
 deposits  O  O
 and  O  O
-loomweight  B-ART  O
+loomweight  B-ART  B-ART
 in  O  O
 [  O  O
 774  O  O
@@ -9873,7 +9873,7 @@ have  O  O
 taken  O  O
 place  O  O
 in  O  O
-pits  B-CON  O
+pits  B-CON  B-CON
 [  O  O
 774  O  O
 ]  O  O
@@ -9904,7 +9904,7 @@ occasion  O  O
 
 A  O  O
 further  O  O
-pit  B-CON  O
+pit  B-CON  B-CON
 [  O  O
 893  O  O
 ]  O  O
@@ -9916,7 +9916,7 @@ to  O  O
 the  O  O
 northeast  O  O
 of  O  O
-pits  B-CON  O
+pits  B-CON  B-CON
 [  O  O
 774  O  O
 ]  O  O
@@ -9946,14 +9946,14 @@ was  O  O
 recovered  O  O
 from  O  O
 this  O  O
-pit  B-CON  O
+pit  B-CON  B-CON
 although  O  O
 the  O  O
 proximity  O  O
 to  O  O
-Bronze  B-PER  O
-Age  I-PER  O
-pits  B-CON  O
+Bronze  B-PER  B-PER
+Age  I-PER  I-PER
+pits  B-CON  B-CON
 [  O  O
 774  O  O
 ]  O  O
@@ -9971,7 +9971,7 @@ contemporary  O  O
 
 The  O  O
 other  O  O
-pits  B-CON  O
+pits  B-CON  B-CON
 in  O  O
 this  O  O
 area  O  O
@@ -9984,8 +9984,8 @@ are  O  O
 discussed  O  O
 in  O  O
 the  O  O
-Iron  B-PER  O
-Age  I-PER  O
+Iron  B-PER  B-PER
+Age  I-PER  I-PER
 section  O  O
 below  O  O
 .  O  O
@@ -9993,7 +9993,7 @@ below  O  O
 Apart  O  O
 from  O  O
 a  O  O
-post-Medieval  B-PER  O
+post-Medieval  B-PER  B-PER
 cut  O  O
 [  O  O
 954  O  O
@@ -10010,7 +10010,7 @@ to  O  O
 the  O  O
 southwest  O  O
 of  O  O
-pit  B-CON  O
+pit  B-CON  B-CON
 [  O  O
 774  O  O
 ]  O  O
@@ -10052,7 +10052,7 @@ of  O  O
 excavation  O  O
 and  O  O
 the  O  O
-prehistoric  B-PER  O
+prehistoric  B-PER  B-PER
 archaeological  O  O
 features  O  O
 .  O  O
@@ -10068,16 +10068,16 @@ features  O  O
 associated  O  O
 with  O  O
 the  O  O
-Bronze  B-PER  O
-Age  I-PER  O
-ring  B-CON  O
-ditch  I-CON  O
+Bronze  B-PER  B-PER
+Age  I-PER  I-PER
+ring  B-CON  B-CON
+ditch  I-CON  I-CON
 and  O  O
 the  O  O
 southwestern  O  O
 group  O  O
 of  O  O
-pits  B-CON  O
+pits  B-CON  B-CON
 and  O  O
 post  B-CON  O
 holes  I-CON  O
@@ -10145,15 +10145,15 @@ of  O  O
 the  O  O
 Phase  O  O
 7  O  O
-pits  B-CON  O
+pits  B-CON  B-CON
 and  O  O
 the  O  O
 ritual  O  O
 activity  O  O
 around  O  O
 the  O  O
-ring  B-CON  O
-ditch  I-CON  O
+ring  B-CON  B-CON
+ditch  I-CON  I-CON
 .  O  O
 
 A  O  O
@@ -10191,12 +10191,12 @@ diameter  O  O
 containing  O  O
 approximately  O  O
 350  O  O
-sherds  B-ART  O
+sherds  B-ART  B-ART
 of  O  O
-Late  B-PER  O
-Bronze  I-PER  O
-Age  I-PER  O
-pottery  B-ART  O
+Late  B-PER  B-PER
+Bronze  I-PER  I-PER
+Age  I-PER  I-PER
+pottery  B-ART  B-ART
 up  O  O
 to  O  O
 200mm  O  O
@@ -10207,7 +10207,7 @@ and  O  O
 of  O  O
 fire  O  O
 cracked  O  O
-flint  B-ART  O
+flint  B-ART  B-MAT
 (  O  O
 see  O  O
 Figure  O  O
@@ -10271,10 +10271,10 @@ fills  O  O
 contained  O  O
 fragments  O  O
 of  O  O
-Late  B-PER  O
-Bronze  I-PER  O
-Age  I-PER  O
-pot  B-ART  O
+Late  B-PER  B-PER
+Bronze  I-PER  I-PER
+Age  I-PER  I-PER
+pot  B-ART  B-ART
 ,  O  O
 possibly  O  O
 from  O  O
@@ -10291,7 +10291,7 @@ fill  O  O
 ]  O  O
 contained  O  O
 firecracked  O  O
-flint  B-ART  O
+flint  B-ART  B-MAT
 .  O  O
 
 The  O  O
@@ -10358,7 +10358,7 @@ clay  O  O
 Sealing  O  O
 the  O  O
 whole  O  O
-pit  B-CON  O
+pit  B-CON  B-CON
 was  O  O
 the  O  O
 tertiary  O  O
@@ -10378,7 +10378,7 @@ sandy  O  O
 silt  O  O
 with  O  O
 frequent  O  O
-charcoal  B-ART  O
+charcoal  B-ART  B-ART
 flecks  O  O
 .  O  O
 
@@ -10424,11 +10424,11 @@ the  O  O
 sides  O  O
 of  O  O
 the  O  O
-pit  B-CON  O
+pit  B-CON  B-CON
 .  O  O
 
 The  O  O
-pit  B-CON  O
+pit  B-CON  B-CON
 was  O  O
 backfilled  O  O
 with  O  O
@@ -10443,8 +10443,8 @@ least  O  O
 of  O  O
 the  O  O
 350  O  O
-pottery  B-MAT  O
-sherds  B-ART  O
+pottery  B-MAT  B-ART
+sherds  B-ART  I-ART
 being  O  O
 from  O  O
 the  O  O
@@ -10463,22 +10463,22 @@ vast  O  O
 quantity  O  O
 of  O  O
 firecracked  O  O
-flint  B-ART  O
+flint  B-ART  B-MAT
 that  O  O
 may  O  O
 have  O  O
 been  O  O
 used  O  O
 as  O  O
-pot  B-ART  O
-boilers  I-ART  O
+pot  B-ART  B-ART
+boilers  I-ART  I-ART
 .  O  O
 
 To  O  O
 hypothesise  O  O
 that  O  O
 the  O  O
-pit  B-CON  O
+pit  B-CON  B-CON
 had  O  O
 a  O  O
 ritual  O  O
@@ -10496,8 +10496,8 @@ separate  O  O
 spheres  O  O
 in  O  O
 the  O  O
-Bronze  B-PER  O
-Age  I-PER  O
+Bronze  B-PER  B-PER
+Age  I-PER  I-PER
 .  O  O
 
 It  O  O
@@ -10555,7 +10555,7 @@ continue  O  O
 
 Alternatively  O  O
 this  O  O
-pit  B-CON  O
+pit  B-CON  B-CON
 could  O  O
 have  O  O
 been  O  O
@@ -10568,7 +10568,7 @@ incident  O  O
 ,  O  O
 hence  O  O
 one  O  O
-pot  B-ART  O
+pot  B-ART  B-ART
 .  O  O
 
 To  O  O
@@ -10577,7 +10577,7 @@ more  O  O
 literal  O  O
 minded  O  O
 the  O  O
-pit  B-CON  O
+pit  B-CON  B-CON
 could  O  O
 just  O  O
 represent  O  O
@@ -10595,7 +10595,7 @@ process  O  O
 :  O  O
 the  O  O
 burnt  O  O
-flints  B-ART  O
+flints  B-ART  B-ART
 and  O  O
 broken  O  O
 cooking  B-ART  O
@@ -10616,7 +10616,7 @@ to  O  O
 the  O  O
 northeast  O  O
 of  O  O
-pit  B-CON  O
+pit  B-CON  B-CON
 [  O  O
 734  O  O
 ]  O  O
@@ -10658,9 +10658,9 @@ collected  O  O
 )  O  O
 and  O  O
 one  O  O
-prehistoric  B-PER  O
-pottery  B-MAT  O
-sherd  B-ART  O
+prehistoric  B-PER  B-PER
+pottery  B-MAT  B-ART
+sherd  B-ART  B-ART
 .  O  O
 
 These  O  O
@@ -10687,7 +10687,7 @@ layer  O  O
 next  O  O
 to  O  O
 the  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 .  O  O
 
 Although  O  O
@@ -10713,7 +10713,7 @@ and  O  O
 the  O  O
 finds  O  O
 from  O  O
-pit  B-CON  O
+pit  B-CON  B-CON
 [  O  O
 734  O  O
 ]  O  O
@@ -10793,7 +10793,7 @@ was  O  O
 .  O  O
 
 These  O  O
-postholes  B-CON  O
+postholes  B-CON  B-CON
 were  O  O
 0.30-0.40m  O  O
 wide  O  O
@@ -10886,7 +10886,7 @@ end  O  O
 .  O  O
 
 Typically  O  O
-prehistoric  B-PER  O
+prehistoric  B-PER  B-PER
 structures  O  O
 were  O  O
 rectilinear  O  O
@@ -10898,14 +10898,14 @@ plan  O  O
 
 During  O  O
 the  O  O
-Late  B-PER  O
-Bronze  I-PER  O
-Age  I-PER  O
+Late  B-PER  B-PER
+Bronze  I-PER  I-PER
+Age  I-PER  I-PER
 in  O  O
 southeast  O  O
 and  O  O
 central  O  O
-England  B-LOC  O
+England  B-LOC  B-LOC
 most  O  O
 houses  O  O
 were  O  O
@@ -10924,7 +10924,7 @@ embanked  O  O
 enclosures  O  O
 (  O  O
 Reid  O  O
-1993  B-PER  O
+1993  B-PER  B-PER
 ,  O  O
 54  O  O
 )  O  O
@@ -10993,8 +10993,8 @@ are  O  O
 known  O  O
 from  O  O
 the  O  O
-Bronze  B-PER  O
-Age  I-PER  O
+Bronze  B-PER  B-PER
+Age  I-PER  I-PER
 including  O  O
 several  O  O
 found  O  O
@@ -11002,7 +11002,7 @@ during  O  O
 recent  O  O
 excavations  O  O
 at  O  O
-Heathrow  B-LOC  O
+Heathrow  B-LOC  B-LOC
 Airport  I-LOC  O
 .  O  O
 
@@ -11017,9 +11017,9 @@ rectilinear  O  O
 structure  O  O
 from  O  O
 the  O  O
-Middle  B-PER  O
-Bronze  I-PER  O
-Age  I-PER  O
+Middle  B-PER  B-PER
+Bronze  I-PER  I-PER
+Age  I-PER  I-PER
 found  O  O
 located  O  O
 within  O  O
@@ -11049,8 +11049,8 @@ comm  O  O
 .  O  O
 
 Some  O  O
-Bronze  B-PER  O
-Age  I-PER  O
+Bronze  B-PER  B-PER
+Age  I-PER  I-PER
 round  O  O
 houses  O  O
 consisted  O  O
@@ -11073,7 +11073,7 @@ main  O  O
 weight  O  O
 of  O  O
 the  O  O
-roof  O  O
+roof  O  B-CON
 .  O  O
 
 In  O  O
@@ -11138,7 +11138,7 @@ was  O  O
 probably  O  O
 contemporary  O  O
 with  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 [  O  O
 939  O  O
 ]  O  O
@@ -11148,7 +11148,7 @@ northeast  O  O
 and  O  O
 the  O  O
 nearby  O  O
-gully  B-CON  O
+gully  B-CON  B-CON
 [  O  O
 867  O  O
 ]  O  O
@@ -11232,15 +11232,15 @@ truncation  O  O
 A  O  O
 number  O  O
 of  O  O
-prehistoric  B-PER  O
-pits  B-CON  O
+prehistoric  B-PER  B-CON
+pits  B-CON  I-CON
 were  O  O
 recorded  O  O
 over  O  O
 12m  O  O
 northeast  O  O
 of  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 [  O  O
 867  O  O
 ]  O  O
@@ -11261,7 +11261,7 @@ Two  O  O
 of  O  O
 these  O  O
 aligned  O  O
-pits  B-CON  O
+pits  B-CON  B-CON
 [  O  O
 740  O  O
 and  O  O
@@ -11270,7 +11270,7 @@ and  O  O
 and  O  O
 one  O  O
 single  O  O
-pit  B-CON  O
+pit  B-CON  B-CON
 [  O  O
 729  O  O
 ]  O  O
@@ -11298,7 +11298,7 @@ All  O  O
 were  O  O
 rounded  O  O
 shallow  O  O
-pits  B-CON  O
+pits  B-CON  B-CON
 [  O  O
 729  O  O
 ]  O  O
@@ -11330,7 +11330,7 @@ flint  B-ART  O
 greyish  O  O
 ashy  O  O
 and  O  O
-charcoal  B-ART  O
+charcoal  B-ART  B-ART
 flecked  O  O
 fills  O  O
 and  O  O
@@ -11338,50 +11338,50 @@ a  O  O
 few  O  O
 fragments  O  O
 of  O  O
-prehistoric  B-PER  O
-pottery  B-ART  O
+prehistoric  B-PER  B-PER
+pottery  B-ART  B-ART
 .  O  O
 
 In  O  O
-pit  B-CON  O
+pit  B-CON  B-CON
 [  O  O
 729  O  O
 ]  O  O
-prehistoric  B-PER  O
+prehistoric  B-PER  B-PER
 and  O  O
 carinated  O  O
-Late  B-PER  O
-Bronze  I-PER  O
-Age  I-PER  O
-sherds  B-ART  O
+Late  B-PER  B-PER
+Bronze  I-PER  I-PER
+Age  I-PER  I-PER
+sherds  B-ART  B-ART
 were  O  O
 found  O  O
 .  O  O
 
-Late  B-PER  O
-Bronze  I-PER  O
-Age  I-PER  O
+Late  B-PER  B-PER
+Bronze  I-PER  I-PER
+Age  I-PER  I-PER
 and  O  O
-Early  B-PER  O
-Iron  I-PER  O
-Age  I-PER  O
-pottery  B-MAT  O
-sherds  B-ART  O
+Early  B-PER  B-PER
+Iron  I-PER  I-PER
+Age  I-PER  I-PER
+pottery  B-MAT  B-ART
+sherds  B-ART  I-ART
 were  O  O
 amongst  O  O
 the  O  O
-prehistoric  B-PER  O
-pottery  B-ART  O
+prehistoric  B-PER  B-PER
+pottery  B-ART  B-ART
 found  O  O
 in  O  O
-pit  B-CON  O
+pit  B-CON  B-CON
 [  O  O
 740  O  O
 ]  O  O
 including  O  O
 two  O  O
 joining  O  O
-sherds  B-ART  O
+sherds  B-ART  B-ART
 from  O  O
 a  O  O
 burnished  O  O
@@ -11391,14 +11391,14 @@ seated  O  O
 to  O  O
 take  O  O
 a  O  O
-lid  O  O
+lid  O  B-ART
 .  O  O
 
 The  O  O
-pottery  B-MAT  O
-sherds  B-ART  O
+pottery  B-MAT  B-ART
+sherds  B-ART  I-ART
 in  O  O
-pit  B-CON  O
+pit  B-CON  B-CON
 [  O  O
 923  O  O
 ]  O  O
@@ -11409,8 +11409,8 @@ dated  O  O
 to  O  O
 a  O  O
 broad  O  O
-prehistoric  B-PER  O
-period  I-PER  O
+prehistoric  B-PER  B-PER
+period  I-PER  I-PER
 .  O  O
 
 The  O  O
@@ -11418,7 +11418,7 @@ term  O  O
 firepit  B-CON  O
 describes  O  O
 a  O  O
-pit  B-CON  O
+pit  B-CON  B-CON
 in  O  O
 which  O  O
 a  O  O
@@ -11460,14 +11460,14 @@ house  O  O
 structure  O  O
 and  O  O
 associated  O  O
-pit  B-CON  O
+pit  B-CON  B-CON
 and  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 .  O  O
 
 The  O  O
 other  O  O
-pits  B-CON  O
+pits  B-CON  B-CON
 [  O  O
 874  O  O
 ,  O  O
@@ -11490,12 +11490,12 @@ sandy  O  O
 silt  O  O
 fills  O  O
 containing  O  O
-charcoal  B-ART  O
-flecks  O  O
-and  O  O
-fire  O  O
-cracked  O  O
-flint  B-ART  O
+charcoal  B-ART  B-MAT
+flecks  O  B-ART
+and  O  I-ART
+fire  O  I-ART
+cracked  O  I-ART
+flint  B-ART  I-ART
 .  O  O
 
 The  O  O
@@ -11531,7 +11531,7 @@ group  O  O
 .  O  O
 
 The  O  O
-charcoal  B-ART  O
+charcoal  B-ART  B-ART
 throughout  O  O
 the  O  O
 fill  O  O
@@ -11540,9 +11540,9 @@ fill  O  O
 ]  O  O
 and  O  O
 the  O  O
-sherds  B-ART  O
-of  O  O
-pottery  B-MAT  O
+sherds  B-ART  B-ART
+of  O  I-ART
+pottery  B-MAT  I-ART
 indicate  O  O
 its  O  O
 use  O  O
@@ -11566,7 +11566,7 @@ firepits  B-CON  O
 
 The  O  O
 other  O  O
-pits  B-CON  O
+pits  B-CON  B-CON
 ranging  O  O
 from  O  O
 0.86m  O  O
@@ -11610,7 +11610,7 @@ composition  O  O
 .  O  O
 
 These  O  O
-pits  B-CON  O
+pits  B-CON  B-CON
 were  O  O
 located  O  O
 around  O  O
@@ -11670,8 +11670,8 @@ CONSERVATORY  O  O
 WATCHING  O  O
 BRIEFREPORT  O  O
 shallow  O  O
-ditch  B-CON  O
-remnants  O  O
+ditch  B-CON  B-CON
+remnants  O  I-CON
 [  O  O
 939  O  O
 ]  O  O
@@ -11686,9 +11686,9 @@ not  O  O
 clear  O  O
 whether  O  O
 the  O  O
-pits  B-CON  O
+pits  B-CON  B-CON
 and  O  O
-ditches  B-CON  O
+ditches  B-CON  B-CON
 were  O  O
 utilised  O  O
 contemporaneously  O  O
@@ -11727,7 +11727,7 @@ probably  O  O
 the  O  O
 remnants  O  O
 of  O  O
-ditches  B-CON  O
+ditches  B-CON  B-CON
 .  O  O
 
 Further  O  O
@@ -11735,7 +11735,7 @@ southeast  O  O
 were  O  O
 foundsegments  O  O
 of  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 [  O  O
 924  O  O
 ]  O  O
@@ -11767,7 +11767,7 @@ excavation  O  O
 
 All  O  O
 three  O  O
-ditches  B-CON  O
+ditches  B-CON  B-CON
 were  O  O
 filled  O  O
 with  O  O
@@ -11785,14 +11785,14 @@ sand  O  O
 Only  O  O
 a  O  O
 few  O  O
-prehistoric  B-PER  O
-pottery  B-ART  O
+prehistoric  B-PER  B-PER
+pottery  B-ART  B-ART
 fragments  O  O
 of  O  O
 possible  O  O
-Middle  B-PER  O
-Bronze  I-PER  O
-Age  I-PER  O
+Middle  B-PER  B-PER
+Bronze  I-PER  I-PER
+Age  I-PER  I-PER
 date  O  O
 were  O  O
 found  O  O
@@ -11800,7 +11800,7 @@ in  O  O
 the  O  O
 0.30m  O  O
 deep  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 [  O  O
 924  O  O
 ]  O  O
@@ -11825,7 +11825,7 @@ probably  O  O
 extent  O  O
 of  O  O
 these  O  O
-ditches  B-CON  O
+ditches  B-CON  B-CON
 had  O  O
 been  O  O
 removed  O  O
@@ -11839,7 +11839,7 @@ they  O  O
 were  O  O
 always  O  O
 intermittent  O  O
-ditches  B-CON  O
+ditches  B-CON  B-CON
 with  O  O
 deliberate  O  O
 intervals.Noevidencewas  O  O
@@ -11860,14 +11860,14 @@ hedges  O  O
 associated  O  O
 with  O  O
 the  O  O
-ditches  B-CON  O
+ditches  B-CON  B-CON
 but  O  O
 the  O  O
 spoil  O  O
 from  O  O
 excavating  O  O
 each  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 would  O  O
 presumably  O  O
 have  O  O
@@ -11891,8 +11891,8 @@ part  O  O
 of  O  O
 the  O  O
 same  O  O
-boundary  O  O
-feature  O  O
+boundary  O  B-CON
+feature  O  I-CON
 and  O  O
 [  O  O
 965  O  O
@@ -11909,7 +11909,7 @@ were  O  O
 closely  O  O
 aligned  O  O
 with  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 [  O  O
 821  O  O
 ]  O  O
@@ -11972,7 +11972,7 @@ fills  O  O
 .  O  O
 
 If  O  O
-ditches  B-CON  O
+ditches  B-CON  B-CON
 [  O  O
 924  O  O
 ]  O  O
@@ -11987,9 +11987,9 @@ and  O  O
 dated  O  O
 to  O  O
 the  O  O
-Middle  B-PER  O
-Bronze  I-PER  O
-Age  I-PER  O
+Middle  B-PER  B-PER
+Bronze  I-PER  I-PER
+Age  I-PER  I-PER
 then  O  O
 they  O  O
 may  O  O
@@ -11999,7 +11999,7 @@ contemporary  O  O
 with  O  O
 the  O  O
 surrounding  O  O
-pits  B-CON  O
+pits  B-CON  B-CON
 .  O  O
 
 Alternatively  O  O
@@ -12019,8 +12019,8 @@ utilised  O  O
 for  O  O
 fire  O  O
 and  O  O
-refuse  O  O
-pits  B-CON  O
+refuse  O  B-CON
+pits  B-CON  I-CON
 .  O  O
 
 Should  O  O
@@ -12036,7 +12036,7 @@ this  O  O
 area  O  O
 from  O  O
 one  O  O
-pit  B-CON  O
+pit  B-CON  B-CON
 to  O  O
 another  O  O
 would  O  O
@@ -12057,14 +12057,14 @@ banks  O  O
 
 The  O  O
 remaining  O  O
-Bronze  B-PER  O
-Age  I-PER  O
+Bronze  B-PER  B-PER
+Age  I-PER  I-PER
 features  O  O
 consisted  O  O
 of  O  O
 three  O  O
 parallel  O  O
-ditches  B-CON  O
+ditches  B-CON  B-CON
 .  O  O
 
 Two  O  O
@@ -12100,7 +12100,7 @@ to  O  O
 both  O  O
 .  O  O
 
-Ditch  B-CON  O
+Ditch  B-CON  B-CON
 [  O  O
 815  O  O
 ]  O  O
@@ -12143,13 +12143,13 @@ of  O  O
 the  O  O
 14m  O  O
 long  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 [  O  O
 823  O  O
 ]  O  O
 .  O  O
 
-Ditch  B-CON  O
+Ditch  B-CON  B-CON
 [  O  O
 816  O  O
 ]  O  O
@@ -12173,7 +12173,7 @@ superseded  O  O
 by  O  O
 a  O  O
 later  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 [  O  O
 817  O  O
 ]  O  O
@@ -12183,7 +12183,7 @@ No  O  O
 part  O  O
 of  O  O
 this  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 was  O  O
 found  O  O
 beyond  O  O
@@ -12234,13 +12234,13 @@ of  O  O
 ]  O  O
 contained  O  O
 several  O  O
-sherds  B-ART  O
+sherds  B-ART  B-ART
 from  O  O
 the  O  O
 same  O  O
-Late  B-PER  O
-Bronze  I-PER  O
-Age  I-PER  O
+Late  B-PER  B-PER
+Bronze  I-PER  I-PER
+Age  I-PER  I-PER
 round  O  O
 shoulder  O  O
 jar  B-ART  O
@@ -12248,9 +12248,9 @@ jar  B-ART  O
 
 Only  O  O
 two  O  O
-prehistoric  B-PER  O
-pottery  B-MAT  O
-sherds  B-ART  O
+prehistoric  B-PER  B-PER
+pottery  B-MAT  B-ART
+sherds  B-ART  I-ART
 were  O  O
 recovered  O  O
 from  O  O
@@ -12258,7 +12258,7 @@ the  O  O
 rest  O  O
 of  O  O
 the  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 and  O  O
 none  O  O
 from  O  O
@@ -12271,7 +12271,7 @@ The  O  O
 other  O  O
 two  O  O
 shallower  O  O
-ditches  B-CON  O
+ditches  B-CON  B-CON
 ,  O  O
 0.20m  O  O
 and  O  O
@@ -12300,16 +12300,16 @@ ceramic  B-ART  O
 building  I-ART  O
 material  I-ART  O
 either  O  O
-Roman  B-PER  O
-or  O  O
-post-Medieval  B-PER  O
+Roman  B-PER  B-PER
+or  O  I-PER
+post-Medieval  B-PER  I-PER
 in  O  O
 date  O  O
 .  O  O
 
 The  O  O
-pottery  B-ART  O
-deposition  O  O
+pottery  B-ART  B-CON
+deposition  O  I-CON
 in  O  O
 these  O  O
 related  O  O
@@ -12335,7 +12335,7 @@ interpretation  O  O
 of  O  O
 these  O  O
 parallel  O  O
-ditches  B-CON  O
+ditches  B-CON  B-CON
 is  O  O
 a  O  O
 droveway  O  O
@@ -12345,7 +12345,7 @@ gaps  O  O
 between  O  O
 the  O  O
 northwest  O  O
-ditches  B-CON  O
+ditches  B-CON  B-CON
 marking  O  O
 entrances  O  O
 to  O  O
@@ -12359,7 +12359,7 @@ excavated  O  O
 to  O  O
 create  O  O
 the  O  O
-ditches  B-CON  O
+ditches  B-CON  B-CON
 would  O  O
 have  O  O
 provided  O  O
@@ -12377,7 +12377,7 @@ it  O  O
 Alternatively  O  O
 the  O  O
 broken  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 -  O  O
 -  O  O
 -  O  O
@@ -12428,8 +12428,8 @@ very  O  O
 shallow  O  O
 northeast-southwest  O  O
 aligned  O  O
-linear  B-CON  O
-feature  O  O
+linear  B-CON  B-CON
+feature  O  I-CON
 [  O  O
 859  O  O
 ]  O  O
@@ -12438,7 +12438,7 @@ the  O  O
 remains  O  O
 of  O  O
 another  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 .  O  O
 
 Few  O  O
@@ -12456,8 +12456,8 @@ post  B-CON  O
 holes  I-CON  O
 and  O  O
 a  O  O
-small  O  O
-pit  B-CON  O
+small  O  B-CON
+pit  B-CON  I-CON
 [  O  O
 760  O  O
 ,  O  O
@@ -12472,8 +12472,8 @@ in  O  O
 this  O  O
 area  O  O
 with  O  O
-prehistoric  B-PER  O
-pottery  B-ART  O
+prehistoric  B-PER  B-PER
+pottery  B-ART  B-ART
 being  O  O
 found  O  O
 in  O  O
@@ -12482,7 +12482,7 @@ fills  O  O
 of  O  O
 the  O  O
 small  O  O
-pit  B-CON  O
+pit  B-CON  B-CON
 [  O  O
 758  O  O
 ]  O  O
@@ -12495,8 +12495,8 @@ hole  I-CON  O
 .  O  O
 
 A  O  O
-flint  B-MAT  O
-flake  B-ART  O
+flint  B-MAT  B-MAT
+flake  B-ART  B-ART
 and  O  O
 fire  O  O
 cracked  O  O
@@ -12562,8 +12562,8 @@ hole  I-CON  O
 
 The  O  O
 original  O  O
-post  B-CON  O
-hole  I-CON  O
+post  B-CON  B-CON
+hole  I-CON  I-CON
 [  O  O
 861  O  O
 ]  O  O
@@ -12629,12 +12629,12 @@ clayey  O  O
 silt  O  O
 with  O  O
 occasional  O  O
-charcoal  B-ART  O
+charcoal  B-ART  B-ART
 flecks  O  O
 surrounded  O  O
 by  O  O
-flint  O  O
-stone  O  O
+flint  O  B-MAT
+stone  O  B-ART
 packing  O  O
 ranging  O  O
 from  O  O
@@ -12659,8 +12659,8 @@ post  B-CON  O
 hole  I-CON  O
 in  O  O
 the  O  O
-prehistoric  B-PER  O
-period  I-PER  O
+prehistoric  B-PER  B-PER
+period  I-PER  I-PER
 and  O  O
 the  O  O
 more  O  O
@@ -12670,7 +12670,7 @@ of  O  O
 the  O  O
 later  O  O
 post  B-CON  O
-hole  I-CON  O
+hole  I-CON  B-CON
 indicates  O  O
 the  O  O
 post  O  O
@@ -12725,7 +12725,7 @@ wide  O  O
 
 This  O  O
 post  B-CON  O
-hole  I-CON  O
+hole  I-CON  B-CON
 could  O  O
 have  O  O
 been  O  O
@@ -12758,7 +12758,7 @@ and  O  O
 perhaps  O  O
 the  O  O
 small  O  O
-pit  B-CON  O
+pit  B-CON  B-CON
 was  O  O
 the  O  O
 remains  O  O
@@ -12789,7 +12789,7 @@ The  O  O
 third  O  O
 group  O  O
 of  O  O
-pits  B-CON  O
+pits  B-CON  B-CON
 was  O  O
 found  O  O
 southeast  O  O
@@ -12811,7 +12811,7 @@ group  O  O
 six  O  O
 were  O  O
 shallow  O  O
-pits  B-CON  O
+pits  B-CON  B-CON
 ,  O  O
 most  O  O
 with  O  O
@@ -12876,11 +12876,11 @@ Only  O  O
 two  O  O
 of  O  O
 these  O  O
-pits  B-CON  O
+pits  B-CON  B-CON
 contained  O  O
-prehistoric  B-PER  O
-pottery  B-MAT  O
-sherds  B-ART  O
+prehistoric  B-PER  B-PER
+pottery  B-MAT  B-ART
+sherds  B-ART  I-ART
 [  O  O
 766  O  O
 ]  O  O
@@ -12888,7 +12888,7 @@ and  O  O
 the  O  O
 more  O  O
 substantial  O  O
-pit  B-CON  O
+pit  B-CON  B-CON
 [  O  O
 770  O  O
 ]  O  O
@@ -12897,10 +12897,10 @@ pit  B-CON  O
 Of  O  O
 the  O  O
 several  O  O
-prehistoric  B-PER  O
-sherds  B-ART  O
+prehistoric  B-PER  B-PER
+sherds  B-ART  B-ART
 in  O  O
-pit  B-CON  O
+pit  B-CON  B-CON
 [  O  O
 770  O  O
 ]  O  O
@@ -12910,25 +12910,25 @@ have  O  O
 dated  O  O
 to  O  O
 the  O  O
-Late  B-PER  O
-Bronze  I-PER  O
-Age  I-PER  O
+Late  B-PER  B-PER
+Bronze  I-PER  I-PER
+Age  I-PER  I-PER
 and  O  O
 another  O  O
 decorated  O  O
-sherd  B-ART  O
+sherd  B-ART  B-ART
 was  O  O
 probably  O  O
 from  O  O
 the  O  O
-Early  B-PER  O
-Iron  I-PER  O
-Age  I-PER  O
+Early  B-PER  B-PER
+Iron  I-PER  I-PER
+Age  I-PER  I-PER
 .  O  O
 
 A  O  O
-flint  B-MAT  O
-scraper  B-ART  O
+flint  B-MAT  B-MAT
+scraper  B-ART  B-ART
 was  O  O
 also  O  O
 found  O  O
@@ -12936,7 +12936,7 @@ within  O  O
 the  O  O
 fill  O  O
 of  O  O
-pit  B-CON  O
+pit  B-CON  B-CON
 [  O  O
 770  O  O
 ]  O  O
@@ -12944,14 +12944,14 @@ pit  B-CON  O
 
 Although  O  O
 these  O  O
-pits  B-CON  O
+pits  B-CON  B-CON
 are  O  O
 discussed  O  O
 here  O  O
 under  O  O
 the  O  O
-Iron  B-PER  O
-Age  I-PER  O
+Iron  B-PER  B-PER
+Age  I-PER  I-PER
 section  O  O
 it  O  O
 is  O  O
@@ -12961,17 +12961,17 @@ they  O  O
 were  O  O
 in  O  O
 fact  O  O
-Late  B-PER  O
-Bronze  I-PER  O
-Age  I-PER  O
+Late  B-PER  B-PER
+Bronze  I-PER  I-PER
+Age  I-PER  I-PER
 and  O  O
 therefore  O  O
 associated  O  O
 with  O  O
 the  O  O
-Bronze  B-PER  O
-Age  I-PER  O
-pits  B-CON  O
+Bronze  B-PER  B-PER
+Age  I-PER  I-PER
+pits  B-CON  B-CON
 [  O  O
 774  O  O
 ,  O  O
@@ -13037,8 +13037,8 @@ consisted  O  O
 of  O  O
 one  O  O
 elongated  O  O
-oval  O  O
-pit  B-CON  O
+oval  O  B-CON
+pit  B-CON  I-CON
 [  O  O
 944  O  O
 ]  O  O
@@ -13063,7 +13063,7 @@ scatter  O  O
 .  O  O
 
 The  O  O
-pit  B-CON  O
+pit  B-CON  B-CON
 [  O  O
 944  O  O
 ]  O  O
@@ -13099,16 +13099,16 @@ of  O  O
 944  O  O
 ]  O  O
 were  O  O
-charcoal  B-ART  O
-flecks  O  O
-and  O  O
-pottery  B-MAT  O
-sherds  B-ART  O
+charcoal  B-ART  B-MAT
+flecks  O  B-ART
+and  O  I-ART
+pottery  B-MAT  I-ART
+sherds  B-ART  I-ART
 possibly  O  O
 of  O  O
-Early  B-PER  O
-Iron  I-PER  O
-Age  I-PER  O
+Early  B-PER  B-PER
+Iron  I-PER  I-PER
+Age  I-PER  I-PER
 date  O  O
 .  O  O
 
@@ -13143,7 +13143,7 @@ from  O  O
 the  O  O
 presence  O  O
 of  O  O
-charcoal  B-ART  O
+charcoal  B-ART  B-ART
 in  O  O
 the  O  O
 fills  O  O
@@ -13159,8 +13159,8 @@ the  O  O
 post  B-CON  O
 holes  I-CON  O
 were  O  O
-Iron  B-PER  O
-Age  I-PER  O
+Iron  B-PER  B-PER
+Age  I-PER  I-PER
 based  O  O
 on  O  O
 the  O  O
@@ -13171,8 +13171,8 @@ fills  O  O
 to  O  O
 the  O  O
 other  O  O
-Iron  B-PER  O
-Age  I-PER  O
+Iron  B-PER  B-PER
+Age  I-PER  I-PER
 features  O  O
 in  O  O
 this  O  O
@@ -13185,8 +13185,8 @@ and  O  O
 that  O  O
 of  O  O
 the  O  O
-linear  O  O
-pit  B-CON  O
+linear  O  B-CON
+pit  B-CON  I-CON
 was  O  O
 not  O  O
 clear  O  O
@@ -13203,7 +13203,7 @@ structure  O  O
 with  O  O
 a  O  O
 nearby  O  O
-pit  B-CON  O
+pit  B-CON  B-CON
 .  O  O
 
 Cutting  O  O
@@ -13220,7 +13220,7 @@ the  O  O
 strip  O  O
 were  O  O
 two  O  O
-ditches  B-CON  O
+ditches  B-CON  B-CON
 [  O  O
 822  O  O
 ]  O  O
@@ -13238,7 +13238,7 @@ two  O  O
 was  O  O
 a  O  O
 curvilinear  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 [  O  O
 822  O  O
 ]  O  O
@@ -13366,7 +13366,7 @@ plan  O  O
 suggests  O  O
 that  O  O
 the  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 was  O  O
 constructed  O  O
 to  O  O
@@ -13415,10 +13415,10 @@ the  O  O
 alignment  O  O
 of  O  O
 the  O  O
-Middle  B-PER  O
-Bronze  I-PER  O
-Age  I-PER  O
-ditch  B-CON  O
+Middle  B-PER  B-PER
+Bronze  I-PER  I-PER
+Age  I-PER  I-PER
+ditch  B-CON  B-CON
 [  O  O
 939/924  O  O
 ]  O  O
@@ -13430,7 +13430,7 @@ no  O  O
 evidence  O  O
 of  O  O
 that  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 survived  O  O
 perhaps  O  O
 because  O  O
@@ -13445,7 +13445,7 @@ that  O  O
 point  O  O
 .  O  O
 
-Ditch  B-CON  O
+Ditch  B-CON  B-CON
 [  O  O
 822  O  O
 ]  O  O
@@ -13462,14 +13462,14 @@ interfering  O  O
 with  O  O
 the  O  O
 earlier  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 .  O  O
 
 The  O  O
 southwest  O  O
 end  O  O
 of  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 [  O  O
 822  O  O
 ]  O  O
@@ -13480,7 +13480,7 @@ northwest  O  O
 to  O  O
 southeast  O  O
 aligned  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 [  O  O
 821  O  O
 ]  O  O
@@ -13492,7 +13492,7 @@ junction  O  O
 of  O  O
 these  O  O
 two  O  O
-ditches  B-CON  O
+ditches  B-CON  B-CON
 the  O  O
 fills  O  O
 of  O  O
@@ -13516,23 +13516,23 @@ relationship  O  O
 of  O  O
 the  O  O
 two  O  O
-ditches  B-CON  O
+ditches  B-CON  B-CON
 .  O  O
 
 The  O  O
 few  O  O
 finds  O  O
 in  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 [  O  O
 822  O  O
 ]  O  O
 dated  O  O
 to  O  O
 the  O  O
-Early  B-PER  O
-Iron  I-PER  O
-Age  I-PER  O
+Early  B-PER  B-PER
+Iron  I-PER  I-PER
+Age  I-PER  I-PER
 and  O  O
 the  O  O
 latest  O  O
@@ -13542,7 +13542,7 @@ from  O  O
 821  O  O
 ]  O  O
 were  O  O
-Romano-British  B-PER  O
+Romano-British  B-PER  B-PER
 .  O  O
 
 Judging  O  O
@@ -13581,7 +13581,7 @@ of  O  O
 ]  O  O
 was  O  O
 another  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 [  O  O
 866  O  O
 ]  O  O
@@ -13610,7 +13610,7 @@ the  O  O
 fills  O  O
 .  O  O
 
-Ditch  B-CON  O
+Ditch  B-CON  B-CON
 [  O  O
 866  O  O
 ]  O  O
@@ -13697,8 +13697,8 @@ the  O  O
 southwest  O  O
 by  O  O
 a  O  O
-post-Medieval  B-PER  O
-ditch  B-CON  O
+post-Medieval  B-PER  B-PER
+ditch  B-CON  B-CON
 [  O  O
 705  O  O
 ]  O  O
@@ -13709,7 +13709,7 @@ heavy  O  O
 truncation  O  O
 of  O  O
 this  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 combined  O  O
 with  O  O
 the  O  O
@@ -13727,7 +13727,7 @@ of  O  O
 it  O  O
 as  O  O
 a  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 or  O  O
 gully  B-CON  O
 connected  O  O
@@ -13747,15 +13747,15 @@ feature  O  O
 
 These  O  O
 two  O  O
-ditches  B-CON  O
+ditches  B-CON  B-CON
 would  O  O
 therefore  O  O
 appear  O  O
 to  O  O
 be  O  O
-Early  B-PER  O
-Iron  I-PER  O
-Age  I-PER  O
+Early  B-PER  B-PER
+Iron  I-PER  I-PER
+Age  I-PER  I-PER
 although  O  O
 they  O  O
 could  O  O
@@ -13787,7 +13787,7 @@ evidence  O  O
 Alternatively  O  O
 the  O  O
 later  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 may  O  O
 have  O  O
 been  O  O
@@ -13804,16 +13804,16 @@ boundaries  O  O
 A  O  O
 fragment  O  O
 of  O  O
-ceramic  B-ART  O
-building  I-ART  O
-material  I-ART  O
+ceramic  B-ART  B-ART
+building  I-ART  I-ART
+material  I-ART  I-ART
 and  O  O
 part  O  O
 of  O  O
 a  O  O
-clay  B-MAT  O
-tobacco  B-ART  O
-pipe  I-ART  O
+clay  B-MAT  B-MAT
+tobacco  B-ART  B-ART
+pipe  I-ART  I-ART
 stem  O  O
 found  O  O
 in  O  O
@@ -13855,8 +13855,8 @@ of  O  O
 ]  O  O
 was  O  O
 another  O  O
-linear  B-CON  O
-ditch  I-CON  O
+linear  B-CON  B-CON
+ditch  I-CON  I-CON
 [  O  O
 907  O  O
 ]  O  O
@@ -13890,7 +13890,7 @@ northeast  O  O
 terminal  O  O
 was  O  O
 another  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 [  O  O
 877  O  O
 ]  O  O
@@ -13913,7 +13913,7 @@ very  O  O
 base  O  O
 of  O  O
 the  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 survived  O  O
 .  O  O
 
@@ -13941,7 +13941,7 @@ safety  O  O
 restrictions  O  O
 .  O  O
 
-Ditch  B-CON  O
+Ditch  B-CON  B-CON
 [  O  O
 877  O  O
 ]  O  O
@@ -14012,7 +14012,7 @@ was  O  O
 found  O  O
 in  O  O
 either  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 but  O  O
 due  O  O
 to  O  O
@@ -14020,7 +14020,7 @@ their  O  O
 location  O  O
 parallel  O  O
 to  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 [  O  O
 822  O  O
 ]  O  O
@@ -14031,8 +14031,8 @@ part  O  O
 of  O  O
 the  O  O
 same  O  O
-Iron  B-PER  O
-Age  I-PER  O
+Iron  B-PER  B-PER
+Age  I-PER  I-PER
 field  B-CON  O
 system  I-CON  O
 .  O  O
@@ -14060,12 +14060,12 @@ fills  O  O
 similar  O  O
 to  O  O
 other  O  O
-prehistoric  B-PER  O
+prehistoric  B-PER  B-PER
 features  O  O
 and  O  O
 two  O  O
 contained  O  O
-prehistoric  B-PER  O
+prehistoric  B-PER  B-PER
 finds  O  O
 that  O  O
 could  O  O
@@ -14111,14 +14111,14 @@ features  O  O
 WATCHING  O  O
 BRIEFREPORT  O  O
 Age  O  O
-field  O  O
-system  O  O
+field  O  B-CON
+system  O  I-CON
 or  O  O
 associated  O  O
 with  O  O
 the  O  O
-Bronze  B-PER  O
-Age  I-PER  O
+Bronze  B-PER  B-PER
+Age  I-PER  I-PER
 activity  O  O
 but  O  O
 it  O  O
@@ -14148,8 +14148,8 @@ the  O  O
 northeast  O  O
 side  O  O
 of  O  O
-Roman  B-PER  O
-ditch  B-CON  O
+Roman  B-PER  B-PER
+ditch  B-CON  B-CON
 [  O  O
 821  O  O
 ]  O  O
@@ -14183,12 +14183,12 @@ relationship  O  O
 between  O  O
 the  O  O
 two  O  O
-ditches  B-CON  O
+ditches  B-CON  B-CON
 .  O  O
 
 However  O  O
 the  O  O
-gully  B-CON  O
+gully  B-CON  B-CON
 [  O  O
 912  O  O
 ]  O  O
@@ -14207,7 +14207,7 @@ shallower  O  O
 than  O  O
 the  O  O
 larger  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 [  O  O
 821  O  O
 ]  O  O
@@ -14215,13 +14215,13 @@ and  O  O
 the  O  O
 finds  O  O
 (  O  O
-prehistoric  B-PER  O
-pottery  B-MAT  O
-sherds  B-ART  O
+prehistoric  B-PER  B-PER
+pottery  B-MAT  B-ART
+sherds  B-ART  I-ART
 and  O  O
 a  O  O
-flint  B-MAT  O
-flake  B-ART  O
+flint  B-MAT  B-MAT
+flake  B-ART  B-ART
 )  O  O
 predated  O  O
 many  O  O
@@ -14229,7 +14229,7 @@ of  O  O
 those  O  O
 recovered  O  O
 from  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 [  O  O
 821  O  O
 ]  O  O
@@ -14237,7 +14237,7 @@ ditch  B-CON  O
 
 Parallel  O  O
 to  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 [  O  O
 912  O  O
 ]  O  O
@@ -14248,8 +14248,8 @@ side  O  O
 was  O  O
 a  O  O
 further  O  O
-prehistoric  B-PER  O
-ditch  B-CON  O
+prehistoric  B-PER  B-PER
+ditch  B-CON  B-CON
 [  O  O
 819  O  O
 ]  O  O
@@ -14329,17 +14329,17 @@ that  O  O
 area  O  O
 .  O  O
 
-Prehistoric  B-PER  O
-pottery  B-MAT  O
-sherds  B-ART  O
+Prehistoric  B-PER  B-PER
+pottery  B-MAT  B-ART
+sherds  B-ART  I-ART
 ,  O  O
-fire  O  O
-cracked  O  O
-flint  B-ART  O
+fire  O  B-ART
+cracked  O  I-ART
+flint  B-ART  I-ART
 and  O  O
 a  O  O
-flint  B-MAT  O
-flake  B-ART  O
+flint  B-MAT  B-MAT
+flake  B-ART  B-ART
 were  O  O
 recovered  O  O
 from  O  O
@@ -14364,8 +14364,8 @@ dated  O  O
 to  O  O
 a  O  O
 specific  O  O
-prehistoric  B-PER  O
-period  I-PER  O
+prehistoric  B-PER  B-PER
+period  I-PER  I-PER
 .  O  O
 
 A  O  O
@@ -14381,7 +14381,7 @@ the  O  O
 northwest-southeast  O  O
 part  O  O
 of  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 [  O  O
 819  O  O
 ]  O  O
@@ -14408,7 +14408,7 @@ much  O  O
 higher  O  O
 than  O  O
 the  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 it  O  O
 might  O  O
 have  O  O
@@ -14417,7 +14417,7 @@ into  O  O
 the  O  O
 top  O  O
 of  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 when  O  O
 the  O  O
 full  O  O
@@ -14432,7 +14432,7 @@ It  O  O
 was  O  O
 possible  O  O
 this  O  O
-gully  B-CON  O
+gully  B-CON  B-CON
 was  O  O
 not  O  O
 purposefully  O  O
@@ -14472,9 +14472,9 @@ of  O  O
 finds  O  O
 .  O  O
 
-Roman  B-PER  O
+Roman  B-PER  B-PER
 Although  O  O
-Roman  B-PER  O
+Roman  B-PER  B-PER
 finds  O  O
 and  O  O
 features  O  O
@@ -14487,7 +14487,7 @@ work  O  O
 Newham  B-LOC  O
 Museum  O  O
 Service  O  O
-1995  B-PER  O
+1995  B-PER  B-PER
 )  O  O
 at  O  O
 the  O  O
@@ -14511,7 +14511,7 @@ work  O  O
 ?  O  O
 )  O  O
 
-Roman  B-PER  O
+Roman  B-PER  B-PER
 activity  O  O
 was  O  O
 during  O  O
@@ -14524,7 +14524,7 @@ work  O  O
 .  O  O
 
 The  O  O
-Romano-British  B-PER  O
+Romano-British  B-PER  B-PER
 f  O  O
 Formatted  O  O
 :  O  O
@@ -14550,7 +14550,7 @@ sparse  O  O
 to  O  O
 define  O  O
 the  O  O
-Roman  B-PER  O
+Roman  B-PER  B-PER
 activity  O  O
 to  O  O
 a  O  O
@@ -14558,8 +14558,8 @@ specific  O  O
 era  O  O
 though  O  O
 a  O  O
-middle  B-PER  O
-period  I-PER  O
+middle  B-PER  B-PER
+period  I-PER  I-PER
 date  O  O
 is  O  O
 estimated  O  O
@@ -14569,7 +14569,7 @@ building  B-ART  O
 material  I-ART  O
 from  O  O
 one  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 .  O  O
 
 Crossing  O  O
@@ -14599,8 +14599,8 @@ was  O  O
 a  O  O
 215m  O  O
 long  O  O
-linear  B-CON  O
-ditch  I-CON  O
+linear  B-CON  B-CON
+ditch  I-CON  I-CON
 [  O  O
 821  O  O
 ]  O  O
@@ -14688,7 +14688,7 @@ the  O  O
 centre  O  O
 of  O  O
 the  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 .  O  O
 
 The  O  O
@@ -14716,7 +14716,7 @@ activity  O  O
 .  O  O
 
 One  O  O
-recut  O  O
+recut  O  B-ART
 [  O  O
 846  O  O
 ]  O  O
@@ -14728,7 +14728,7 @@ section  O  O
 excavated  O  O
 across  O  O
 the  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 just  O  O
 northwest  O  O
 of  O  O
@@ -14759,7 +14759,7 @@ to  O  O
 most  O  O
 of  O  O
 the  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 .  O  O
 
 It  O  O
@@ -14809,7 +14809,7 @@ of  O  O
 cutting  O  O
 the  O  O
 original  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 .  O  O
 
 The  O  O
@@ -14821,7 +14821,7 @@ located  O  O
 fairly  O  O
 close  O  O
 to  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 [  O  O
 817  O  O
 ]  O  O
@@ -14846,16 +14846,16 @@ a  O  O
 large  O  O
 concentration  O  O
 of  O  O
-Middle  B-PER  O
-Bronze  I-PER  O
-Age  I-PER  O
-pottery  B-ART  O
-sherds  O  O
+Middle  B-PER  B-PER
+Bronze  I-PER  I-PER
+Age  I-PER  I-PER
+pottery  B-ART  B-ART
+sherds  O  I-ART
 probably  O  O
 from  O  O
 the  O  O
 same  O  O
-pot  B-ART  O
+pot  B-ART  B-ART
 or  O  O
 pots  B-ART  O
 of  O  O
@@ -14879,7 +14879,7 @@ found  O  O
 small  O  O
 fragments  O  O
 of  O  O
-Roman  B-PER  O
+Roman  B-PER  B-PER
 colour  O  O
 coat  O  O
 ware  B-ART  O
@@ -14887,7 +14887,7 @@ ware  B-ART  O
 
 If  O  O
 the  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 were  O  O
 dated  O  O
 to  O  O
@@ -14915,9 +14915,9 @@ orientation  O  O
 .  O  O
 
 The  O  O
-Bronze  B-PER  O
-Age  I-PER  O
-pottery  B-ART  O
+Bronze  B-PER  B-PER
+Age  I-PER  I-PER
+pottery  B-ART  B-ART
 would  O  O
 therefore  O  O
 be  O  O
@@ -14926,17 +14926,17 @@ residual  O  O
 
 Alternatively  O  O
 the  O  O
-Roman  B-PER  O
-pottery  B-ART  O
-sherds  B-ART  O
+Roman  B-PER  B-PER
+pottery  B-ART  B-ART
+sherds  B-ART  I-ART
 were  O  O
 deposited  O  O
 in  O  O
 an  O  O
-earlier  O  O
-Bronze  B-PER  O
-Age  I-PER  O
-ditch  B-CON  O
+earlier  O  B-PER
+Bronze  B-PER  I-PER
+Age  I-PER  I-PER
+ditch  B-CON  B-CON
 through  O  O
 animal  B-SPE  O
 burrowing  O  O
@@ -14961,16 +14961,16 @@ feasible  O  O
 .  O  O
 
 Both  O  O
-Roman  B-PER  O
-ditches  B-CON  O
+Roman  B-PER  B-PER
+ditches  B-CON  B-CON
 therefore  O  O
 contained  O  O
-sherds  B-ART  O
+sherds  B-ART  B-ART
 of  O  O
-Middle  B-PER  O
-Bronze  I-PER  O
-Age  I-PER  O
-pottery  B-ART  O
+Middle  B-PER  B-PER
+Bronze  I-PER  I-PER
+Age  I-PER  I-PER
+pottery  B-ART  B-ART
 perhaps  O  O
 because  O  O
 the  O  O
@@ -14984,7 +14984,7 @@ widely  O  O
 spread  O  O
 during  O  O
 the  O  O
-Roman  B-PER  O
+Roman  B-PER  B-PER
 times  O  O
 than  O  O
 it  O  O
@@ -15004,16 +15004,16 @@ agricultural  O  O
 environment  O  O
 of  O  O
 the  O  O
-Bronze  B-PER  O
-Age  I-PER  O
+Bronze  B-PER  B-PER
+Age  I-PER  I-PER
 .  O  O
 
 WATCHING  O  O
 BRIEFREPORT  O  O
-Post  B-PER  O
-Medieval  I-PER  O
+Post  B-PER  B-PER
+Medieval  I-PER  I-PER
 Two  O  O
-ditches  B-CON  O
+ditches  B-CON  B-CON
 [  O  O
 705  O  O
 and  O  O
@@ -15029,7 +15029,7 @@ hole  I-CON  O
 were  O  O
 dated  O  O
 as  O  O
-post-Medieval  B-PER  O
+post-Medieval  B-PER  B-PER
 on  O  O
 the  O  O
 basis  O  O
@@ -15042,7 +15042,7 @@ the  O  O
 fills  O  O
 .  O  O
 
-Ditch  B-CON  O
+Ditch  B-CON  B-CON
 [  O  O
 705  O  O
 ]  O  O
@@ -15065,7 +15065,7 @@ northwest  O  O
 to  O  O
 southeast  O  O
 truncating  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 [  O  O
 866  O  O
 ]  O  O
@@ -15088,7 +15088,7 @@ of  O  O
 excavation  O  O
 .  O  O
 
-Ditch  B-CON  O
+Ditch  B-CON  B-CON
 [  O  O
 748  O  O
 ]  O  O
@@ -15128,7 +15128,7 @@ probably  O  O
 all  O  O
 field  O  O
 boundary  O  O
-ditches  B-CON  O
+ditches  B-CON  B-CON
 .  O  O
 
 The  O  O
@@ -15155,7 +15155,7 @@ A  O  O
 consolidated  O  O
 spread  O  O
 of  O  O
-post-Medieval  B-PER  O
+post-Medieval  B-PER  B-PER
 debris  O  O
 [  O  O
 712  O  O
@@ -15180,23 +15180,23 @@ subsoil  O  O
 ]  O  O
 confirming  O  O
 a  O  O
-post-Medieval  B-PER  O
+post-Medieval  B-PER  B-PER
 date  O  O
 for  O  O
 the  O  O
 topsoil  O  O
 .  O  O
 
-Post-Medieval  B-PER  O
+Post-Medieval  B-PER  B-PER
 and  O  O
-prehistoric  B-PER  O
+prehistoric  B-PER  B-PER
 finds  O  O
 including  O  O
-Early  B-PER  O
-Iron  I-PER  O
-Age  I-PER  O
-pottery  B-MAT  O
-sherds  B-ART  O
+Early  B-PER  B-PER
+Iron  I-PER  I-PER
+Age  I-PER  I-PER
+pottery  B-MAT  B-ART
+sherds  B-ART  I-ART
 were  O  O
 recovered  O  O
 from  O  O
@@ -15254,7 +15254,7 @@ and  O  O
 These  O  O
 were  O  O
 probably  O  O
-tree  B-CON  O
+tree  B-CON  B-SPE
 throws  I-CON  O
 or  O  O
 solution  O  O
@@ -15281,10 +15281,10 @@ this  O  O
 area  O  O
 .  O  O
 
-Residual  O  O
-prehistoric  B-PER  O
-pottery  B-ART  O
-sherds  B-ART  O
+Residual  O  B-ART
+prehistoric  B-PER  I-ART
+pottery  B-ART  I-ART
+sherds  B-ART  I-ART
 were  O  O
 found  O  O
 in  O  O
@@ -15333,8 +15333,8 @@ the  O  O
 remnant  O  O
 of  O  O
 another  O  O
-post-Medieval  B-PER  O
-tree-throw-hole  B-CON  O
+post-Medieval  B-PER  B-PER
+tree-throw-hole  B-CON  B-CON
 .  O  O
 
 One  O  O
@@ -15400,33 +15400,33 @@ see  O  O
 Appendix  O  O
 C  O  O
 ,  O  O
-Pottery  B-ART  O
+Pottery  B-ART  B-ART
 ;  O  O
 Appendix  O  O
 D  O  O
 ,  O  O
 Struck  B-ART  O
 and  I-ART  O
-Worked  I-ART  O
-Flint  I-ART  O
+Worked  I-ART  B-ART
+Flint  I-ART  I-ART
 ;  O  O
 Appendix  O  O
 E  O  O
 ,  O  O
-Ceramic  B-ART  O
-Building  I-ART  O
-Material  I-ART  O
+Ceramic  B-ART  B-ART
+Building  I-ART  I-ART
+Material  I-ART  I-ART
 and  O  O
 Appendix  O  O
 F  O  O
 ,  O  O
-Fired  B-ART  O
-Clay  I-ART  O
+Fired  B-ART  B-ART
+Clay  I-ART  I-ART
 .  O  O
 
 The  O  O
 burnt  O  O
-flint  B-ART  O
+flint  B-ART  B-ART
 was  O  O
 weighed  O  O
 and  O  O
@@ -15477,7 +15477,7 @@ Archaeoscape  O  O
 ,  O  O
 University  O  O
 of  O  O
-London  B-LOC  O
+London  B-LOC  B-LOC
 )  O  O
 andare  O  O
 described  O  O
@@ -15501,9 +15501,9 @@ Deleted  O  O
 :  O  O
 fills  O  O
 of  O  O
-Bronze  B-PER  O
-Age  I-PER  O
-pits  B-CON  O
+Bronze  B-PER  B-PER
+Age  I-PER  I-PER
+pits  B-CON  B-CON
 [  O  O
 732  O  O
 ,  O  O
@@ -15519,11 +15519,11 @@ was  O  O
 from  O  O
 a  O  O
 small  O  O
-pit  B-CON  O
+pit  B-CON  B-CON
 feature  O  O
 of  O  O
 possible  O  O
-post-Medieval  B-PER  O
+post-Medieval  B-PER  B-PER
 date  O  O
 [  O  O
 fill  O  O
@@ -15539,17 +15539,17 @@ latter  O  O
 sample  O  O
 supported  O  O
 a  O  O
-post-Medieval  B-PER  O
+post-Medieval  B-PER  B-PER
 date  O  O
 through  O  O
 the  O  O
 presence  O  O
 of  O  O
-charred  O  O
-seeds  B-ART  O
+charred  O  B-ART
+seeds  B-ART  I-ART
 of  O  O
 typically  O  O
-modern  B-PER  O
+modern  B-PER  B-PER
 plants  O  O
 and  O  O
 common  O  O
@@ -15564,8 +15564,8 @@ also  O  O
 contained  O  O
 a  O  O
 few  O  O
-modern  O  O
-seeds  B-ART  O
+modern  O  B-PER
+seeds  B-ART  B-ART
 as  O  O
 a  O  O
 result  O  O
@@ -15590,11 +15590,11 @@ evidence  O  O
 other  O  O
 than  O  O
 these  O  O
-modern  O  O
-seeds  B-ART  O
+modern  O  B-PER
+seeds  B-ART  B-ART
 and  O  O
 some  O  O
-charcoal  B-ART  O
+charcoal  B-ART  B-ART
 fragments  O  O
 was  O  O
 that  O  O
@@ -15604,7 +15604,7 @@ layer  O  O
 773  O  O
 ]  O  O
 from  O  O
-pit  B-CON  O
+pit  B-CON  B-CON
 [  O  O
 774  O  O
 ]  O  O
@@ -15613,11 +15613,11 @@ consisting  O  O
 of  O  O
 occasional  O  O
 charred  O  O
-grains  B-ART  O
+grains  B-ART  B-ART
 of  O  O
-barley  B-SPE  O
+barley  B-SPE  B-SPE
 and  O  O
-wheat  B-SPE  O
+wheat  B-SPE  B-SPE
 .  O  O
 
 The  O  O
@@ -15664,19 +15664,19 @@ in  O  O
 use  O  O
 from  O  O
 the  O  O
-Bronze  B-PER  O
-Age  I-PER  O
-and  O  O
-developed  O  O
-through  O  O
-the  O  O
-Iron  B-PER  O
-Age  I-PER  O
+Bronze  B-PER  B-PER
+Age  I-PER  I-PER
+and  O  I-PER
+developed  O  I-PER
+through  O  I-PER
+the  O  I-PER
+Iron  B-PER  I-PER
+Age  I-PER  I-PER
 and  O  O
 into  O  O
 the  O  O
-Roman  B-PER  O
-period  I-PER  O
+Roman  B-PER  B-PER
+period  I-PER  I-PER
 .  O  O
 
 The  O  O
@@ -15694,14 +15694,14 @@ a  O  O
 small  O  O
 quantity  O  O
 of  O  O
-fineware  O  O
-Beaker  B-PER  O
-pottery  B-ART  O
+fineware  O  B-ART
+Beaker  B-PER  I-ART
+pottery  B-ART  I-ART
 from  O  O
 two  O  O
-Bronze  B-PER  O
-Age  I-PER  O
-pits  B-CON  O
+Bronze  B-PER  B-PER
+Age  I-PER  I-PER
+pits  B-CON  B-CON
 located  O  O
 towards  O  O
 the  O  O
@@ -15714,21 +15714,21 @@ area  O  O
 
 This  O  O
 early  O  O
-pottery  B-ART  O
+pottery  B-ART  B-ART
 was  O  O
 found  O  O
 with  O  O
-Middle  B-PER  O
-and  O  O
-Later  B-PER  O
-Bronze  I-PER  O
-Age  I-PER  O
+Middle  B-PER  B-PER
+and  O  I-PER
+Later  B-PER  I-PER
+Bronze  I-PER  I-PER
+Age  I-PER  I-PER
 or  O  O
-Early  B-PER  O
-Iron  I-PER  O
-Age  I-PER  O
-pottery  B-MAT  O
-sherds  B-ART  O
+Early  B-PER  B-PER
+Iron  I-PER  I-PER
+Age  I-PER  I-PER
+pottery  B-MAT  B-ART
+sherds  B-ART  I-ART
 in  O  O
 fills  O  O
 of  O  O
@@ -15740,14 +15740,14 @@ natural  O  O
 One  O  O
 of  O  O
 these  O  O
-pits  B-CON  O
+pits  B-CON  B-CON
 also  O  O
 contained  O  O
 the  O  O
 only  O  O
 Later  B-PER  O
-Bronze  I-PER  O
-Age  I-PER  O
+Bronze  I-PER  B-PER
+Age  I-PER  I-PER
 loomweight  B-ART  O
 found  O  O
 in  O  O
@@ -15756,8 +15756,8 @@ phase  O  O
 .  O  O
 
 The  O  O
-Beaker  B-PER  O
-pottery  B-ART  O
+Beaker  B-PER  B-ART
+pottery  B-ART  I-ART
 possibly  O  O
 came  O  O
 from  O  O
@@ -15776,10 +15776,10 @@ C  O  O
 This  O  O
 early  O  O
 ,  O  O
-possibly  O  O
-burial  B-CON  O
-related  O  O
-pottery  B-ART  O
+possibly  O  B-ART
+burial  B-CON  I-ART
+related  O  I-ART
+pottery  B-ART  I-ART
 combined  O  O
 with  O  O
 the  O  O
@@ -15794,7 +15794,7 @@ the  O  O
 presence  O  O
 of  O  O
 a  O  O
-loomweight  B-ART  O
+loomweight  B-ART  B-ART
 and  O  O
 the  O  O
 location  O  O
@@ -15849,10 +15849,10 @@ period  O  O
 .  O  O
 
 A  O  O
-Bronze  B-PER  O
-Age  I-PER  O
+Bronze  B-PER  B-PER
+Age  I-PER  I-PER
 broken  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 aligned  O  O
 northwest  O  O
 to  O  O
@@ -15860,11 +15860,11 @@ southeast  O  O
 with  O  O
 a  O  O
 few  O  O
-Middle  B-PER  O
-Bronze  I-PER  O
-Age  I-PER  O
-pottery  B-ART  O
-sherds  B-ART  O
+Middle  B-PER  B-PER
+Bronze  I-PER  I-PER
+Age  I-PER  I-PER
+pottery  B-ART  B-ART
+sherds  B-ART  I-ART
 incorporated  O  O
 in  O  O
 the  O  O
@@ -15874,7 +15874,7 @@ to  O  O
 be  O  O
 the  O  O
 earliest  O  O
-linear  B-CON  O
+linear  B-CON  B-CON
 feature  O  O
 from  O  O
 this  O  O
@@ -15905,8 +15905,8 @@ the  O  O
 site  O  O
 through  O  O
 the  O  O
-Bronze  B-PER  O
-Age  I-PER  O
+Bronze  B-PER  B-PER
+Age  I-PER  I-PER
 .  O  O
 
 Nearby  O  O
@@ -15915,7 +15915,7 @@ firepits  B-CON  O
 and  O  O
 other  O  O
 small  O  O
-pits  B-CON  O
+pits  B-CON  B-CON
 containing  O  O
 fire  O  O
 cracked  O  O
@@ -15940,7 +15940,7 @@ large  O  O
 pit  B-CON  O
 near  O  O
 the  O  O
-structure  O  O
+structure  O  B-CON
 is  O  O
 perhaps  O  O
 of  O  O
@@ -15955,7 +15955,7 @@ a  O  O
 high  O  O
 percentage  O  O
 of  O  O
-sherds  B-ART  O
+sherds  B-ART  B-ART
 from  O  O
 one  O  O
 pot  B-ART  O
@@ -15972,7 +15972,7 @@ comparison  O  O
 to  O  O
 the  O  O
 other  O  O
-pits  B-CON  O
+pits  B-CON  B-CON
 in  O  O
 this  O  O
 area  O  O
@@ -15998,9 +15998,9 @@ site  O  O
 ,  O  O
 also  O  O
 of  O  O
-Late  B-PER  O
-Bronze  I-PER  O
-Age  I-PER  O
+Late  B-PER  B-PER
+Bronze  I-PER  I-PER
+Age  I-PER  I-PER
 date  O  O
 ,  O  O
 possibly  O  O
@@ -16027,22 +16027,22 @@ of  O  O
 one  O  O
 of  O  O
 these  O  O
-ditches  B-CON  O
+ditches  B-CON  B-CON
 contained  O  O
 a  O  O
 deliberate  O  O
 deposit  O  O
 of  O  O
 several  O  O
-Late  B-PER  O
-Bronze  I-PER  O
-Age  I-PER  O
-pottery  B-MAT  O
-sherds  B-ART  O
+Late  B-PER  B-PER
+Bronze  I-PER  I-PER
+Age  I-PER  I-PER
+pottery  B-MAT  B-ART
+sherds  B-ART  I-ART
 .  O  O
 
-Bronze  B-PER  O
-Age  I-PER  O
+Bronze  B-PER  B-PER
+Age  I-PER  I-PER
 activity  O  O
 on  O  O
 this  O  O
@@ -16100,20 +16100,20 @@ quality  O  O
 tanged  B-ART  O
 and  I-ART  O
 barbed  I-ART  O
-flint  I-ART  O
-arrowhead  I-ART  O
+flint  I-ART  B-MAT
+arrowhead  I-ART  B-ART
 recovered  O  O
 from  O  O
 the  O  O
 nearby  O  O
-Roman  B-PER  O
-ditch  B-CON  O
+Roman  B-PER  B-PER
+ditch  B-CON  B-CON
 could  O  O
 have  O  O
 been  O  O
 a  O  O
-Bronze  B-PER  O
-Age  I-PER  O
+Bronze  B-PER  B-PER
+Age  I-PER  I-PER
 ritual  O  O
 deposit  O  O
 near  O  O
@@ -16125,13 +16125,13 @@ area  O  O
 
 During  O  O
 the  O  O
-Early  B-PER  O
-Iron  I-PER  O
-Age  I-PER  O
+Early  B-PER  B-PER
+Iron  I-PER  I-PER
+Age  I-PER  I-PER
 a  O  O
 system  O  O
 of  O  O
-ditches  B-CON  O
+ditches  B-CON  B-CON
 was  O  O
 constructed  O  O
 across  O  O
@@ -16140,10 +16140,10 @@ site  O  O
 one  O  O
 usurping  O  O
 earlier  O  O
-Bronze  B-PER  O
-Age  I-PER  O
-droveway  B-CON  O
-ditches  I-CON  O
+Bronze  B-PER  B-PER
+Age  I-PER  I-PER
+droveway  B-CON  B-CON
+ditches  I-CON  I-CON
 .  O  O
 
 These  O  O
@@ -16174,9 +16174,9 @@ activity  O  O
 A  O  O
 concentration  O  O
 of  O  O
-Early  B-PER  O
-Iron  I-PER  O
-Age  I-PER  O
+Early  B-PER  B-PER
+Iron  I-PER  I-PER
+Age  I-PER  I-PER
 activity  O  O
 was  O  O
 found  O  O
@@ -16184,9 +16184,9 @@ close  O  O
 to  O  O
 the  O  O
 earliest  O  O
-Bronze  B-PER  O
-Age  I-PER  O
-pits  B-CON  O
+Bronze  B-PER  B-PER
+Age  I-PER  I-PER
+pits  B-CON  B-CON
 in  O  O
 the  O  O
 southwestern  O  O
@@ -16202,7 +16202,7 @@ four  O  O
 small  O  O
 groups  O  O
 of  O  O
-pits  B-CON  O
+pits  B-CON  B-CON
 and  O  O
 post  B-CON  O
 holes  I-CON  O
@@ -16228,9 +16228,9 @@ represent  O  O
 the  O  O
 focus  O  O
 of  O  O
-Early  B-PER  O
-Iron  I-PER  O
-Age  I-PER  O
+Early  B-PER  B-PER
+Iron  I-PER  I-PER
+Age  I-PER  I-PER
 activity  O  O
 of  O  O
 a  O  O
@@ -16287,15 +16287,15 @@ activities  O  O
 associated  O  O
 with  O  O
 the  O  O
-earlier  O  O
-Bronze  B-PER  O
-Age  I-PER  O
+earlier  O  B-PER
+Bronze  B-PER  I-PER
+Age  I-PER  I-PER
 activity  O  O
 .  O  O
 
 WATCHING  O  O
 BRIEFREPORT  O  O
-Roman  B-PER  O
+Roman  B-PER  B-PER
 development  O  O
 of  O  O
 the  O  O
@@ -16308,7 +16308,7 @@ construction  O  O
 of  O  O
 one  O  O
 extensive  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 and  O  O
 another  O  O
 shorter  O  O
@@ -16323,8 +16323,8 @@ residual  O  O
 finds  O  O
 from  O  O
 the  O  O
-Bronze  B-PER  O
-Age  I-PER  O
+Bronze  B-PER  B-PER
+Age  I-PER  I-PER
 including  O  O
 the  O  O
 aforementionedarrowhead  B-ART  O
@@ -16335,7 +16335,7 @@ point  O  O
 where  O  O
 the  O  O
 larger  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 -  O  O
 -  O  O
 -  O  O
@@ -16348,14 +16348,14 @@ line  O  O
 of  O  O
 two  O  O
 probably  O  O
-Iron  B-PER  O
-Age  I-PER  O
-ditches  B-CON  O
+Iron  B-PER  B-PER
+Age  I-PER  I-PER
+ditches  B-CON  B-CON
 .  O  O
 
 The  O  O
 large  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 may  O  O
 have  O  O
 been  O  O
@@ -16374,9 +16374,9 @@ southwest  O  O
 boundary  O  O
 of  O  O
 the  O  O
-Iron  B-PER  O
-Age  I-PER  O
-ditches  B-CON  O
+Iron  B-PER  B-PER
+Age  I-PER  I-PER
+ditches  B-CON  B-CON
 and  O  O
 it  O  O
 almost  O  O
@@ -16386,10 +16386,10 @@ certainly  O  O
 related  O  O
 to  O  O
 the  O  O
-Middle  B-PER  O
-Bronze  I-PER  O
-Age  I-PER  O
-ditch  B-CON  O
+Middle  B-PER  B-PER
+Bronze  I-PER  I-PER
+Age  I-PER  I-PER
+ditch  B-CON  B-CON
 with  O  O
 which  O  O
 it  O  O
@@ -16407,12 +16407,12 @@ the  O  O
 site  O  O
 until  O  O
 the  O  O
-post-Medieval  B-PER  O
-period  O  O
+post-Medieval  B-PER  B-PER
+period  O  I-PER
 when  O  O
 new  O  O
-boundary  O  O
-ditches  B-CON  O
+boundary  O  B-CON
+ditches  B-CON  I-CON
 were  O  O
 constructed  O  O
 for  O  O
@@ -16461,9 +16461,9 @@ overall  O  O
 landscape  O  O
 use  O  O
 at  O  O
-South  B-LOC  O
-Hall  I-LOC  O
-Farm  I-LOC  O
+South  B-LOC  B-LOC
+Hall  I-LOC  I-LOC
+Farm  I-LOC  I-LOC
 .  O  O
 
 WATCHING  O  O
@@ -16487,12 +16487,12 @@ Brief  O  O
 Carried  O  O
 out  O  O
 at  O  O
-South  B-LOC  O
-Hall  I-LOC  O
-Farm  I-LOC  O
-Rainham  I-LOC  O
-,  I-LOC  O
-Essex  I-LOC  O
+South  B-LOC  B-LOC
+Hall  I-LOC  I-LOC
+Farm  I-LOC  I-LOC
+Rainham  I-LOC  I-LOC
+,  I-LOC  I-LOC
+Essex  I-LOC  I-LOC
 .  O  O
 
 (  O  O
@@ -16504,7 +16504,7 @@ London  B-LOC  O
 Region  O  O
 .  O  O
 
-1998  B-PER  O
+1998  B-PER  B-PER
 .  O  O
 
 Archaeological  O  O
@@ -16526,16 +16526,16 @@ Archaeology  O  O
 Group  O  O
 .  O  O
 
-1996  B-PER  O
+1996  B-PER  B-PER
 .  O  O
 
-South  B-LOC  O
-Hall  I-LOC  O
-Farm  I-LOC  O
-,  I-LOC  O
-Rainham  I-LOC  O
-,  I-LOC  O
-Essex  I-LOC  O
+South  B-LOC  B-LOC
+Hall  I-LOC  I-LOC
+Farm  I-LOC  I-LOC
+,  I-LOC  I-LOC
+Rainham  I-LOC  I-LOC
+,  I-LOC  I-LOC
+Essex  I-LOC  I-LOC
 .  O  O
 
 Fieldwalking  O  O
@@ -16550,7 +16550,7 @@ Field  O  O
 Archaeologists  O  O
 .  O  O
 
-1994  B-PER  O
+1994  B-PER  B-PER
 .  O  O
 
 John  O  O
@@ -16559,7 +16559,7 @@ Archaeological  O  O
 Consultants  O  O
 .  O  O
 
-1999  B-PER  O
+1999  B-PER  B-PER
 .  O  O
 
 A  O  O
@@ -16572,11 +16572,11 @@ Test  O  O
 Pit  O  O
 Sampling  O  O
 at  O  O
-South  B-LOC  O
-Hall  I-LOC  O
-Farm  I-LOC  O
-,  I-LOC  O
-Rainham  I-LOC  O
+South  B-LOC  B-LOC
+Hall  I-LOC  I-LOC
+Farm  I-LOC  I-LOC
+,  I-LOC  I-LOC
+Rainham  I-LOC  I-LOC
 (  O  O
 Unpublished  O  O
 )  O  O
@@ -16586,7 +16586,7 @@ Archaeological  O  O
 Consultants  O  O
 .  O  O
 
-2001  B-PER  O
+2001  B-PER  B-PER
 .  O  O
 
 An  O  O
@@ -16599,13 +16599,13 @@ Watching  O  O
 Brief  O  O
 undertaken  O  O
 at  O  O
-South  B-LOC  O
-Hall  I-LOC  O
-Farm  I-LOC  O
-,  I-LOC  O
-Rainham  I-LOC  O
-,  I-LOC  O
-Essex  I-LOC  O
+South  B-LOC  B-LOC
+Hall  I-LOC  I-LOC
+Farm  I-LOC  I-LOC
+,  I-LOC  I-LOC
+Rainham  I-LOC  I-LOC
+,  I-LOC  I-LOC
+Essex  I-LOC  I-LOC
 (  O  O
 Unpublished  O  O
 )  O  O
@@ -16626,13 +16626,13 @@ Observation  O  O
 and  O  O
 Recording  O  O
 at  O  O
-South  B-LOC  O
-Hall  I-LOC  O
-Farm  I-LOC  O
-,  I-LOC  O
-Rainham  I-LOC  O
-,  I-LOC  O
-Essex  I-LOC  O
+South  B-LOC  B-LOC
+Hall  I-LOC  I-LOC
+Farm  I-LOC  I-LOC
+,  I-LOC  I-LOC
+Rainham  I-LOC  I-LOC
+,  I-LOC  I-LOC
+Essex  I-LOC  I-LOC
 (  O  O
 Phases  O  O
 5  O  O
@@ -16647,18 +16647,18 @@ Museum  O  O
 Service  O  O
 .  O  O
 
-1995  B-PER  O
+1995  B-PER  B-PER
 .  O  O
 
 An  O  O
 Archaeological  O  O
 Investigation  O  O
 at  O  O
-South  B-LOC  O
-Hall  I-LOC  O
-Farm  I-LOC  O
-,  I-LOC  O
-Rainham  I-LOC  O
+South  B-LOC  B-LOC
+Hall  I-LOC  I-LOC
+Farm  I-LOC  I-LOC
+,  I-LOC  I-LOC
+Rainham  I-LOC  I-LOC
 (  O  O
 Unpublished  O  O
 )  O  O
@@ -16666,7 +16666,7 @@ Passmore-Edwards  O  O
 Museum  O  O
 .  O  O
 
-1997  B-PER  O
+1997  B-PER  B-PER
 .  O  O
 
 East  B-LOC  O
@@ -16674,14 +16674,14 @@ London  I-LOC  O
 Gravels  O  O
 Project  O  O
 :  O  O
-Prehistoric  B-PER  O
+Prehistoric  B-PER  B-PER
 ,  O  O
-Roman  B-PER  O
+Roman  B-PER  B-PER
 ,  O  O
-Saxon  B-PER  O
+Saxon  B-PER  B-PER
 and  O  O
-Early  B-PER  O
-Medieval  I-PER  O
+Early  B-PER  B-PER
+Medieval  I-PER  I-PER
 Settlement  O  O
 on  O  O
 the  O  O
@@ -16692,7 +16692,7 @@ the  O  O
 Eastern  O  O
 Fringe  O  O
 of  O  O
-London  B-LOC  O
+London  B-LOC  B-LOC
 .  O  O
 
 (  O  O
@@ -16702,9 +16702,9 @@ Reid  O  O
 ,  O  O
 M.  O  O
 L.  O  O
-1993  B-PER  O
-Prehistoric  B-PER  O
-Houses  O  O
+1993  B-PER  B-PER
+Prehistoric  B-PER  I-PER
+Houses  O  I-PER
 in  O  O
 Britain  B-LOC  O
 .  O  O
@@ -16720,7 +16720,7 @@ BRIEFREPORT  O  O
 Formatted  O  O
 APPENDIX  O  O
 C  O  O
-Pottery  B-ART  O
+Pottery  B-ART  B-ART
 Assessment  O  O
 N  O  O
 .  O  O
@@ -16732,10 +16732,10 @@ A  O  O
 total  O  O
 of  O  O
 687  O  O
-sherds  B-ART  O
+sherds  B-ART  B-ART
 of  O  O
-prehistoric  B-PER  O
-pottery  B-ART  O
+prehistoric  B-PER  B-PER
+pottery  B-ART  B-ART
 weighing  O  O
 5249g  O  O
 were  O  O
@@ -16747,23 +16747,23 @@ during  O  O
 the  O  O
 excavations  O  O
 at  O  O
-South  B-LOC  O
-Hall  I-LOC  O
-Farm  I-LOC  O
+South  B-LOC  B-LOC
+Hall  I-LOC  I-LOC
+Farm  I-LOC  I-LOC
 .  O  O
 
 The  O  O
 condition  O  O
 of  O  O
 the  O  O
-pottery  B-ART  O
+pottery  B-ART  B-ART
 is  O  O
 generally  O  O
 good  O  O
 ,  O  O
 although  O  O
 many  O  O
-sherds  B-ART  O
+sherds  B-ART  B-ART
 show  O  O
 signs  O  O
 of  O  O
@@ -16780,7 +16780,7 @@ mineralization  O  O
 .  O  O
 
 The  O  O
-pottery  B-ART  O
+pottery  B-ART  B-ART
 from  O  O
 a  O  O
 few  O  O
@@ -16810,7 +16810,7 @@ crumbly  O  O
 
 Introduction  O  O
 The  O  O
-pottery  B-ART  O
+pottery  B-ART  B-ART
 was  O  O
 recorded  O  O
 according  O  O
@@ -16819,13 +16819,13 @@ a  O  O
 system  O  O
 devised  O  O
 for  O  O
-prehistoric  B-PER  O
-pottery  B-ART  O
+prehistoric  B-PER  B-PER
+pottery  B-ART  B-ART
 in  O  O
-Essex  B-LOC  O
+Essex  B-LOC  B-LOC
 (  O  O
 Brown  O  O
-1988  B-PER  O
+1988  B-PER  B-PER
 .  O  O
 
 Details  O  O
@@ -16842,23 +16842,23 @@ guidelines  O  O
 outlined  O  O
 by  O  O
 the  O  O
-Prehistoric  B-PER  O
-Ceramics  B-ART  O
+Prehistoric  B-PER  B-PER
+Ceramics  B-ART  B-ART
 Research  O  O
 Group  O  O
 (  O  O
 PCRG  O  O
-1991  B-PER  O
+1991  B-PER  B-PER
 ;  O  O
 revised  O  O
-1997  B-PER  O
+1997  B-PER  B-PER
 ;  O  O
-1992  B-PER  O
+1992  B-PER  B-PER
 )  O  O
 .  O  O
 
 The  O  O
-pottery  B-ART  O
+pottery  B-ART  B-ART
 was  O  O
 examined  O  O
 with  O  O
@@ -16877,7 +16877,7 @@ class  O  O
 (  O  O
 after  O  O
 Barratt  O  O
-1980  B-PER  O
+1980  B-PER  B-PER
 )  O  O
 ,  O  O
 form  O  O
@@ -16895,7 +16895,7 @@ assemblage  O  O
 was  O  O
 quantified  O  O
 by  O  O
-sherd  O  O
+sherd  O  B-ART
 count  O  O
 and  O  O
 weight  O  O
@@ -16906,20 +16906,20 @@ fabrics  O  O
 present  O  O
 in  O  O
 the  O  O
-South  B-LOC  O
-Hall  I-LOC  O
-Farm  I-LOC  O
+South  B-LOC  B-LOC
+Hall  I-LOC  I-LOC
+Farm  I-LOC  I-LOC
 assemblage  O  O
 are  O  O
 :  O  O
 B  O  O
-Flint  O  O
+Flint  O  B-MAT
 ,  O  O
 S-M2  O  O
 .  O  O
 
 C  O  O
-Flint  O  O
+Flint  O  B-MAT
 ,  O  O
 S-M  O  O
 with  O  O
@@ -16938,7 +16938,7 @@ sorted  O  O
 .  O  O
 
 E  O  O
-Flint  O  O
+Flint  O  B-MAT
 and  O  O
 sand  O  O
 ,  O  O
@@ -16956,7 +16956,7 @@ addition  O  O
 of  O  O
 occasional  O  O
 L  O  O
-flint  O  O
+flint  O  B-MAT
 .  O  O
 
 H  O  O
@@ -16985,14 +16985,14 @@ surface  O  O
 .  O  O
 
 M  O  O
-Grog  O  O
+Grog  O  B-MAT
 ,  O  O
 often  O  O
 with  O  O
 some  O  O
 sand  O  O
 or  O  O
-flint  O  O
+flint  O  B-ART
 and  O  O
 occasional  O  O
 small  O  O
@@ -17014,7 +17014,7 @@ May  O  O
 have  O  O
 occasional  O  O
 M-L  O  O
-flint  B-ART  O
+flint  B-ART  B-MAT
 or  O  O
 sparse  O  O
 irregular  O  O
@@ -17022,7 +17022,7 @@ voids  O  O
 .  O  O
 
 R  O  O
-Shell  O  O
+Shell  O  B-ART
 ,  O  O
 M-L  O  O
 2  O  O
@@ -17032,7 +17032,7 @@ fabric  O  O
 .  O  O
 
 V  O  O
-Flint  O  O
+Flint  O  B-MAT
 ,  O  O
 S-M  O  O
 1  O  O
@@ -17047,7 +17047,7 @@ both  O  O
 by  O  O
 weight  O  O
 and  O  O
-sherd  B-ART  O
+sherd  B-ART  B-ART
 count  O  O
 ,  O  O
 comprises  O  O
@@ -17086,8 +17086,8 @@ fabrics  O  O
 closely  O  O
 within  O  O
 the  O  O
-prehistoric  B-PER  O
-period  I-PER  O
+prehistoric  B-PER  B-PER
+period  I-PER  I-PER
 ,  O  O
 although  O  O
 they  O  O
@@ -17097,9 +17097,9 @@ less  O  O
 common  O  O
 from  O  O
 the  O  O
-Early  B-PER  O
-Iron  I-PER  O
-Age  I-PER  O
+Early  B-PER  B-PER
+Iron  I-PER  I-PER
+Age  I-PER  I-PER
 as  O  O
 first  O  O
 sand  O  O
@@ -17115,7 +17115,7 @@ assemblages  O  O
 .  O  O
 
 Diagnostic  O  O
-sherds  B-ART  O
+sherds  B-ART  B-ART
 are  O  O
 comparatively  O  O
 few  O  O
@@ -17129,8 +17129,8 @@ a  O  O
 small  O  O
 number  O  O
 of  O  O
-beaker  B-ART  O
-sherds  I-ART  O
+beaker  B-ART  B-ART
+sherds  I-ART  I-ART
 from  O  O
 contexts  O  O
 771  O  O
@@ -17143,8 +17143,8 @@ and  O  O
 At  O  O
 least  O  O
 two  O  O
-fineware  O  O
-vessels  B-ART  O
+fineware  O  B-MAT
+vessels  B-ART  B-ART
 with  O  O
 comb-impressed  O  O
 decoration  O  O
@@ -17166,22 +17166,22 @@ The  O  O
 bulk  O  O
 of  O  O
 the  O  O
-pottery  B-ART  O
+pottery  B-ART  B-ART
 is  O  O
 of  O  O
-Late  B-PER  O
-Bronze  I-PER  O
-Age  I-PER  O
-to  O  O
-Early  B-PER  O
-Iron  I-PER  O
-Age  I-PER  O
+Late  B-PER  B-PER
+Bronze  I-PER  I-PER
+Age  I-PER  I-PER
+to  O  I-PER
+Early  B-PER  I-PER
+Iron  I-PER  I-PER
+Age  I-PER  I-PER
 date  O  O
 ,  O  O
 mainly  O  O
 consisting  O  O
 of  O  O
-jars  B-ART  O
+jars  B-ART  B-ART
 with  O  O
 slack  O  O
 or  O  O
@@ -17217,7 +17217,7 @@ material  O  O
 
 Two  O  O
 joining  O  O
-sherds  B-ART  O
+sherds  B-ART  B-ART
 from  O  O
 a  O  O
 fine  O  O
@@ -17228,16 +17228,16 @@ bevelled  O  O
 to  O  O
 take  O  O
 a  O  O
-lid  O  O
+lid  O  B-ART
 ,  O  O
 from  O  O
 context  O  O
 739  O  O
 may  O  O
 be  O  O
-Late  B-PER  O
-Bronze  I-PER  O
-Age  I-PER  O
+Late  B-PER  B-PER
+Bronze  I-PER  I-PER
+Age  I-PER  I-PER
 ,  O  O
 but  O  O
 are  O  O
@@ -17245,15 +17245,15 @@ more  O  O
 likely  O  O
 to  O  O
 be  O  O
-Early  B-PER  O
-Iron  I-PER  O
-Age  I-PER  O
+Early  B-PER  B-PER
+Iron  I-PER  I-PER
+Age  I-PER  I-PER
 .  O  O
 
 An  O  O
 unusual  O  O
 grog-tempered  O  O
-sherd  B-ART  O
+sherd  B-ART  B-ART
 from  O  O
 773  O  O
 ,  O  O
@@ -17287,18 +17287,18 @@ to  O  O
 belong  O  O
 to  O  O
 the  O  O
-Late  B-PER  O
-Bronze  I-PER  O
-Age  I-PER  O
+Late  B-PER  B-PER
+Bronze  I-PER  I-PER
+Age  I-PER  I-PER
 .  O  O
 
 This  O  O
-sherd  B-ART  O
+sherd  B-ART  B-ART
 may  O  O
 be  O  O
-earlier  O  O
-Bronze  B-PER  O
-Age  I-PER  O
+earlier  O  B-PER
+Bronze  B-PER  I-PER
+Age  I-PER  I-PER
 in  O  O
 date  O  O
 ,  O  O
@@ -17316,7 +17316,7 @@ from  O  O
 the  O  O
 north  O  O
 of  O  O
-England  B-LOC  O
+England  B-LOC  B-LOC
 .  O  O
 
 A  O  O
@@ -17324,7 +17324,7 @@ direct  O  O
 parallel  O  O
 for  O  O
 this  O  O
-vessel  B-ART  O
+vessel  B-ART  B-ART
 has  O  O
 not  O  O
 yet  O  O
@@ -17351,8 +17351,8 @@ The  O  O
 small  O  O
 quantity  O  O
 of  O  O
-Beaker  B-ART  O
-pottery  B-ART  O
+Beaker  B-ART  B-ART
+pottery  B-ART  I-ART
 is  O  O
 interesting  O  O
 in  O  O
@@ -17381,22 +17381,22 @@ The  O  O
 bulk  O  O
 of  O  O
 the  O  O
-pottery  B-ART  O
+pottery  B-ART  B-ART
 indicates  O  O
 domestic  O  O
 settlement  O  O
 during  O  O
 the  O  O
-Late  B-PER  O
-Bronze  I-PER  O
-Age  I-PER  O
+Late  B-PER  B-PER
+Bronze  I-PER  I-PER
+Age  I-PER  I-PER
 ,  O  O
 continuing  O  O
 into  O  O
 the  O  O
-Early  B-PER  O
-Iron  I-PER  O
-Age  I-PER  O
+Early  B-PER  B-PER
+Iron  I-PER  I-PER
+Age  I-PER  I-PER
 .  O  O
 
 Significance  O  O
@@ -17412,7 +17412,7 @@ significance  O  O
 
 The  O  O
 unusual  O  O
-sherd  B-ART  O
+sherd  B-ART  B-ART
 from  O  O
 context  O  O
 773  O  O
@@ -17463,18 +17463,18 @@ Bibliography  O  O
 Brown  O  O
 ,  O  O
 N.  O  O
-1988  B-PER  O
+1988  B-PER  B-PER
 `  O  O
 A  O  O
-Late  B-PER  O
-Bronze  I-PER  O
-Age  I-PER  O
+Late  B-PER  B-PER
+Bronze  I-PER  I-PER
+Age  I-PER  I-PER
 Enclosure  O  O
 at  O  O
-Lofts  B-LOC  O
-Farm  I-LOC  O
+Lofts  B-LOC  B-LOC
+Farm  I-LOC  I-LOC
 ,  I-LOC  O
-Essex  I-LOC  O
+Essex  I-LOC  B-LOC
 ,  O  O
 '  O  O
 Proc  O  O
@@ -17492,19 +17492,19 @@ Barrett  O  O
 J  O  O
 C  O  O
 ,  O  O
-1980  B-PER  O
+1980  B-PER  B-PER
 The  O  O
-Pottery  B-ART  O
+Pottery  B-ART  B-ART
 of  O  O
 the  O  O
-Later  B-PER  O
-Bronze  I-PER  O
-Age  I-PER  O
+Later  B-PER  B-PER
+Bronze  I-PER  I-PER
+Age  I-PER  I-PER
 in  O  O
-Lowland  O  O
-England  B-LOC  O
-,  O  O
-Proc  O  O
+Lowland  O  B-LOC
+England  B-LOC  I-LOC
+,  O  I-LOC
+Proc  O  I-LOC
 .  O  O
 
 Prehist  B-PER  O
@@ -17516,7 +17516,7 @@ Soc  O  O
 One  O  O
 piece  O  O
 of  O  O
-flint  B-ART  O
+flint  B-ART  B-ART
 was  O  O
 identified  O  O
 as  O  O
@@ -17537,31 +17537,31 @@ often  O  O
 in  O  O
 association  O  O
 with  O  O
-prehistoric  B-PER  O
-pottery  B-MAT  O
-sherds  B-ART  O
+prehistoric  B-PER  B-PER
+pottery  B-MAT  B-ART
+sherds  B-ART  I-ART
 in  O  O
 the  O  O
 fills  O  O
 of  O  O
-ditches  B-CON  O
+ditches  B-CON  B-CON
 ,  O  O
 gullies  B-CON  O
 or  O  O
-pits  B-CON  O
+pits  B-CON  B-CON
 with  O  O
 a  O  O
 suggested  O  O
 date  O  O
 range  O  O
 from  O  O
-late  B-PER  O
-Neolithic  I-PER  O
+late  B-PER  B-PER
+Neolithic  I-PER  I-PER
 through  I-PER  O
-Bronze  I-PER  O
-Age  I-PER  O
+Bronze  I-PER  B-PER
+Age  I-PER  I-PER
 to  I-PER  O
-Romano-British  I-PER  O
+Romano-British  I-PER  B-PER
 .  O  O
 
 The  O  O
@@ -17606,7 +17606,7 @@ used  O  O
 condition  O  O
 of  O  O
 the  O  O
-flint  B-ART  O
+flint  B-ART  B-ART
 and  O  O
 technological  O  O
 aspects  O  O
@@ -17623,7 +17623,7 @@ relatively  O  O
 poor  O  O
 quality  O  O
 derived  O  O
-flint  B-ART  O
+flint  B-ART  B-MAT
 in  O  O
 mottled  O  O
 or  O  O
@@ -17661,7 +17661,7 @@ least  O  O
 some  O  O
 of  O  O
 the  O  O
-flint  B-ART  O
+flint  B-ART  B-ART
 .  O  O
 
 Orange-brown  O  O
@@ -17704,7 +17704,7 @@ debitage  B-ART  O
 with  O  O
 one  O  O
 possible  O  O
-core  B-ART  O
+core  B-ART  B-ART
 fragment  O  O
 .  O  O
 
@@ -17713,14 +17713,14 @@ debitage  B-ART  O
 consists  O  O
 mainly  O  O
 of  O  O
-flakes  B-ART  O
+flakes  B-ART  B-ART
 detached  O  O
 by  O  O
 hard  O  O
 hammer  B-ART  O
 plus  O  O
 two  O  O
-blades  B-ART  O
+blades  B-ART  B-ART
 .  O  O
 
 Four  O  O
@@ -17733,8 +17733,8 @@ technology  O  O
 may  O  O
 support  O  O
 a  O  O
-Bronze  B-PER  O
-Age  I-PER  O
+Bronze  B-PER  B-PER
+Age  I-PER  I-PER
 dating  O  O
 .  O  O
 
@@ -17744,8 +17744,8 @@ of  O  O
 the  O  O
 struck  O  O
 and  O  O
-worked  O  O
-flint  O  O
+worked  O  B-ART
+flint  O  I-ART
 is  O  O
 undiagnostic  O  O
 and  O  O
@@ -17757,7 +17757,7 @@ date  O  O
 
 The  O  O
 two  O  O
-scrapers  B-ART  O
+scrapers  B-ART  B-ART
 are  O  O
 fairly  O  O
 crudely  O  O
@@ -17766,15 +17766,15 @@ and  O  O
 may  O  O
 be  O  O
 of  O  O
-Later  B-PER  O
-Bronze  I-PER  O
-Age  I-PER  O
+Later  B-PER  B-PER
+Bronze  I-PER  I-PER
+Age  I-PER  I-PER
 date  O  O
 .  O  O
 
 The  O  O
-Bronze  B-PER  O
-Age  I-PER  O
+Bronze  B-PER  B-PER
+Age  I-PER  I-PER
 tanged  B-ART  O
 and  I-ART  O
 barbed  I-ART  O
@@ -17816,19 +17816,19 @@ potential  O  O
 for  O  O
 linking  O  O
 the  O  O
-flint  B-ART  O
+flint  B-ART  B-ART
 dating  O  O
 to  O  O
 that  O  O
 of  O  O
 the  O  O
-prehistoric  B-PER  O
-pottery  B-ART  O
+prehistoric  B-PER  B-PER
+pottery  B-ART  B-ART
 and  O  O
 site  O  O
 sequence  O  O
 when  O  O
-pottery  O  O
+pottery  O  B-ART
 analysis  O  O
 is  O  O
 finalised  O  O
@@ -17856,8 +17856,8 @@ in  O  O
 conjunction  O  O
 with  O  O
 the  O  O
-prehistoric  B-PER  O
-pottery  B-ART  O
+prehistoric  B-PER  B-PER
+pottery  B-ART  B-ART
 .  O  O
 
 Revised  O  O
@@ -17924,9 +17924,9 @@ produced  O  O
 11  O  O
 fragments  O  O
 of  O  O
-ceramic  B-ART  O
-building  I-ART  O
-material  I-ART  O
+ceramic  B-ART  B-ART
+building  I-ART  I-ART
+material  I-ART  I-ART
 weighing  O  O
 1  O  O
 .53kgs  O  O
@@ -17970,7 +17970,7 @@ by  O  O
 the  O  O
 Museum  O  O
 of  O  O
-London  B-LOC  O
+London  B-LOC  B-LOC
 .  O  O
 
 This  O  O
@@ -17996,7 +17996,7 @@ in  O  O
 the  O  O
 Museum  O  O
 of  O  O
-London  B-LOC  O
+London  B-LOC  B-LOC
 fabric  O  O
 reference  O  O
 collection  O  O
@@ -18046,7 +18046,7 @@ be  O  O
 compared  O  O
 with  O  O
 other  O  O
-tile  B-ART  O
+tile  B-ART  B-ART
 and  O  O
 brick  B-ART  O
 assemblages  O  O
@@ -18062,7 +18062,7 @@ data  O  O
 The  O  O
 presence  O  O
 of  O  O
-Roman  B-PER  O
+Roman  B-PER  B-PER
 brick  B-ART  O
 and  O  O
 roofing  B-ART  O
@@ -18070,8 +18070,8 @@ tile  I-ART  O
 in  O  O
 the  O  O
 long  O  O
-linear  B-CON  O
-ditch  I-CON  O
+linear  B-CON  B-CON
+ditch  I-CON  I-CON
 (  O  O
 821  O  O
 )  O  O
@@ -18096,14 +18096,14 @@ AD  B-PER  O
 .  O  O
 
 Post  B-PER  O
-medieval  I-PER  O
+medieval  I-PER  B-PER
 building  B-ART  O
 material  I-ART  O
 is  O  O
 present  O  O
 in  O  O
 another  O  O
-ditch  B-CON  O
+ditch  B-CON  B-CON
 (  O  O
 817  O  O
 )  O  O
@@ -18178,8 +18178,8 @@ piece  O  O
 of  O  O
 heavily  O  O
 abraded  O  O
-fired  B-ART  O
-clay  I-ART  O
+fired  B-ART  B-ART
+clay  I-ART  I-ART
 was  O  O
 recovered  O  O
 from  O  O
@@ -18207,7 +18207,7 @@ standards  O  O
 and  O  O
 quantified  O  O
 by  O  O
-sherd  B-ART  O
+sherd  B-ART  B-ART
 count  O  O
 and  O  O
 weight  O  O
@@ -18250,7 +18250,7 @@ to  O  O
 )  O  O
 crushed  O  O
 calcinated  O  O
-flint  O  O
+flint  O  B-ART
 or  O  O
 rock  O  O
 inclusions  O  O
@@ -18260,8 +18260,8 @@ As  O  O
 with  O  O
 the  O  O
 other  O  O
-fired  B-ART  O
-clay  I-ART  O
+fired  B-ART  B-ART
+clay  I-ART  I-ART
 pieces  O  O
 from  O  O
 this  O  O
@@ -18276,8 +18276,8 @@ fired  O  O
 
 Discussion  O  O
 The  O  O
-fired  B-ART  O
-clay  I-ART  O
+fired  B-ART  B-ART
+clay  I-ART  I-ART
 piece  O  O
 is  O  O
 almost  O  O
@@ -18310,7 +18310,7 @@ As  O  O
 with  O  O
 the  O  O
 complete  O  O
-weights  O  O
+weights  O  B-ART
 and  O  O
 half  O  O
 weights  O  O
@@ -18332,29 +18332,29 @@ complete  O  O
 .  O  O
 
 Since  O  O
-weights  O  O
+weights  O  B-ART
 over  O  O
 900g  O  O
 are  O  O
 interpreted  O  O
 as  O  O
 possible  O  O
-thatch  B-ART  O
-weights  I-ART  O
+thatch  B-ART  B-MAT
+weights  I-ART  B-ART
 ,  O  O
 and  O  O
-weights  O  O
+weights  O  B-ART
 under  O  O
 that  O  O
 amount  O  O
 interpreted  O  O
 as  O  O
-loomweights  B-ART  O
+loomweights  B-ART  B-ART
 (  O  O
 Bradley  O  O
 et  O  O
 al  O  O
-1980  B-PER  O
+1980  B-PER  B-PER
 ,  O  O
 243  O  O
 )  O  O
@@ -18367,9 +18367,9 @@ of  O  O
 the  O  O
 weights  O  O
 from  O  O
-South  B-LOC  O
-Hall  I-LOC  O
-Farm  I-LOC  O
+South  B-LOC  B-LOC
+Hall  I-LOC  I-LOC
+Farm  I-LOC  I-LOC
 are  O  O
-loomweights  B-ART  O
+loomweights  B-ART  B-ART
 .  O  O
